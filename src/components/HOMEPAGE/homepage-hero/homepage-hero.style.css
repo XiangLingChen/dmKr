@@ -1,0 +1,277 @@
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .page-container {
+        width: 90%;
+        margin: 40px auto;
+   }
+
+    .homepage-hero {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hero-items {
+        display: inline-flex;
+        width: 90vw;
+        min-width: 287px;
+        margin: 2px 0;
+        
+    }
+    
+   
+    .HeroBanner {
+        width: 90vw;
+        
+    }
+
+  
+    .hero-content {
+        text-align: left;
+        
+        
+    }
+    
+    h1.title {
+        font-size: 1.3em;
+        line-height: 1em;
+    }
+    
+    p.description {
+        font-size: .8em;
+        line-height: 1.5em;
+    }
+    
+    .content-container {
+        margin-top: 5px;    
+    }
+
+    /* CTA */
+    .CTA {
+        margin-top: 3px;
+    }
+
+    p.CTA {
+        cursor: pointer;
+        text-decoration: underline;  
+        font-size: 1em;  
+        
+    }
+}
+
+
+
+/* Pad */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    
+    .page-container {
+        width: 90%;
+        margin: 70px auto;
+   }
+
+    .homepage-hero {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-items {
+        display: flex;
+        width: 42vw;
+        
+        
+        
+    }
+    
+   
+    .HeroBanner {
+        width: 42vw;
+        
+    }
+
+  
+    .hero-content {
+        text-align: left;
+        line-height: 1.5em;
+        
+    }
+    
+    h1.title {
+        font-size: 1.8em;
+        line-height: 1.2em;
+    }
+    
+    p.description {
+        font-size: 1em;
+       
+    }
+    
+    .content-container {
+        margin-top: 5px;    
+    }
+
+    /* CTA */
+    p.CTA {
+        cursor: pointer;
+        text-decoration: underline;  
+        font-size: 1.2em;  
+    }
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+   .page-container {
+        width: 80%;
+        margin: 70px auto;
+   }
+
+    .homepage-hero {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .hero-items {
+        
+        width: 37vw;
+        max-width: 608px;
+        
+        
+    }
+    
+    .banner-container{
+        width: 37vw;
+        max-width: 608px;
+        height: auto;
+        max-height: 62.9vh;
+        overflow: hidden;
+        
+    }
+   
+    .HeroBanner {
+        width: 37vw;
+        max-width: 608px;
+    }
+
+    /* hover */
+
+    .HeroBanner:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+    
+    .hero-content {
+        text-align: left;
+        
+    }
+    
+    h1.title {
+        font-size: 2.1em;
+        line-height: 1em;
+    }
+    
+    p.description {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    
+    .content-container {
+        margin-top: 5vh;    
+        
+    }
+
+    /* CTA */
+    p.CTA {
+        cursor: pointer;
+        text-decoration: underline;  
+        font-size: 1.3em;  
+    }
+}
+
+/* Max-Desktop */
+
+@media only screen and (min-width: 1441px) {
+    .page-container {
+         width: 70%;
+         margin: 70px auto;
+    }
+ 
+     .homepage-hero {
+         margin: 0 auto;
+         text-align: center;
+         display: flex;
+         justify-content: space-between;
+         
+     }
+ 
+     .hero-items {
+         
+         width: 37vw;
+         max-width: 608px;
+         
+         
+     }
+     
+     .banner-container{
+         width: 37vw;
+         max-width: 608px;
+         height: auto;
+         max-height: 62.9vh;
+         overflow: hidden;
+         
+     }
+    
+     .HeroBanner {
+         width: 37vw;
+         max-width: 608px;
+     }
+ 
+     /* hover */
+ 
+     .HeroBanner:hover {
+     cursor: pointer;
+     transform: scale(1.1);
+     transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+     }
+     
+     .hero-content {
+         text-align: left;
+         
+     }
+     
+     h1.title {
+         font-size: 2.1em;
+         line-height: 1em;
+     }
+     
+     p.description {
+         font-size: 1em;
+         line-height: 1.5em;
+     }
+     
+     .content-container {
+         margin-top: 5vh;    
+         
+     }
+ 
+     /* CTA */
+     p.CTA {
+         cursor: pointer;
+         text-decoration: underline;  
+         font-size: 1.3em;  
+     }
+ }
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .must-have-page {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .must-have-page-title h1 {
+        font-size: 1.3em;
+    }
+
+    .must-have-page-overview {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
+
+/* Pad */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .must-have-page {
+        width: 90%;
+        margin: 70px auto;
+    }
+
+    .must-have-page-title h1 {
+        font-size: 1.8em;
+    }
+
+    .must-have-page-overview {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .must-have-page {
+        width: 80%;
+        margin: 70px auto;
+        
+    }
+    
+    .must-have-page-title h1 {
+        font-size: 2.1em;
+    }
+    
+    .must-have-page-overview {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
+
+/* Max-Desktop */
+
+@media only screen and (min-width: 1441px) {
+    .must-have-page {
+        width: 70%;
+        margin: 70px auto;
+        
+    }
+    
+    .must-have-page-title h1 {
+        font-size: 2.1em;
+    }
+    
+    .must-have-page-overview {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
