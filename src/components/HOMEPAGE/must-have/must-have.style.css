@@ -9,11 +9,15 @@
         font-size: 1.3em;
     }
 
+    .must-have-page-frame {
+        width: 100%;
+        overflow: scroll;
+        
+    }
+
     .must-have-page-overview {
         margin-top: 10px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         
     }
 }
@@ -29,11 +33,16 @@
         font-size: 1.8em;
     }
 
+    .must-have-page-frame {
+        width: 100%;
+        overflow: scroll;
+        
+    }
+
     .must-have-page-overview {
         margin-top: 30px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    
         
     }
 }
@@ -51,11 +60,15 @@
         font-size: 2.1em;
     }
     
+    .must-have-page-frame {
+        width: 100%;
+        overflow: scroll;
+        
+    }
+
     .must-have-page-overview {
-        margin-top: 30px;
+        margin-top: 15px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         
     }
 }
@@ -73,11 +86,16 @@
         font-size: 2.1em;
     }
     
+    .must-have-page-frame {
+        width: 100%;
+        overflow: scroll;
+        
+    }
+  
     .must-have-page-overview {
-        margin-top: 30px;
+        margin-top: 15px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    
         
     }
 }

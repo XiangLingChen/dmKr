@@ -69,14 +69,17 @@ class MustHave extends React.Component {
                 <div className="must-have-page-title">
                     <h1>MUST-HAVES</h1>
                 </div>
-                <div className="must-have-page-overview">
-                    {
-                        this.state.items.map( ({id, name, imageUrl, price}) => (
-                            <MustHaveCard key={id} name={name} imageUrl={imageUrl} price={price}/>
-                        ))
-                    }
-                  
+                <div className="must-have-page-frame">
+                    <div className="must-have-page-overview">
+                        {
+                            this.state.items.map( ({id, name, imageUrl, price}) => (
+                                <MustHaveCard key={id} name={name} imageUrl={imageUrl} price={price}/>
+                            ))
+                        }
+                    
+                    </div>
                 </div>
+           
             </div>
     
         
