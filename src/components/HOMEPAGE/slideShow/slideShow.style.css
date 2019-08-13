@@ -1,0 +1,19 @@
+
+.details {
+    max-width: 470px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+}
+
+.card img {
+    max-width: 650px;
+}
+
+.text {
+    line-height: 2em;
+}
+
