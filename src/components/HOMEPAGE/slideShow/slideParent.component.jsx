@@ -1,7 +1,8 @@
 
 import React, {Component} from 'react';
 import data from '../../HOMEPAGE/slideShow/data';
-import SlideShow from '../../HOMEPAGE/slideShow/slideShow.component';
+import SlideTransition from '../../HOMEPAGE/slideShow/slideTransition.component';
+
 import './slideParent.style.css'
 
 class SlideParent extends Component {
@@ -33,20 +34,23 @@ class SlideParent extends Component {
            <div className="slidePage">    {/* width: 100% */}
                 <div className="slidePage-container">    {/* width: 90% */}
                     <h1 className="slidePageTitle">COLLECTIONS</h1>
-                            <SlideShow property={property}/>
-                            <div className="btn-container">
-                                <button
-                                    onClick={() => this.prevProperty()}
-                                    disabled={property.index===0}>
-                                    Prev
-                                </button>
+                    <div className="btn-container">
+                        <button
+                            onClick={() => this.prevProperty()}
+                            disabled={property.index===0}>
+                            Prev
+                        </button>
 
-                                <button
-                                    onClick={() => this.nextProperty()}
-                                    disabled={property.index===data.properties.length-1}>
-                                    Next
-                                </button>
-                            </div>
+                        <button
+                            onClick={() => this.nextProperty()}
+                            disabled={property.index===data.properties.length-1}>
+                            Next
+                        </button>
+                    </div>
+                    
+                    <div className="content">
+                        <SlideTransition property={property}/>
+                    </div>
                 </div>
             </div>
 

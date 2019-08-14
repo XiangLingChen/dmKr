@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './slideShow.style.css'
 
 const SlideShow = ({property}) => {
@@ -9,7 +10,7 @@ const SlideShow = ({property}) => {
                 <h2 className="name">{name}</h2>
                 <div className="text">{text}</div>
             </div>
-            <img src={picture}/>
+            <img src={picture} className="collectionsImage"/>
         </div>
     )
 }
