@@ -9,6 +9,7 @@ const SlideShow = ({property}) => {
              <div className="details">
                 <h2 className="name">{name}</h2>
                 <div className="text">{text}</div>
+                <p className="card-CTA">Shop Now</p>
             </div>
             <img src={picture} className="collectionsImage"/>
         </div>

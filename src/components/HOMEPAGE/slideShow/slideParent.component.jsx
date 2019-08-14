@@ -36,15 +36,17 @@ class SlideParent extends Component {
                     <h1 className="slidePageTitle">COLLECTIONS</h1>
                     <div className="btn-container">
                         <button
+                            className="arrow-left"
                             onClick={() => this.prevProperty()}
-                            disabled={property.index===0}>
-                            Prev
+                            disabled={property.index===0}>      
+                        PREV
                         </button>
 
                         <button
+                            className="arrow-right"
                             onClick={() => this.nextProperty()}
                             disabled={property.index===data.properties.length-1}>
-                            Next
+                        NEXT
                         </button>
                     </div>
                     

@@ -11,8 +11,8 @@ const data = {
             _id: '12',
             index: 1,
             picture: 'https://i.imgur.com/SclQDy1.jpg',
-            name: 'BodyFit : Invigorating Moisture',
-            text: 'Balea BodyFit Collection refreshes dehydrated, depleted-looking skin and softens wrinkles.'
+            name: 'The smoothing Power of BodyFit',
+            text: 'Balea BodyFit Collection improves the appearance of the skin through smoothing and tightening. The formulation with selected care substances provides intense moisture for 24 hours and makes the skin pleasantly soft.'
         },
 
     ]
