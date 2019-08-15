@@ -1,13 +1,35 @@
-/* Pad */
-@media only screen and (max-width: 899px) {
+/* mobile */
+@media only screen and (max-width: 660px) {
+    .slidePage {
+        width: 100%;
+        margin: 90px auto;
+        height: auto;
+        background-image:linear-gradient(rgba(223, 223, 223, .2), rgba(223, 223, 223, 0.3), rgba(223, 223, 223, 0)); 
+        
+    }
+    
+    .slidePage-container {
+        width: 90%;
+        
+        margin: 0 auto;
+        padding-top: 12vh;
+        
+        
+    }
+
+    .slidePageTitle {
+        font-size: 1.8em;
+        margin-top: -5vh;
+        
+    }
 
     /* Navigation of slideShow */
-    
+
     .btn-container {
         cursor: pointer;
-        width: 8vw;
-        height: 4vw;
-        margin-top: 36vh;
+        width: 28vw;
+        height: 5vw;
+        margin-top: 28vh;
         margin-bottom: 8vh;
         display: flex;
         justify-content: space-between;
@@ -16,7 +38,72 @@
     
     .arrow-left {
         cursor: pointer;
-        width: 4vw;
+        width: 14vw;
+        font-size: .65em;
+        background: transparent; 
+        border: .1em solid #000;
+        border-right: none;
+        text-align: center;
+    }
+    
+    .arrow-left:hover {
+        background:  rgba(199, 199, 199, 0.2);
+    }
+    
+    .arrow-right {
+        cursor: pointer;
+        width: 14vw;
+        font-size: .65em;
+        background: transparent; 
+        border: .1em solid #000;
+        text-align: center;
+    }
+    
+    .arrow-right:hover {
+        background:  rgba(199, 199, 199, 0.2);
+    }
+}
+
+/* Pad */
+@media only screen and (min-width: 661px) and (max-width: 859px) {
+
+    .slidePage {
+        width: 100%;
+        height: auto;
+        margin: 90px auto;
+        background-image:linear-gradient(rgba(223, 223, 223, .2), rgba(223, 223, 223, 0.3), rgba(223, 223, 223, 0)); 
+        
+    }
+    
+    .slidePage-container {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 12vh;
+        
+    }
+
+    .slidePageTitle {
+        font-size: 1.8em;
+        margin-top: -5vh;
+        
+    }
+
+    /* Navigation of slideShow */
+
+    .btn-container {
+        cursor: pointer;
+        width: 20vw;
+        height: 4vw;
+        margin-top: 24vh;
+        margin-bottom: 8vh;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .arrow-left {
+        cursor: pointer;
+        width: 10vw;
         font-size: .6em;
         background: transparent; 
         border: .1em solid #000;
@@ -30,7 +117,7 @@
     
     .arrow-right {
         cursor: pointer;
-        width: 4vw;
+        width: 10vw;
         font-size: .6em;
         background: transparent; 
         border: .1em solid #000;
@@ -46,12 +133,11 @@
 
 
 /* Pad--2 */
-@media only screen and (min-width: 900px) and (max-width: 1199px) {
+@media only screen and (min-width: 860px) and (max-width: 1199px) {
     .slidePage {
         width: 100%;
         margin: 90px auto;
-        background-image:linear-gradient(to right, rgba(223, 223, 223, .1), rgba(223, 223, 223, 0.3), rgba(223, 223, 223, .1)); 
-        
+        background-image:linear-gradient(to right, rgba(223, 223, 223, .1), rgba(223, 223, 223, 0.3), rgba(223, 223, 223, 0)); 
     }
     
     .slidePage-container {
@@ -64,7 +150,7 @@
     
     .slidePageTitle {
         font-size: 1.8em;
-        margin-top: -4vh;
+        margin-top: -5vh;
         
     }
     
@@ -72,8 +158,8 @@
 
     .btn-container {
         cursor: pointer;
-        width: 8vw;
-        height: 4vw;
+        width: 12vw;
+        height: 2.5vw;
         margin-top: 36vh;
         margin-bottom: 8vh;
         display: flex;
@@ -83,12 +169,12 @@
     
     .arrow-left {
         cursor: pointer;
-        width: 4vw;
+        width: 6vw;
         font-size: .6em;
         background: transparent; 
         border: .1em solid #000;
         border-right: none;
-        text-align: center;
+        
     }
     
     .arrow-left:hover {
@@ -97,11 +183,11 @@
     
     .arrow-right {
         cursor: pointer;
-        width: 4vw;
+        width: 6vw;
         font-size: .6em;
         background: transparent; 
         border: .1em solid #000;
-        text-align: center;
+        
     }
     
     .arrow-right:hover {
@@ -137,8 +223,8 @@
 
     .btn-container {
         cursor: pointer;
-        width: 7VW;
-        height: 3.5vw;
+        width: 12vw;
+        height: 2.5vw;
         margin-top: 40vh;
         
         display: flex;
@@ -148,12 +234,12 @@
     
     .arrow-left {
         cursor: pointer;
-        width: 3.5VW;
+        width: 6vw;
         font-size: .8em;
         background: transparent; 
         border: .1em solid #000;
         border-right: none;
-        text-align: center;
+        
     }
     
     .arrow-left:hover {
@@ -162,11 +248,11 @@
     
     .arrow-right {
         cursor: pointer;
-        width: 4VW;
+        width: 6vw;
         font-size: .8em;
         background: transparent; 
         border: .1em solid #000;
-        text-align: center;
+        
     }
     
     .arrow-right:hover {
