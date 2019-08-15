@@ -55,7 +55,7 @@
         cursor: pointer;
         text-decoration: underline;  
         font-size: 1em;  
-        
+        font-weight: 700; 
     }
 }
 
@@ -79,9 +79,7 @@
     .hero-items {
         display: flex;
         width: 42vw;
-        
-        
-        
+  
     }
     
    
@@ -116,6 +114,7 @@
         cursor: pointer;
         text-decoration: underline;  
         font-size: 1em;  
+        font-weight: 700; 
     }
 }
 
@@ -190,7 +189,8 @@
     p.CTA {
         cursor: pointer;
         text-decoration: underline;  
-        font-size: 1em;  
+        font-size: 1em; 
+        font-weight: 700;  
     }
 }
 
@@ -265,6 +265,7 @@
         cursor: pointer;
         text-decoration: underline;  
         font-size: 1em;  
+        font-weight: 700; 
      }
  }
 

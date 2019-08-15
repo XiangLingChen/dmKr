@@ -9,7 +9,7 @@ const SlideTransition = ({property})=> {
             <TransitionGroup>
                 <CSSTransition
                     key={property._id}
-                    timeout={1400}
+                    timeout={1000}
                     classNames='fade'
                 >
                     <SlideShow property={property}/>
