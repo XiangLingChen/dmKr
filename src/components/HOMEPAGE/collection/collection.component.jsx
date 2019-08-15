@@ -1,11 +1,12 @@
 
 import React, {Component} from 'react';
-import data from '../slideShow(with Transition)/data';
-import SlideShow from '../../HOMEPAGE/slideShow/slideShow.component';
+import data from '../../HOMEPAGE/collection/data';
+import SlideShow from '../../HOMEPAGE/collection/collectionSlideShow.component';
 
-import './slideParent.style.css'
 
-class SlideParent extends Component {
+import './collection.style.css'
+
+class Collection extends Component {
    constructor(props) {
         super(props);
 
@@ -63,4 +64,4 @@ class SlideParent extends Component {
    }
 }
 
-export default SlideParent;
+export default Collection;

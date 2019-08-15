@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './slideShow.style.css'
+import './collectionSlideShow.style.css';
 
 const SlideShow = ({property}) => {
     const {index, picture, name, text} = property;
