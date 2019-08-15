@@ -2,7 +2,7 @@
 @media only screen and (max-width: 532px) {
     .must-have-card {
         max-width: 42vw;
-        max-height: 61vh;
+        
         cursor: pointer;
         margin: 1.5vh 3vw 1.5vh 0;
         box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,7 @@
     
     
     .content.name {
-        font-size: .7em;
+        font-size: .9em;
         line-height: 1.6em;
     }
     
@@ -45,7 +45,7 @@
     .must-have-card {
         max-width: 18vw;
         min-width: 29vw;
-        max-height: 64svh;
+        
         cursor: pointer;
         margin: 3vh 2.6vw 3vh 0;
         box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.1);
@@ -72,8 +72,8 @@
     
     
     .content.name {
-        font-size: 1em;
-        
+        font-size: .9em;
+        line-height: 1.6em;
     }
     
     .content.price {
@@ -88,8 +88,8 @@
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
 .must-have-card {
         max-width: 18vw;
-        min-width: 28vw;
-        max-height: 64svh;
+        min-width: 20.5vw;
+        
         cursor: pointer;
         margin: 2vh 2.6vw 3vh 0;
         box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.1);
@@ -99,7 +99,7 @@
     
     
     .productImage img {
-        max-width: 28vw;
+        max-width: 20.5vw;
         
     }
     

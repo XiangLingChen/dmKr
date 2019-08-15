@@ -18,6 +18,7 @@
 
     .must-have-page-frame::-webkit-scrollbar {
         height: .4em;
+        width: .4em;
     }
 
     .must-have-page-frame::-webkit-scrollbar-track {
@@ -58,6 +59,7 @@
 
     .must-have-page-frame::-webkit-scrollbar {
         height: .4em;
+        width: .4em;
     }
 
     .must-have-page-frame::-webkit-scrollbar-track {
@@ -100,6 +102,7 @@
 
     .must-have-page-frame::-webkit-scrollbar {
         height: .4em;
+        width: .4em;
     }
 
     .must-have-page-frame::-webkit-scrollbar-track {

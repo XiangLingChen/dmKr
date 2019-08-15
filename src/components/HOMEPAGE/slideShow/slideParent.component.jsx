@@ -1,7 +1,7 @@
 
 import React, {Component} from 'react';
-import data from '../../HOMEPAGE/slideShow/data';
-import SlideTransition from '../../HOMEPAGE/slideShow/slideTransition.component';
+import data from '../slideShow(with Transition)/data';
+import SlideShow from '../../HOMEPAGE/slideShow/slideShow.component';
 
 import './slideParent.style.css'
 
@@ -34,6 +34,11 @@ class SlideParent extends Component {
            <div className="slidePage">    {/* width: 100% */}
                 <div className="slidePage-container">    {/* width: 90% */}
                     <h1 className="slidePageTitle">COLLECTIONS</h1>
+                    
+                    <div className="content">
+                        <SlideShow property={property}/>
+                    </div>
+
                     <div className="btn-container">
                         <button
                             className="arrow-left"
@@ -50,9 +55,7 @@ class SlideParent extends Component {
                         </button>
                     </div>
                     
-                    <div className="content">
-                        <SlideTransition property={property}/>
-                    </div>
+                   
                 </div>
             </div>
 
