@@ -1,0 +1,43 @@
+@media only screen and (max-width: 899px) {
+    .custom-button {
+        min-width: 140px;
+        width: 40%;
+        height: 45px;
+        margin-top: -6px;
+        letter-spacing: 0.5px;
+        font-size: 16px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .custom-button:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 900px) {
+    .custom-button {
+        min-width: 140px;
+        width: 40%;
+        height: 45px;
+        margin-top: 2px;
+        letter-spacing: 0.5px;
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .custom-button:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+}
