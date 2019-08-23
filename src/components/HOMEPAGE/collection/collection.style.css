@@ -2,10 +2,10 @@
 @media only screen and (max-width: 549px) {
     .slidePage {
         width: 100%;
-        min-height: 570px;
-        height: 700px;
+        
+        height: 130vw;
         margin: 9vh auto;
-        background-image: linear-gradient(to right, rgba(223, 223, 223, .1), rgba(223, 223, 223, 0.3), rgba(223, 223, 223, .1)); 
+        background-image: linear-gradient( rgba(223, 223, 223, .3), rgba(223, 223, 223, 0),); 
         
     }
     
@@ -71,7 +71,7 @@
         min-height: 702px;
         height: 825px;
         margin: 12vh auto;
-        background-image:linear-gradient(to right, rgba(223, 223, 223, .1), rgba(223, 223, 223, 0.3), rgba(223, 223, 223, .1)); 
+        background-image:linear-gradient( rgba(223, 223, 223, .1), rgba(223, 223, 223, 0.3)); 
         
     }
     
