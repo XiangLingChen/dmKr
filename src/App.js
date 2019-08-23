@@ -12,7 +12,7 @@ function App() {
       <NavigationBar />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/signin" component={SignInAndSignUpPage} />
+        <Route path="/login" component={SignInAndSignUpPage} />
       </Switch>
       
     </div>

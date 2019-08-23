@@ -1,3 +1,27 @@
+@media only screen and (max-width: 899px) {
+    .sign-in-and-sign-up {
+        margin: 100px auto;
+        width: 70%;
+        
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 900px) and (max-width: 1440px) {
+
 .sign-in-and-sign-up {
-    margin-top: 160px;
+    margin: 150px auto;
+    width: 40%;
+    
+}
+
+}
+
+/* Max-Desktop */
+@media only screen and (min-width: 1441px) {
+    .sign-in-and-sign-up {
+        margin: 150px auto;
+        width: 40%;
+        
+    }
 }
