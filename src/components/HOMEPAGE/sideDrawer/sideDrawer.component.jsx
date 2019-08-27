@@ -13,7 +13,7 @@ const SideDrawer = props => {
             <Link className='sideDrawer-item' to='/collections'>COLLECTIONS</Link>
             <Link className='sideDrawer-item' to='/bestsellers'>BEST-SELLERS</Link>
             <Link className='sideDrawer-item' to='/about'>ABOUT</Link>
-            <Link className='sideDrawer-item' to='/contact'>LOG IN</Link>
+            <Link className='sideDrawer-item' to='/login'>LOG IN</Link>
             </div>   
         </nav>
     );

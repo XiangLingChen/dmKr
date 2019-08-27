@@ -3,6 +3,7 @@ import Toolbar from '../HOMEPAGE/res-nav/res-nav.component';
 import SideDrawer from '../HOMEPAGE/sideDrawer/sideDrawer.component';
 import BackDrop from '../HOMEPAGE/backdrop/backdrop.component';
 
+
 class NavigationBar extends Component {
     state= {
         sideDrawerOpen: false
@@ -30,7 +31,7 @@ class NavigationBar extends Component {
         }
         return(
             <div>
-                <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
+                <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backDrop}
             </div>

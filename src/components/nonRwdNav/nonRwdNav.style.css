@@ -1,0 +1,41 @@
+.toolbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    z-index: 5;
+}
+
+.toolbar_navigation{
+    height: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 2px;
+    align-items: center;
+    
+}
+
+
+.logo-container {
+    width: 70px;
+    
+}
+
+.options {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.option {
+    padding: 10px 0px 10px 22px;
+    font-size: .8em;
+    cursor: pointer;
+}

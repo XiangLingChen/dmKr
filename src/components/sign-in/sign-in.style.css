@@ -6,6 +6,13 @@
     form {
         margin-top: 55px;
     }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top:-30px;
+    }
 }
 
 /* Desktop */
@@ -17,6 +24,13 @@
     form {
         margin-top: 55px;
     }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top:-30px;
+    }
 }
 
 /* Max-Desktop */
@@ -27,5 +41,12 @@
     
     form {
         margin-top: 55px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top:-30px;
     }
 }

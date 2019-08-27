@@ -1,7 +1,16 @@
-@media only screen and (max-width: 899px) {
+@media only screen and (max-width: 599px) {
     .sign-in-and-sign-up {
         margin: 100px auto;
         width: 70%;
+        
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+    .sign-in-and-sign-up {
+        margin: 100px auto;
+        width: 50%;
         
     }
 }
@@ -21,7 +30,7 @@
 @media only screen and (min-width: 1441px) {
     .sign-in-and-sign-up {
         margin: 150px auto;
-        width: 40%;
+        width: 35%;
         
     }
 }
