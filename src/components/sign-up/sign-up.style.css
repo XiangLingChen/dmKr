@@ -1,6 +1,7 @@
 @media only screen and (max-width: 399px){
     .sign-up h2 {
         font-size: 1.5em;
+        margin-bottom: -25px;
     }
     
     form {
@@ -22,7 +23,7 @@
     }
 
     form {
-        margin-top: 55px;
+        margin-top: 45px;
     }
 
     .buttons {
