@@ -1,36 +1,65 @@
 @media only screen and (max-width: 399px){
     .sign-in h2 {
         font-size: 1.5em;
+        margin-bottom: -25px;
+        
     }
     
     form {
         margin-top: 55px;
     }
 
-    .buttons {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-top:-30px;
+    .goToSignUp {
+        display: inline-flex;
+        align-items: center;
+        margin-top: -20px;
+        margin-bottom: 32px;
     }
+
+    .no-account {
+        font-size: .7em;
+        
+    }
+
+    .link-to-sign-up {
+        font-size: .7em;
+        margin-left: 10px;
+        
+    }
+
+
 }
 
 /* Desktop */
 @media only screen and (min-width: 400px) and (max-width: 1440px) {
     .sign-in h2 {
         font-size: 2.1em;
+        margin-bottom: -15px;
     }
 
     form {
         margin-top: 55px;
     }
 
-    .buttons {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-top:-30px;
+    .goToSignUp {
+        display: inline-flex;
+        align-items: center;
+        margin-top: -20px;
+        margin-bottom: 60px;
+        
     }
+
+    .no-account {
+        font-size: .8em;
+        
+    }
+
+    .link-to-sign-up {
+        font-size: .8em;
+        margin-left: 10px;
+        
+    }
+
 }
 
 /* Max-Desktop */
@@ -43,10 +72,22 @@
         margin-top: 55px;
     }
 
-    .buttons {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin-top:-30px;
+    .goToSignUp {
+        display: inline-flex;
+        align-items: center;
+        margin-top: -20px;
+        margin-bottom: 66px;
     }
+
+    .no-account {
+        font-size: .9em;
+        
+    }
+
+    .link-to-sign-up {
+        font-size: .9em;
+        margin-left: 10px;
+        
+    }
+
 }

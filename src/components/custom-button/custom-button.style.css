@@ -3,7 +3,7 @@
         min-width: 180px;
         width: 40%;
         height: 40px;
-        margin-top: 24px;
+        margin-top: 20px;
         letter-spacing: 0.5px;
         font-size: 14px;
         background-color: black;
@@ -33,12 +33,12 @@
 
 @media only screen and (min-width: 400px) and (max-width: 799px) {
     .custom-button {
-        min-width: 180px;
-        width: 40%;
+        
+        width: 48%;
         height: 48px;
-        margin-top: 30px;
+        margin-top: 0px;
         letter-spacing: 0.5px;
-        font-size: 14px;
+        font-size: 12px;
         background-color: black;
         color: white;
         border: none;
@@ -67,10 +67,10 @@
 
 @media only screen and (min-width: 800px) and (max-width: 899px) {
     .custom-button {
-        min-width: 200px;
-        width: 40%;
+        min-width: 100px;
+        width: 48%;
         height: 50px;
-        margin-top: 30px;
+        margin-top: 0px;
         letter-spacing: 0.5px;
         font-size: 14px;
         background-color: black;
@@ -104,13 +104,14 @@
         min-width: 180px;
         width: 48%;
         height: 54px;
-        margin-top: 40px;
+        margin-top: 0px;
         letter-spacing: 0.5px;
-        font-size: 16px;
+        font-size: 14px;
         background-color: black;
         color: white;
         border: none;
         cursor: pointer;
+        
     }
 
     .custom-button:hover {
