@@ -1,0 +1,52 @@
+@media only screen and (max-width: 399px){
+    .sign-up h2 {
+        font-size: 1.5em;
+    }
+    
+    form {
+        margin-top: 55px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top:-30px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 400px) and (max-width: 1440px) {
+    .sign-up h2 {
+        font-size: 2.1em;
+    }
+
+    form {
+        margin-top: 55px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top:-30px;
+    }
+}
+
+/* Max-Desktop */
+@media only screen and (min-width: 1441px) {
+    .sign-up h2 {
+        font-size: 2.1em;
+    }
+    
+    form {
+        margin-top: 55px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top:-30px;
+    }
+}

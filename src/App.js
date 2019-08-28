@@ -3,6 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 import Toolbar from './components/nonRwdNav/nonRwdNav.component';
 import HomePage from './pages/homepage/homepage.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
+import SignUpPageOnly from './pages/sign-up-only/sign-up-only.component';
 import {auth, createUserProfileDocument} from './components/firebase/firebase.utils';
 
 import './App.css';
@@ -48,6 +49,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/signin" component={SignInAndSignUpPage} />
+          <Route path="/signup" component={SignUpPageOnly} />
         </Switch>
       </div>
     );
