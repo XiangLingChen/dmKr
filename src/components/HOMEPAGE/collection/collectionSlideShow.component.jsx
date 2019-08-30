@@ -11,7 +11,7 @@ const SlideShow = ({property}) => {
                 <div className="text">{text}</div>
                 <p className="card-CTA">Shop Now</p>
             </div>
-            <img src={picture} className="collectionsImage"/>
+            <img src={picture} className="collectionsImage" alt=''/>
         </div>
     )
 }

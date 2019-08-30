@@ -8,7 +8,7 @@ const MustHaveCard = ({name, price, imageUrl}) => (
     <div className="must-have-card">
         
             <div className="productImage">
-                <img src={imageUrl}/>
+                <img src={imageUrl} alt=''/>
             </div>
             <div className="productContent">
                 <div className="content name">{name}</div>

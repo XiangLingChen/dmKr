@@ -9,7 +9,7 @@ const HompepageHero = () => (
                 <div className="hero-items">
                     <div className="hero-content">
                         <div className="banner-container">
-                            <img className="HeroBanner" src={Aqua}/>    
+                            <img className="HeroBanner" src={Aqua} alt=''/>    
                         </div>
                         <div className="content-container">
                             <h1 className="title">DRY SKIN SAVIORS !</h1>
@@ -22,7 +22,7 @@ const HompepageHero = () => (
                 <div className="hero-items">
                     <div className="hero-content">
                         <div className="banner-container">
-                            <img className="HeroBanner" src={Aloe}/>
+                            <img className="HeroBanner" src={Aloe} alt=''/>
                         </div>
                         <div className="content-container">
                             <h1 className="title">NEW ! CLEANSING CHOICE</h1>
