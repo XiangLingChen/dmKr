@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {ReactComponent as Logo} from '../nonRwdNav/dmLogo.svg';
 import {auth} from '../firebase/firebase.utils';
+import {connect} from 'react-redux';
 import './nonRwdNav.style.css'
 
 const Toolbar = ({currentUser}) => (
@@ -29,4 +30,8 @@ const Toolbar = ({currentUser}) => (
     </header>
 );
 
-export default Toolbar;
+const mapStateToProps = state => ({
+    currentUser: state.user.currentUser
+});
+
+export default connect(mapStateToProps)(Toolbar);
