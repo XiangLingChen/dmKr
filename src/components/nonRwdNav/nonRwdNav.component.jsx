@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import {ReactComponent as Logo} from '../nonRwdNav/dmLogo.svg';
 import {auth} from '../firebase/firebase.utils';
 import {connect} from 'react-redux';
+import CartIcon from '../cart-icon/cart-icon.component';
 import './nonRwdNav.style.css'
 
 const Toolbar = ({currentUser}) => (
@@ -22,6 +23,7 @@ const Toolbar = ({currentUser}) => (
                     :
                     <Link className='option' to='/signin'>SIGN IN</Link>
                 }  
+                <CartIcon className='cart'/>
    
             </div>
             <div className="hamburgerBtn">
