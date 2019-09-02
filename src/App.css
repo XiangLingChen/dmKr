@@ -1,8 +1,7 @@
 .App {
     font-family: Helvetica;
-    height: 100%;
     width: 100%;
-    left: 0;
+    
 }
 
 
@@ -13,4 +12,5 @@ a {
 
 * {
     box-sizing: border-box;
+    
 }

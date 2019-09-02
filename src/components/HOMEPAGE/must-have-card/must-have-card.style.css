@@ -1,7 +1,7 @@
 /* Mobile-1 */
 @media only screen and (max-width: 532px) {
     .must-have-card {
-        max-width: 42vw;
+        max-width: 40vw;
         
         cursor: pointer;
         margin: 1.5vh 3vw 1.5vh 0;

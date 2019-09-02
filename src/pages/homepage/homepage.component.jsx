@@ -8,6 +8,7 @@ import './homepage.style.css';
 
 const HomePage = () => (
     <div className="homepage">
+        
         <ResHeader />
         <HompepageHero />
         <MustHave />
