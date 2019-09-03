@@ -4,9 +4,10 @@ import {ReactComponent as Logo} from '../nonRwdNav/dmLogo.svg';
 import {auth} from '../firebase/firebase.utils';
 import {connect} from 'react-redux';
 import CartIcon from '../cart-icon/cart-icon.component';
+import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import './nonRwdNav.style.css'
 
-const Toolbar = ({currentUser}) => (
+const Toolbar = ({currentUser, hidden}) => (
     <header className="toolbar">
         <nav className="toolbar_navigation">
             <Link className='logo-container' to="/">
@@ -26,14 +27,17 @@ const Toolbar = ({currentUser}) => (
                 <CartIcon className='cart'/>
    
             </div>
-            <div className="hamburgerBtn">
-            </div>
+            {
+                hidden? null : <CartDropdown />
+            }
+          
         </nav>
     </header>
 );
 
-const mapStateToProps = state => ({
-    currentUser: state.user.currentUser
+const mapStateToProps = ({user: {currentUser}, cart: {hidden}}) => ({
+    currentUser,
+    hidden
 });
 
 export default connect(mapStateToProps)(Toolbar);
