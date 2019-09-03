@@ -14,6 +14,8 @@ const MustHaveCard = ({name, price, imageUrl}) => (
                 <div className="content name">{name}</div>
                 <div className="content price">{price}</div>
             </div>
+            
+            <button className="custom-btn-hm">Add to Cart</button>
         
 
     </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import MustHaveCard from '../../HOMEPAGE/must-have-card/must-have-card.component';
+
 import './must-have.style.css';
 
 class MustHave extends React.Component {
@@ -10,49 +11,49 @@ class MustHave extends React.Component {
             items : [
                 {
                     id: 0,
-                    name: 'Balea Aqua Moisturizing Serum',
+                    name: 'Aqua Moisturizing Serum',
                     imageUrl: 'https://i.imgur.com/caFt7A0.jpg',
                     price: "$ 15"
                 },
                 {
                     id: 1,
-                    name: 'Balea Soft Cleansing Foam',
+                    name: 'Soft Cleansing Foam',
                     imageUrl: 'https://i.imgur.com/W74Bj1Z.jpg',
                     price: "$ 10"
                 },
                 {
                     id: 2,
-                    name: 'Balea Micellar Cleansing Water',
+                    name: 'Micellar Cleansing Water',
                     imageUrl: 'https://i.imgur.com/5KYr2sz.jpg',
                     price: "$ 20"
                 },
                 {
                     id: 3,
-                    name: 'Balea Micellar Cleansing Water',
+                    name: 'Micellar Cleansing Water',
                     imageUrl: 'https://i.imgur.com/WWnFGtX.jpg',
                     price: "$ 20"
                 },
                 {
                     id: 4,
-                    name: 'Balea Cream Peeling',
+                    name: 'Cream Peeling',
                     imageUrl: 'https://i.imgur.com/x0Hgkey.jpg',
                     price: "$ 12"
                 },
                 {
                     id: 5,
-                    name: 'Balea Creamsoap Ginger & Lemon',
+                    name: 'Creamsoap Ginger & Lemon',
                     imageUrl: 'https://i.imgur.com/wqV3Rml.jpg',
                     price: "$ 10"
                 },
                 {
                     id: 6,
-                    name: 'Balea BodyFit Gel-Creme',
+                    name: 'BodyFit Gel-Creme',
                     imageUrl: 'https://i.imgur.com/cWS86RG.jpg',
                     price: "$ 22"
                 },
                 {
                     id: 7,
-                    name: 'Balea Creamshower Sensitive',
+                    name: 'Creamshower Sensitive',
                     imageUrl: 'https://i.imgur.com/CtLMIbP.jpg',
                     price: "$ 24"
                 }
