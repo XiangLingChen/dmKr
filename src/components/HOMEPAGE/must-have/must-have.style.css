@@ -44,6 +44,7 @@
     .must-have-page {
         width: 90%;
         margin: 70px auto;
+        margin-top: -35px;
     }
 
     .must-have-page-title h1 {
@@ -74,9 +75,9 @@
 
 
     .must-have-page-overview {
-        margin-top: 30px;
+        margin-top: 20px;
         display: flex;
-    
+        
         
     }
 }
@@ -128,8 +129,8 @@
 
 @media only screen and (min-width: 1441px) {
     .must-have-page {
-        width: 70%;
-        margin: 70px auto;
+        width: 80%;
+        margin: 78px auto;
         
     }
     
