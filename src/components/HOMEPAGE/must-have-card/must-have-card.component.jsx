@@ -1,33 +1,39 @@
 import React from 'react';
 
 import './must-have-card.style.css';
+import {connect} from 'react-redux';
 
-const MustHaveCard = ({name, price, imageUrl}) => (
+import {addItem} from '../../../redux/cart/cart.action';
+
+
+
+const MustHaveCard = ({item, addItem}) => {
+
+    const {name, price, imageUrl} = item;
  
-
-    <div className="must-have-card">
-        
-            <div className="productImage">
-                <img src={imageUrl} alt=''/>
+    return(
+        <div className="must-have-card">
+            <div className="must-have-content">
+                <div className="productImage">
+                    <img src={imageUrl} alt=''/>
+                </div>
+                <div className="productContent">
+                    <div className="content name">{name}</div>
+                    <div className="content price">{price}</div>
+                </div>
             </div>
-            <div className="productContent">
-                <div className="content name">{name}</div>
-                <div className="content price">{price}</div>
-            </div>
-            
-            <button className="custom-btn-hm">Add to Cart</button>
-        
-
-    </div>
-
-
-
-
     
-        
+            <button className="custom-btn-hm" onClick = { () => addItem(item) } >
+                Add to Cart
+            </button>
+        </div>
+    );
+
+}
+
+const mapDispatchToProps = dispatch => ({
+    addItem: item => dispatch(addItem(item))
+})
 
 
-)
-
-
-export default MustHaveCard;
+export default connect(null, mapDispatchToProps)(MustHaveCard);
