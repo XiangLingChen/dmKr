@@ -330,6 +330,14 @@
         opacity: 1;
         cursor: pointer;
     }
+
+    .custom-btn-hm:active {
+        background-color: rgb(71, 71, 71);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
 }
 
 
