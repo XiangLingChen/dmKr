@@ -21,12 +21,27 @@
 }
 
 .dropdownName {
-    width: 100%;
+    width: 110%;
     font-size: 12px;
+}
+
+.quantityXprice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
     
+}
+
+.dropdownQuantity {
+    font-size: 12px;
+}
+
+.dropdownMultiply {
+    font-size: 12px;
 }
 
 .dropdownPrice {
     font-size: 12px;
-    }
+}
 
