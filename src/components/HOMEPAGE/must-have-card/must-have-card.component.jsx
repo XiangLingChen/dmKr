@@ -18,8 +18,8 @@ const MustHaveCard = ({item, addItem}) => {
                     <img src={imageUrl} alt=''/>
                 </div>
                 <div className="productContent">
-                    <div className="content name">{name}</div>
-                    <div className="content price">{price}</div>
+                    <div className="contentName">{name}</div>
+                    <div className="contentPrice">$ {price}</div>
                 </div>
             </div>
     

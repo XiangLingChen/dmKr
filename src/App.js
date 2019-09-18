@@ -4,6 +4,8 @@ import Toolbar from './components/nonRwdNav/nonRwdNav.component';
 import HomePage from './pages/homepage/homepage.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import SignUpPageOnly from './pages/sign-up-only/sign-up-only.component';
+import CheckoutPage from './pages/checkout/checkout.component';
+
 import {auth, createUserProfileDocument} from './components/firebase/firebase.utils';
 import {connect} from 'react-redux';
 import {setCurrentUser} from './redux/user/user.action';
@@ -53,6 +55,7 @@ class App extends React.Component {
             )}
              />
           <Route path="/signup" component={SignUpPageOnly} />
+          <Route exact path="/checkout" component={CheckoutPage} />
         </Switch>
       </div>
     );
