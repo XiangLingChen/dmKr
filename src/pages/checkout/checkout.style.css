@@ -1,57 +1,190 @@
-.checkout-page {
-    width: 60%;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 140px auto 0;
-}  
-
-.checkout-page-titles {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    padding-bottom: 15px;
-    border-bottom: 1px solid darkgrey;
-}
-
-.checkout-header1 {
-    width: 20%;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-around;
+@media only screen and (max-width: 529px) {
+    .checkout-page {
+        width: 90%;
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 140px auto 0;
+    }  
+    
+    .checkout-page-titles {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 15px;
+        border-bottom: 1px solid darkgrey;
+    }
+    
+    .checkout-header1 {
+        width: 18%;
+        margin-left: -12px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .checkout-header2 {
+        width: 80%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 36px;
+       
+    }
+    
+    .header-block {
+        text-align: center;
+        font-size: .6em;
+        text-transform: uppercase;
+        width: 23%;
+        
+    }
+    
+    
+    
+    .header-block:last-child {
+        width: 23%;
+    }
+      
+    
+    .total {
+        width: 18%;
+        margin-top: 30px;
+        margin-left: auto;
+        font-size: .6em;
+        text-align: center;
+        
+    }
     
 }
 
-.checkout-header2 {
-    width: 80%;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 50px;
-   
-}
 
-.header-block {
-    text-align: center;
-    font-size: .8em;
-    text-transform: uppercase;
-    width: 23%;
+
+
+
+
+
+@media only screen and (min-width: 530px) and (max-width: 899px) {
+    .checkout-page {
+        width: 90%;
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 140px auto 0;
+    }  
+    
+    .checkout-page-titles {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 15px;
+        border-bottom: 1px solid darkgrey;
+    }
+    
+    .checkout-header1 {
+        width: 20%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .checkout-header2 {
+        width: 80%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 50px;
+       
+    }
+    
+    .header-block {
+        text-align: center;
+        font-size: .7em;
+        text-transform: uppercase;
+        width: 23%;
+        
+    }
+    
+    
+    
+    .header-block:last-child {
+        width: 23%;
+    }
+      
+    
+    .total {
+        width: 18%;
+        margin-top: 60px;
+        margin-left: auto;
+        font-size: .8em;
+        text-align: center;
+        
+    }
     
 }
 
-
-
-.header-block:last-child {
-    width: 23%;
-}
-  
-
-.total {
-    width: 19%;
-    margin-top: 60px;
-    margin-left: auto;
-    font-size: 1.1em;
-    text-align: center;
+@media only screen and (min-width: 900px) {
+    .checkout-page {
+        width: 70%;
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 140px auto 0;
+    }  
+    
+    .checkout-page-titles {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 15px;
+        border-bottom: 1px solid darkgrey;
+    }
+    
+    .checkout-header1 {
+        width: 20%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .checkout-header2 {
+        width: 80%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 50px;
+       
+    }
+    
+    .header-block {
+        text-align: center;
+        font-size: .8em;
+        text-transform: uppercase;
+        width: 23%;
+        
+    }
+    
+    
+    
+    .header-block:last-child {
+        width: 23%;
+    }
+      
+    
+    .total {
+        width: 18%;
+        margin-top: 60px;
+        margin-left: auto;
+        font-size: 1em;
+        text-align: center;
+        
+    }
     
 }
+
