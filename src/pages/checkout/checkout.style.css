@@ -4,8 +4,7 @@
         min-height: 90vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 140px auto 0;
+        margin: 140px auto 140px auto;
     }  
     
     .checkout-page-titles {
@@ -72,8 +71,8 @@
         min-height: 90vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 140px auto 0;
+
+        margin: 140px auto 140px auto;
     }  
     
     .checkout-page-titles {
@@ -133,8 +132,9 @@
         min-height: 90vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 140px auto 0;
+        margin: 140px auto 140px auto;
+        
+        
     }  
     
     .checkout-page-titles {

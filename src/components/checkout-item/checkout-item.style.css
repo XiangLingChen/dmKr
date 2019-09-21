@@ -46,6 +46,19 @@
     
     .checkoutQuantity {
         box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    .increase-decrease {
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    .value {
+        margin: 0 -8px;
     }
     
     .remove-button {
@@ -112,12 +125,25 @@
     
     .checkoutQuantity {
         box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    .increase-decrease {
+        font-size: 1.3em;
+        cursor: pointer;
+    }
+
+    .value {
+        margin: 0 -30px;
     }
     
     .remove-button {
         width: 23%;
         text-align: center;
-        font-size: .9em;
+        font-size: 1.2em;
         cursor: pointer;
         
     }

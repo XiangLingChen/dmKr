@@ -45,14 +45,14 @@ class Collection extends Component {
                             className="arrow-left"
                             onClick={() => this.prevProperty()}
                             disabled={property.index===0}>      
-                        PREV
+                        &#8592;
                         </button>
 
                         <button
                             className="arrow-right"
                             onClick={() => this.nextProperty()}
                             disabled={property.index===data.properties.length-1}>
-                        NEXT
+                        &#8594;
                         </button>
                     </div>
                     
