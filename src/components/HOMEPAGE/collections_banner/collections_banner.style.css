@@ -1,0 +1,130 @@
+@media only screen and (max-width: 469px) {
+    .CollectionsBanner_container {
+        margin-top: -30px;
+        margin-bottom: 35px;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        background: url(./HP_collections_banner_3.jpg) no-repeat center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .CollectionsBanner_content {
+        transform: translate(0, 170%);
+        text-align: center;
+        font-size: 1em;
+        line-height: .8em;
+        cursor: pointer;
+        color: rgb(34, 74, 121);
+    }
+    
+    .CollectionsBanner_text:hover {
+        transform: scale(1.1);
+        transition: all 3.5s ease;
+        cursor: pointer;
+    }
+    
+    .CollectionsBanner_arrow {
+        font-weight: 900;
+    }
+}
+
+
+@media only screen and (min-width: 470px) and (max-width: 767px) {
+    .CollectionsBanner_container {
+        margin-top: -20px;
+        margin-bottom: 40px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background: url(./HP_collections_banner_2.jpg) no-repeat center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .CollectionsBanner_content {
+        transform: translate(0, 150%);
+        text-align: center;
+        font-size: 1.2em;
+        line-height: .8em;
+        cursor: pointer;
+        color: rgb(34, 74, 121);
+    }
+    
+    .CollectionsBanner_text:hover {
+        transform: scale(1.1);
+        transition: all 3.5s ease;
+        cursor: pointer;
+    }
+    
+    .CollectionsBanner_arrow {
+        font-weight: 900;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .CollectionsBanner_container {
+        margin-top: -20px;
+        margin-bottom: 90px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background: url(./HP_collections_banner.jpg) no-repeat center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .CollectionsBanner_content {
+        transform: translate(0, 96%);
+        text-align: center;
+        font-size: 1.5em;
+        line-height: .8em;
+        cursor: pointer;
+        color: rgb(34, 74, 121);
+    }
+    
+    .CollectionsBanner_text:hover {
+        transform: scale(1.1);
+        transition: all 3.5s ease;
+        cursor: pointer;
+    }
+    
+    .CollectionsBanner_arrow {
+        font-weight: 900;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .CollectionsBanner_container {
+        margin-top: 85px;
+        margin-bottom: 85px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background: url(./HP_collections_banner.jpg) no-repeat center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .CollectionsBanner_content {
+        transform: translate(0, 96%);
+        text-align: center;
+        font-size: 1.5em;
+        line-height: .8em;
+        cursor: pointer;
+        color: rgb(34, 74, 121);
+    }
+    
+    .CollectionsBanner_text:hover {
+        transform: scale(1.1);
+        transition: all 3.5s ease;
+        cursor: pointer;
+    }
+    
+    .CollectionsBanner_arrow {
+        font-weight: 900;
+    }
+}
+
