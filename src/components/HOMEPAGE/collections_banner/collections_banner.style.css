@@ -1,7 +1,7 @@
 @media only screen and (max-width: 469px) {
     .CollectionsBanner_container {
-        margin-top: -30px;
-        margin-bottom: 35px;
+        margin-top: -20px;
+        margin-bottom: 45px;
         width: 100%;
         height: 200px;
         overflow: hidden;
@@ -11,18 +11,27 @@
     }
     
     .CollectionsBanner_content {
-        transform: translate(0, 170%);
+        transform: translate(0, 46%);
         text-align: center;
-        font-size: 1em;
-        line-height: .8em;
+        font-size: .68em;
+        font-weight: 600;
+        line-height: 1.3em;
         cursor: pointer;
-        color: rgb(34, 74, 121);
+        color: rgb(35, 78, 131);
+        letter-spacing: 1.5px;
     }
+
     
-    .CollectionsBanner_text:hover {
-        transform: scale(1.1);
-        transition: all 3.5s ease;
-        cursor: pointer;
+    .CTA_container {
+        margin: 25px auto;
+        width: 200px;
+        padding: 6px 0px;
+        border: 1px solid;
+    }
+
+
+    .CollectionsBanner_CTA {
+        font-size: 1em;
     }
     
     .CollectionsBanner_arrow {
@@ -33,8 +42,8 @@
 
 @media only screen and (min-width: 470px) and (max-width: 767px) {
     .CollectionsBanner_container {
-        margin-top: -20px;
-        margin-bottom: 40px;
+        margin-top: -15px;
+        margin-bottom: 45px;
         width: 100%;
         height: 250px;
         overflow: hidden;
@@ -44,18 +53,26 @@
     }
     
     .CollectionsBanner_content {
-        transform: translate(0, 150%);
+        transform: translate(0, 60%);
         text-align: center;
-        font-size: 1.2em;
-        line-height: .8em;
+        font-size: .8em;
+        font-weight: 600;
+        line-height: 1.3em;
         cursor: pointer;
-        color: rgb(34, 74, 121);
+        color: rgb(35, 78, 131);
+        letter-spacing: 1.5px;
     }
+
     
-    .CollectionsBanner_text:hover {
-        transform: scale(1.1);
-        transition: all 3.5s ease;
-        cursor: pointer;
+    .CTA_container {
+        margin: 32px auto;
+        width: 200px;
+        padding: 6px 0px;
+        border: 1px solid;
+    }
+
+    .CollectionsBanner_CTA {
+        font-size: .9em;
     }
     
     .CollectionsBanner_arrow {
@@ -77,18 +94,26 @@
     }
     
     .CollectionsBanner_content {
-        transform: translate(0, 96%);
+        transform: translate(0, 38%);
         text-align: center;
-        font-size: 1.5em;
-        line-height: .8em;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 1.3em;
         cursor: pointer;
-        color: rgb(34, 74, 121);
+        color: rgb(35, 78, 131);
+        letter-spacing: 1.5px;
     }
+
     
-    .CollectionsBanner_text:hover {
-        transform: scale(1.1);
-        transition: all 3.5s ease;
-        cursor: pointer;
+    .CTA_container {
+        margin: 32px auto;
+        width: 200px;
+        padding: 6px 0px;
+        border: 1px solid;
+    }
+
+    .CollectionsBanner_CTA {
+        font-size: .8em;
     }
     
     .CollectionsBanner_arrow {
@@ -98,8 +123,8 @@
 
 @media only screen and (min-width:1200px) {
     .CollectionsBanner_container {
-        margin-top: 85px;
-        margin-bottom: 85px;
+        margin-top: 70px;
+        margin-bottom: 75px;
         width: 100%;
         height: 250px;
         overflow: hidden;
@@ -109,18 +134,26 @@
     }
     
     .CollectionsBanner_content {
-        transform: translate(0, 96%);
+        transform: translate(0, 28%);
         text-align: center;
-        font-size: 1.5em;
-        line-height: .8em;
+        font-size: 1.1em;
+        font-weight: 600;
+        line-height: 1.5em;
         cursor: pointer;
-        color: rgb(34, 74, 121);
+        color: rgb(35, 78, 131);
+        letter-spacing: 1.5px;
     }
+
     
-    .CollectionsBanner_text:hover {
-        transform: scale(1.1);
-        transition: all 3.5s ease;
-        cursor: pointer;
+    .CTA_container {
+        margin: 28px auto;
+        width: 200px;
+        padding: 4px 0px;
+        border: 1px solid;
+    }
+
+    .CollectionsBanner_CTA {
+        font-size: .8em;
     }
     
     .CollectionsBanner_arrow {

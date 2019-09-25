@@ -4,9 +4,11 @@ import './collections_banner.style.css'
 const CollectionsBanner = () => (
     <div className='CollectionsBanner_container'>
         <div className='CollectionsBanner_content'>
-            
-            <h4 className='CollectionsBanner_text'>CHECK OUT ALL COLLECTIONS</h4>
-            <span className='CollectionsBanner_arrow'>&#x27F6;</span>
+            <p className='CollectionsBanner_text'> WE INNOVATES EFFECTIVE FORMULAS TO</p>
+            <p className='CollectionsBanner_text'> DELIVER RESULTS FOR YOUR CONCERNS. </p>
+            <div className='CTA_container'>
+                <span className='CollectionsBanner_CTA'>Shop by Collections</span>
+            </div>
         </div>
     </div>
 );

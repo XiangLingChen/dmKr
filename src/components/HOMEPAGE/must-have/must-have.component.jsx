@@ -11,51 +11,51 @@ class MustHave extends React.Component {
             items : [
                 {
                     id: 0,
-                    name: 'Aqua Moisturizing Serum',
-                    imageUrl: 'https://i.imgur.com/caFt7A0.jpg',
-                    price: 15
+                    name: 'Beauty Effect Ampoule',
+                    imageUrl: 'https://imgur.com/IGDA28C.jpg',
+                    price: 20
                 },
                 {
                     id: 1,
-                    name: 'Soft Cleansing Foam',
-                    imageUrl: 'https://i.imgur.com/W74Bj1Z.jpg',
-                    price: 10
+                    name: 'Aqua Moisturizing Serum',
+                    imageUrl: 'https://imgur.com/8r0a9Az.jpg',
+                    price: 15
                 },
                 {
                     id: 2,
-                    name: 'Micellar Cleansing Water',
-                    imageUrl: 'https://i.imgur.com/5KYr2sz.jpg',
-                    price: 20
+                    name: 'Cleansing Foam Gentle',
+                    imageUrl: 'https://imgur.com/zlfNQHi.jpg',
+                    price: 10
                 },
                 {
                     id: 3,
                     name: 'Micellar Cleansing Water',
-                    imageUrl: 'https://i.imgur.com/WWnFGtX.jpg',
-                    price: 20
-                },
-                {
-                    id: 4,
-                    name: 'Cream Peeling',
-                    imageUrl: 'https://i.imgur.com/x0Hgkey.jpg',
-                    price: 12
-                },
-                {
-                    id: 5,
-                    name: 'Creamsoap Ginger & Lemon',
-                    imageUrl: 'https://i.imgur.com/wqV3Rml.jpg',
+                    imageUrl: 'https://imgur.com/O6WXccn.jpg',
                     price: 10
                 },
                 {
+                    id: 4,
+                    name: 'Lip care intensive',
+                    imageUrl: 'https://imgur.com/RZ2Jqon.jpg',
+                    price: 8
+                },
+                {
+                    id: 5,
+                    name: 'Q10 Serum',
+                    imageUrl: 'https://imgur.com/cONxThQ.jpg',
+                    price: 20
+                },
+                {
                     id: 6,
-                    name: 'BodyFit Gel-Creme',
-                    imageUrl: 'https://i.imgur.com/cWS86RG.jpg',
+                    name: 'Q10 Concentrate',
+                    imageUrl: 'https://imgur.com/HI0mylc.jpg',
                     price: 22
                 },
                 {
                     id: 7,
-                    name: 'Creamshower Sensitive',
-                    imageUrl: 'https://i.imgur.com/CtLMIbP.jpg',
-                    price: 24
+                    name: 'Cream Peeling',
+                    imageUrl: 'https://imgur.com/nldZpbX.jpg',
+                    price: 14
                 }
         
             ]
