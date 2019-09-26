@@ -21,7 +21,7 @@ const Q10CardDetail = ({item, addItem}) => {
                 </div>
             </div>
     
-            <button className="q10-custom-btn" onClick = { () => addItem(item) } >
+            <button className="q10-custom-btn">
                 Add to Cart
             </button>
         </div>

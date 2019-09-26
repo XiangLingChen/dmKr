@@ -1,43 +1,130 @@
-.toolbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #fff;
-    height: 60px;
-    z-index: 5;
-    
+/* Pad */
+@media only screen and (max-width: 879px) {
+    .toolbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        height: 60px;
+        z-index: 5;
+        
+    }
+
+    .toolbar_navigation{
+        height: 60px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 2px;
+        align-items: center;
+        
+    }
+
+
+    .logo-container {
+        width: 70px;
+        
+    }
+
+    .options-container {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        border: solid;
+    }
+
+    .options1 {
+        width: 400px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+
+    .options2 {
+        box-sizing: border-box;
+        width: 119px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+
+    .option {
+        padding: 10px 0px 10px 25px;
+        font-size: .7em;
+        cursor: pointer;
+    }
 }
 
-.toolbar_navigation{
-    height: 60px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 2px;
-    align-items: center;
-    
+/* Desktop */
+@media only screen and (min-width: 880px) {
+
+    .toolbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        height: 60px;
+        z-index: 5;
+        
+    }
+
+    .toolbar_navigation{
+        height: 60px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 2px;
+        align-items: center;
+        
+    }
+
+
+    .logo-container {
+        width: 70px;
+        
+    }
+
+    .options-container {
+        width: 67%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+
+    .options1 {
+        
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+
+    .options2 {
+        
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+
+    .option {
+        padding: 10px 0px 10px 30px;
+        font-size: .7em;
+        cursor: pointer;
+    }
+
 }
-
-
-.logo-container {
-    width: 70px;
-    
-}
-
-.options {
-    width: 80%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    
-}
-
-.option {
-    padding: 10px 0px 10px 30px;
-    font-size: .7em;
-    cursor: pointer;
-}
-

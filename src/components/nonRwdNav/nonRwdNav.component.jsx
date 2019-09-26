@@ -16,24 +16,28 @@ const Toolbar = ({currentUser, hidden}) => (
             <Link className='logo-container' to="/">
                 <Logo className='logo' />
             </Link>
-            <div className='options'>
-                <Link className='option' to='/collections'>COLLECTIONS</Link>
-                <Link className='option' to='/bestsellers'>BEST-SELLERS</Link>
-                <Link className='option' to='/about'>ABOUT</Link>
-                
-                {
-                    currentUser ?
-                    <div className='option' onClick={() => auth.signOut()}>SIGN OUT</div>
-                    :
-                    <Link className='option' to='/signin'>SIGN IN</Link>
-                }  
-                <CartIcon className='cart'/>
-   
+            <div className='options-container'>
+                <div className='options1'>
+                    <Link className='option' to='/all'>ALL PRODUCTS</Link>
+                    <Link className='option' to='/bestsellers'>BEST-SELLERS</Link>
+                    <Link className='option' to='/collections'>COLLECTIONS</Link>
+                    <Link className='option' to='/about'>ABOUT</Link>
+                </div>
+               
+                <div className='options2'>
+                    {
+                        currentUser ?
+                        <div className='option' onClick={() => auth.signOut()}>SIGN OUT</div>
+                        :
+                        <Link className='option' to='/signin'>SIGN IN</Link>
+                    }  
+                    <CartIcon className='cart'/>
+                    {
+                    hidden? null : <CartDropdown />
+                    }
+                </div>
             </div>
-            {
-                hidden? null : <CartDropdown />
-            }
-          
+            
         </nav>
     </header>
 );
