@@ -27,6 +27,7 @@
         width: 200px;
         padding: 6px 0px;
         border: 1px solid;
+        cursor: pointer;
     }
 
 
@@ -34,9 +35,6 @@
         font-size: 1em;
     }
     
-    .CollectionsBanner_arrow {
-        font-weight: 900;
-    }
 }
 
 
@@ -49,7 +47,7 @@
         overflow: hidden;
         background: url(./HP_collections_banner_2.jpg) no-repeat center;
         background-size: cover;
-        cursor: pointer;
+        
     }
     
     .CollectionsBanner_content {
@@ -58,7 +56,6 @@
         font-size: .8em;
         font-weight: 600;
         line-height: 1.3em;
-        cursor: pointer;
         color: rgb(35, 78, 131);
         letter-spacing: 1.5px;
     }
@@ -69,15 +66,23 @@
         width: 200px;
         padding: 6px 0px;
         border: 1px solid;
+        cursor: pointer;
+    }
+
+    .CTA_container:hover {
+        background-color: rgb(249, 252, 255);
+    }
+
+
+    .CTA_container:active{
+        background-color: rgb(236, 245, 255);
     }
 
     .CollectionsBanner_CTA {
         font-size: .9em;
     }
     
-    .CollectionsBanner_arrow {
-        font-weight: 900;
-    }
+ 
 }
 
 
@@ -90,7 +95,7 @@
         overflow: hidden;
         background: url(./HP_collections_banner.jpg) no-repeat center;
         background-size: cover;
-        cursor: pointer;
+        
     }
     
     .CollectionsBanner_content {
@@ -99,7 +104,6 @@
         font-size: 1em;
         font-weight: 600;
         line-height: 1.3em;
-        cursor: pointer;
         color: rgb(35, 78, 131);
         letter-spacing: 1.5px;
     }
@@ -110,15 +114,23 @@
         width: 200px;
         padding: 6px 0px;
         border: 1px solid;
+        cursor: pointer;
+    }
+
+    .CTA_container:hover {
+        background-color: rgb(249, 252, 255);
+        cursor: pointer;
+    }
+
+
+    .CTA_container:active{
+        background-color: rgb(236, 245, 255);
     }
 
     .CollectionsBanner_CTA {
         font-size: .8em;
     }
     
-    .CollectionsBanner_arrow {
-        font-weight: 900;
-    }
 }
 
 @media only screen and (min-width:1200px) {
@@ -130,8 +142,11 @@
         overflow: hidden;
         background: url(./HP_collections_banner.jpg) no-repeat center;
         background-size: cover;
-        cursor: pointer;
+        
     }
+
+ 
+    
     
     .CollectionsBanner_content {
         transform: translate(0, 28%);
@@ -139,7 +154,6 @@
         font-size: 1.1em;
         font-weight: 600;
         line-height: 1.5em;
-        cursor: pointer;
         color: rgb(35, 78, 131);
         letter-spacing: 1.5px;
     }
@@ -150,6 +164,16 @@
         width: 200px;
         padding: 4px 0px;
         border: 1px solid;
+        cursor: pointer;
+    }
+
+    .CTA_container:hover {
+        background-color: rgb(249, 252, 255);
+    }
+
+
+    .CTA_container:active{
+        background-color: rgb(236, 245, 255);
     }
 
     .CollectionsBanner_CTA {

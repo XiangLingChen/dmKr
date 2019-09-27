@@ -6,6 +6,7 @@ import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up
 import SignUpPageOnly from './pages/sign-up-only/sign-up-only.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import Q10Page from './pages/Collections/Q10/Q10.component';
+import DirectoryPage from './pages/directoryPage/directoryPage.component';
 
 import {auth, createUserProfileDocument} from './components/firebase/firebase.utils';
 import {connect} from 'react-redux';
@@ -58,6 +59,7 @@ class App extends React.Component {
           <Route path="/signup" component={SignUpPageOnly} />
           <Route exact path="/checkout" component={CheckoutPage} />
           <Route exact path="/collections-q10" component={Q10Page} />
+          <Route exact path="/directory" component={DirectoryPage} />
         </Switch>
       </div>
     );

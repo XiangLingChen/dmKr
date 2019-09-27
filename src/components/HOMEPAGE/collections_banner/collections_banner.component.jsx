@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './collections_banner.style.css'
 
 const CollectionsBanner = () => (

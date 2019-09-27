@@ -1,0 +1,143 @@
+@media only screen and (max-width: 439px) {
+    .DirectoryHeader_container {
+        margin-top: 90px;
+        margin-bottom: 45px;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        background: url(./directory_banner_3.jpg) no-repeat center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .DirectoryHeader_content {
+        transform: translate(0, 95%);
+        text-align: center;
+        font-size: .65em;
+        line-height: 2.5em;
+        cursor: pointer;
+        letter-spacing: 1.5px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 440px) and (max-width: 469px) {
+    .DirectoryHeader_container {
+        margin-top: 90px;
+        margin-bottom: 45px;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        background: url(./directory_banner_3.jpg) no-repeat center;
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .DirectoryHeader_content {
+        transform: translate(0, 95%);
+        text-align: center;
+        font-size: .9em;
+     
+        line-height: 1.6em;
+        cursor: pointer;
+     
+        letter-spacing: 1.5px;
+    }
+
+ 
+}
+
+
+@media only screen and (min-width: 470px) and (max-width: 879px) {
+    .DirectoryHeader_container {
+        margin-top: 90px;
+        margin-bottom: 45px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background: url(./directory_banner_2.jpg) no-repeat center;
+        background-size: cover;
+        
+    }
+    
+    .DirectoryHeader_content {
+        transform: translate(0, 115%);
+        text-align: center;
+        font-size: 1em;
+        line-height: 1.7em;
+        letter-spacing: 1.5px;
+    }
+
+}
+
+
+@media only screen and (min-width: 880px) and (max-width: 1199px) {
+    .DirectoryHeader_container {
+        margin-top: 45px;
+        margin-bottom: 80px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background: url(./directory_banner.jpg) no-repeat center;
+        background-size: cover;
+        
+    }
+    
+    .DirectoryHeader_content {
+        transform: translate(0, 100%);
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.7em;
+        letter-spacing: 1.5px;
+    }
+ 
+}
+
+@media only screen and (min-width:1200px) and (max-width:1440px) {
+    .DirectoryHeader_container {
+        margin-top: 50px;
+        margin-bottom: 70px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background: url(./directory_banner.jpg) no-repeat center;
+        background-size: cover;
+        
+    }
+
+    .DirectoryHeader_content {
+        transform: translate(0, 78%);
+        text-align: center;
+        font-size: 1.2em;
+        line-height: 1.7em;
+        letter-spacing: 1.5px;
+    }
+
+}
+
+@media only screen and (min-width: 1441px) {
+    .DirectoryHeader_container {
+        margin-top: 50px;
+        margin-bottom: 70px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background: url(./directory_banner.jpg) no-repeat center;
+        background-size: cover;
+        
+    }
+
+ 
+    
+    
+    .DirectoryHeader_content {
+        transform: translate(0, 78%);
+        text-align: center;
+        font-size: 1.2em;
+        line-height: 1.7em;
+        letter-spacing: 1.5px;
+    }
+}
+

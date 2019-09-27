@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import './details-of-product.style.css';
 
 
@@ -26,9 +27,7 @@ const Q10CardDetail = ({item, addItem}) => {
             </button>
         </div>
     );
-
 }
-
 
 
 

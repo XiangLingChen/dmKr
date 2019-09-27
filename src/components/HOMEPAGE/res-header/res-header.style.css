@@ -24,8 +24,8 @@
         
     }
     
-    h2.title {
-        font-size: 1.9em;
+    .header-title {
+        font-size: 1.6em;
         line-height: 1.5em;
         
         
@@ -33,9 +33,11 @@
     
     .ContentTextContainer {
         margin-top: -2vh;
-        font-size: .7em;
-        
-        
+
+    }
+
+    .content {
+        font-size: 1em;  
     }
 
     
@@ -74,7 +76,7 @@
         width: 45vw;
     }
     
-    h2.title {
+    .header-title {
         font-size: 2em;
         line-height: 1.5em;
         
@@ -82,12 +84,15 @@
     
     .ContentTextContainer {
         margin-top: -1vh;
-        font-size: .9em;
+    }
+
+    .content {
+        font-size: 1em;  
     }
 
     
     h3.CTA {
-        font-size: 1.2em;
+        font-size: 1em;
         margin-top: 4vh;
         text-decoration: underline;
         cursor: pointer;
@@ -119,21 +124,21 @@
         left: 55%;
         overflow: hidden;
         text-align: center;
-        line-height: 1.5em;
+        
     }
     
-    h2.title {
+    .header-title {
         font-size: 2.2em;
-        line-height: 1.5em;
+        line-height: 1.4em;
     }
     
-    .ContentTextContainer {
-        font-size: 1.1em;
-        line-height: 1.5em;
+    .content {
+        font-size: .9em;  
+        line-height: 1.1em;
     }
     
     h3.CTA {
-        font-size: 1.2em;
+        font-size: 1em;
         margin-top: 5vh;
         text-decoration: underline;
         cursor: pointer;
@@ -166,7 +171,7 @@
         width: 44vw;
     }
     
-    h2.title {
+    .header-title {
         font-size: 2em;
         line-height: 1.5em;
         
@@ -179,7 +184,7 @@
 
     
     h3.CTA {
-        font-size: 1.3em;
+        font-size: 1em;
         margin-top: 4vh;
         cursor: pointer;
         text-decoration: underline;

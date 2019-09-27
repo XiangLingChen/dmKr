@@ -5,7 +5,7 @@ import './res-header.style.css';
 const ResHeader = () => (
     <div className='header-container'>
         <div className='header-content'>
-            <h2 className='title'>Q10 COLLECTION</h2>
+            <h2 className='header-title'>Q10 COLLECTION</h2>
             <div className='ContentTextContainer'>
                 <p className='content'>Tightens and strengthens :</p>
                 <p className='content'>Effective Energy source For Your Skin.</p>

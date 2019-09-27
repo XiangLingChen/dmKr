@@ -49,7 +49,7 @@
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
     .q10-page {
         width: 90%;
-        margin: 70px auto;
+        margin: 90px auto;
         display: flex;
         
     }
@@ -64,8 +64,7 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        
-        border: solid;
+   
     }
 
     

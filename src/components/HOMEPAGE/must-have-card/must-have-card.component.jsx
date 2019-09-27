@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {ReactComponent as Logo} from '../must-have-card/best-seller.svg';
 import './must-have-card.style.css';
 import {connect} from 'react-redux';
 
@@ -13,7 +13,9 @@ const MustHaveCard = ({item, addItem}) => {
  
     return(
         <div className="must-have-card">
+            <Logo className="best-seller-logo" />
             <div className="must-have-content">
+                
                 <div className="productImage">
                     <img src={imageUrl} alt=''/>
                 </div>
