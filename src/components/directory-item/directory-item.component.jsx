@@ -2,13 +2,18 @@ import React from 'react';
 import './directory-item.style.css';
 
 const MenuItem = ({title, imageUrl}) => (
-    <div style={{
-        backgroundImage: `url(${imageUrl})`
-    }}
-    className='menu-item'>
+    <div className='menu-item'>
+        <div 
+            className='menu-background-image'
+            style={{
+            backgroundImage: `url(${imageUrl})`
+            }}
+        />
+        
         <div className='menu-content'>
-            <p className='menu-item-title'>{title}</p>
+            <p className='menu-title'>{title}</p>
         </div>
+        
     </div>
 );
 

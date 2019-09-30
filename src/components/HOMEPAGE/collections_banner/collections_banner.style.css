@@ -14,10 +14,8 @@
         transform: translate(0, 46%);
         text-align: center;
         font-size: .68em;
-        font-weight: 600;
         line-height: 1.3em;
         cursor: pointer;
-        color: rgb(35, 78, 131);
         letter-spacing: 1.5px;
     }
 
@@ -54,9 +52,7 @@
         transform: translate(0, 60%);
         text-align: center;
         font-size: .8em;
-        font-weight: 600;
         line-height: 1.3em;
-        color: rgb(35, 78, 131);
         letter-spacing: 1.5px;
     }
 
@@ -102,9 +98,7 @@
         transform: translate(0, 38%);
         text-align: center;
         font-size: 1em;
-        font-weight: 600;
         line-height: 1.3em;
-        color: rgb(35, 78, 131);
         letter-spacing: 1.5px;
     }
 
@@ -152,9 +146,7 @@
         transform: translate(0, 28%);
         text-align: center;
         font-size: 1.1em;
-        font-weight: 600;
         line-height: 1.5em;
-        color: rgb(35, 78, 131);
         letter-spacing: 1.5px;
     }
 
@@ -180,8 +172,6 @@
         font-size: .8em;
     }
     
-    .CollectionsBanner_arrow {
-        font-weight: 900;
-    }
+  
 }
 
