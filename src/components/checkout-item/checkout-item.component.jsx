@@ -13,9 +13,9 @@ const CheckoutItem =({cartItem, clearItem, addItem, removeItem}) => {
         <div className='checkoutImageContainer2'>
             <span className='checkoutName'>{name}</span>
             <span className='checkoutQuantity'>
-                <div className='increase-decrease' onClick={() => removeItem(cartItem)}>&#10134;</div>
+                <span className='increase-decrease' onClick={() => removeItem(cartItem)}>&#10134;</span>
                 <span className='value'>{quantity}</span>   
-                <div className='increase-decrease' onClick={() => addItem(cartItem)}>&#10133;</div>
+                <span className='increase-decrease' onClick={() => addItem(cartItem)}>&#10133;</span>
             </span>
             <span className='checkoutPrice'>{price}</span>
             <div className='remove-button' onClick={() => clearItem(cartItem)}>&#x1F5D9;</div>
