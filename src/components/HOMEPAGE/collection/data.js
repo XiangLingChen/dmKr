@@ -13,6 +13,13 @@ const data = {
             picture: 'https://imgur.com/fwAehVi.jpg',
             name: 'The smoothing Power of BodyFit',
             text: 'Balea BodyFit Collection improves the appearance of the skin through smoothing and tightening. The formulation with selected care substances provides intense moisture for 24 hours and makes the skin pleasantly soft.'
+        },
+        {
+            _id: '13',
+            index: 2,
+            picture: 'https://imgur.com/x99316G.jpg',
+            name: 'The smoothing Power of BodyFit',
+            text: 'Balea BodyFit Collection improves the appearance of the skin through smoothing and tightening. The formulation with selected care substances provides intense moisture for 24 hours and makes the skin pleasantly soft.'
         }
 
     ]

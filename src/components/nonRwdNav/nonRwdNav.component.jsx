@@ -19,7 +19,7 @@ const Toolbar = ({currentUser, hidden}) => (
                 </Link>
                 <div className='options-container'>
                     <div className='options1'>
-                        <Link className='option' to='/shop'>SHOP</Link>
+                        <Link className='option' to='/shop-all'>SHOP</Link>
                         <Link className='option' to='/bestsellers'>BEST-SELLERS</Link>
                         <Link className='option' to='/directory'>COLLECTIONS</Link>
                         <Link className='option' to='/about'>ABOUT</Link>

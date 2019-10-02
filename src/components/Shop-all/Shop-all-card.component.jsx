@@ -1,28 +1,26 @@
 import React from 'react';
 
-
-import './details-of-product.style.css';
-
+import './Shop-all-card.style.css';
 
 
 
-const Q10CardDetail = ({item, addItem}) => {
+const ShopAllCardDetail = ({item}) => {
 
     const {name, price, imageUrl} = item;
  
     return(
-        <div className="q10-card">
-            <div className="q10-content">
-                <div className="q10ProductImage">
+        <div className="shop-all-card">
+            <div className="shop-all-content">
+                <div className="shopAllProductImage">
                     <img src={imageUrl} alt=''/>
                 </div>
-                <div className="q10ProductText">
+                <div className="shopAllProductText">
                     <div className="ProductName">{name}</div>
                     <div className="ProductPrice">$ {price}</div>
                 </div>
             </div>
     
-            <button className="q10-custom-btn">
+            <button className="shop-all-custom-btn">
                 Add to Cart
             </button>
         </div>
@@ -31,4 +29,4 @@ const Q10CardDetail = ({item, addItem}) => {
 
 
 
-export default Q10CardDetail;
+export default ShopAllCardDetail;

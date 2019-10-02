@@ -1,0 +1,439 @@
+/* Mobile-1 */
+@media only screen and (max-width: 532px) {
+    .shop-all-card {
+        max-width: 45%;
+        height: auto;
+        cursor: pointer;
+        margin: 0 0 8vh 2.8vw;
+        box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        position: relative;
+        opacity: 1;
+        
+    }
+
+    .shopAllProductImage img {
+        max-width: 100%;
+        
+    }
+
+
+
+    .shop-all-card:hover .shop-all-custom-btn {
+        opacity: 1;
+    }
+
+    
+    .shopAllProductText {
+        width: 90%;
+        height: 25px;
+        margin: 2vh auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    
+    .ProductName {
+        font-size: .65em;
+        text-align: left;
+        width: 80%;
+        height:40px;
+        line-height: 1.5em;
+        
+    }
+    
+    .ProductPrice {
+        font-size: .65em;
+        text-align: right;
+        width: 20%;
+        height:40px;
+        padding-top: 3px;
+        
+    }
+
+    .shop-all-custom-btn {
+        width: 90%;
+        height: 28px;
+        position: absolute;
+        bottom: -43px;
+        left: 5%;
+        margin: 0 auto;
+        font-size: .65em;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        cursor: pointer;
+        opacity: 0;
+        transition: .5s ease;
+    }
+
+    .shop-all-custom-btn:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .shop-all-custom-btn:active {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
+
+}
+
+/* Mobile-2 */
+@media only screen and (min-width: 533px) and (max-width: 767px) {
+    .shop-all-card {
+        max-width: 30%;
+        height: auto;
+        cursor: pointer;
+        margin: 0 0 7vh 2.2vw;
+        box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        position: relative;
+        opacity: 1;
+        
+    }
+
+    .shopAllProductImage img {
+        max-width: 100%;
+        
+    }
+
+
+
+    .shop-all-card:hover .shop-all-custom-btn {
+        opacity: 1;
+    }
+
+    
+    .shopAllProductText {
+        width: 90%;
+        height: 25px;
+        margin: 2vh auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    
+    .ProductName {
+        font-size: .7em;
+        text-align: left;
+        width: 80%;
+        height:40px;
+        line-height: 1.5em;
+        
+    }
+    
+    .ProductPrice {
+        font-size: .7em;
+        text-align: right;
+        width: 20%;
+        height:40px;
+        padding-top: 3px;
+        
+    }
+
+    .shop-all-custom-btn {
+        width: 90%;
+        height: 28px;
+        position: absolute;
+        bottom: -38px;
+        left: 5%;
+        margin: 0 auto;
+        font-size: .7em;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        cursor: pointer;
+        opacity: 0;
+        transition: .5s ease;
+    }
+
+    .shop-all-custom-btn:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .shop-all-custom-btn:active {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
+
+
+
+}
+
+/* Pad */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .shop-all-card {
+        max-width: 30%;
+        height: auto;
+        cursor: pointer;
+        margin: 0 0 9vh 2vw;
+        box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        position: relative;
+        opacity: 1;
+        
+    }
+
+    .shopAllProductImage img {
+        max-width: 100%;
+        
+    }
+
+
+
+    .shop-all-card:hover .shop-all-custom-btn {
+        opacity: 1;
+    }
+
+    
+    .shopAllProductText {
+        width: 90%;
+        height: 30px;
+        margin: 2vh auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    
+    .ProductName {
+        font-size: .87em;
+        text-align: left;
+        width: 80%;
+        height:40px;
+        line-height: 1.5em;
+        
+    }
+    
+    .ProductPrice {
+        font-size: .87em;
+        text-align: right;
+        width: 20%;
+        height:40px;
+        padding-top: 3px;
+        
+    }
+
+    .shop-all-custom-btn {
+        width: 90%;
+        height: 32px;
+        position: absolute;
+        bottom: -47px;
+        left: 5%;
+        margin: 0 auto;
+        font-size: 14px;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        cursor: pointer;
+        opacity: 0;
+        transition: .5s ease;
+    }
+
+    .shop-all-custom-btn:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .shop-all-custom-btn:active {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
+
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .shop-all-card {
+        max-width: 22%;
+        height: auto;
+        cursor: pointer;
+        margin: 0 0 9vh 1.85vw;
+        box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        position: relative;
+        opacity: 1;
+    }
+
+
+    .shopAllProductImage img {
+        max-width: 100%;
+        
+    }
+
+
+
+    .shop-all-card:hover .shop-all-custom-btn {
+        opacity: 1;
+    }
+
+    
+    .shopAllProductText {
+        width: 90%;
+        height: 30px;
+        margin: 2vh auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .ProductName {
+        font-size: .87em;
+        text-align: left;
+        width: 80%;
+        height:40px;
+        line-height: 1.5em;
+        
+    }
+    
+    .ProductPrice {
+        font-size: .87em;
+        text-align: right;
+        width: 20%;
+        height:40px;
+        padding-top: 3px;
+        
+    }
+
+    .shop-all-custom-btn {
+        width: 90%;
+        height: 40px;
+        position: absolute;
+        bottom: -52px;
+        left: 5%;
+        margin: 0 auto;
+        font-size: 14px;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        cursor: pointer;
+        opacity: 0;
+        transition: .5s ease;
+    }
+
+    .shop-all-custom-btn:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .shop-all-custom-btn:active {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
+}
+
+
+/* Max-Desktop */
+
+@media only screen and (min-width: 1441px) {
+    .shop-all-card {
+        max-width: 22%;
+        height: auto;
+        cursor: pointer;
+        margin: 0 0 8vh 1.65vw;
+        box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        position: relative;
+        opacity: 1;
+    }
+
+    .shopAllProductImage img {
+        max-width: 100%;
+        
+    }
+
+
+
+    .shop-all-card:hover .shop-all-custom-btn {
+        opacity: 1;
+    }
+
+    
+    .shopAllProductText {
+        width: 90%;
+        height: 30px;
+        margin: 2vh auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .ProductName {
+        font-size: .87em;
+        text-align: left;
+        width: 80%;
+        height:40px;
+        line-height: 1.5em;
+        
+    }
+    
+    .ProductPrice {
+        font-size: .87em;
+        text-align: right;
+        width: 20%;
+        height:40px;
+        padding-top: 3px;
+        
+    }
+
+    .shop-all-custom-btn {
+        width: 90%;
+        height: 40px;
+        position: absolute;
+        bottom: -52px;
+        left: 5%;
+        margin: 0 auto;
+        font-size: 14px;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        cursor: pointer;
+        opacity: 0;
+        transition: .5s ease;
+    }
+
+    .shop-all-custom-btn:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .shop-all-custom-btn:active {
+        background-color: rgb(56, 56, 56);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
+}
