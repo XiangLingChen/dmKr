@@ -4,7 +4,7 @@
         max-width: 45%;
         height: auto;
         cursor: pointer;
-        margin: 0 0 8vh 0;
+        margin: 0 0 8vh 2.8vw;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
         position: relative;
         opacity: 1;
@@ -92,7 +92,7 @@
         max-width: 30%;
         height: auto;
         cursor: pointer;
-        margin: 0 0 7vh 0;
+        margin: 0 0 7vh 2.2vw;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
         position: relative;
         opacity: 1;
@@ -359,7 +359,7 @@
         max-width: 22%;
         height: auto;
         cursor: pointer;
-        margin: 0 0 9vh 1.65vw;
+        margin: 0 0 8vh 1.65vw;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
         position: relative;
         opacity: 1;

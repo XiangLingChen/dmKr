@@ -87,7 +87,7 @@
 }
 
 /* Mobile-2 */
-@media only screen and (min-width: 533px) and (max-width: 767px) {
+@media only screen and (min-width: 533px) and (max-width: 849px) {
     .q10-card {
         max-width: 30%;
         height: auto;
@@ -177,7 +177,7 @@
 }
 
 /* Pad */
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 850px) and (max-width: 1199px) {
     .q10-card {
         max-width: 30%;
         height: auto;

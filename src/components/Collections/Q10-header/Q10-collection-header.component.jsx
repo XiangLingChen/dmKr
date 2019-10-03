@@ -1,5 +1,5 @@
 import React from 'react';
-import './collection-header.style.css';
+import './Q10-collection-header.style.css';
 
 const Q10CollectionHeader = () => (
     <div className='header-container'>

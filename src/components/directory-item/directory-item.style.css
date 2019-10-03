@@ -10,6 +10,7 @@
         background-position: center;
         background-size: cover;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        
     }  
     
   
@@ -58,10 +59,12 @@
     .menu-item:nth-child(4):hover .menu-background-image,
     .menu-item:last-child:hover .menu-background-image {
         opacity: 0.3;
+        cursor: pointer;
     }
 
     .menu-item:hover .menu-content {
         opacity: 1;
+        cursor: pointer;
     }
 }
 
@@ -77,6 +80,7 @@
         background-position: center;
         background-size: cover;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        
     }  
     
     .menu-item:first-child {
@@ -123,10 +127,12 @@
     .menu-item:nth-child(4):hover .menu-background-image,
     .menu-item:last-child:hover .menu-background-image {
         opacity: 0.3;
+        cursor: pointer;
     }
 
     .menu-item:hover .menu-content {
         opacity: 1;
+        cursor: pointer;
     }
 }
 
@@ -142,6 +148,7 @@
         background-position: center;
         background-size: cover;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        
     }  
     
     .menu-item:first-child {
@@ -189,10 +196,12 @@
     .menu-item:nth-child(4):hover .menu-background-image,
     .menu-item:last-child:hover .menu-background-image {
         opacity: 0.3;
+        cursor: pointer;
     }
 
     .menu-item:hover .menu-content {
         opacity: 1;
+        cursor: pointer;
     }
     
 }
@@ -208,6 +217,7 @@
         justify-content: center;
         margin: 0 11px 22px;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        
     }  
     
     .menu-item:first-child {
@@ -250,10 +260,12 @@
     .menu-item:nth-child(4):hover .menu-background-image,
     .menu-item:last-child:hover .menu-background-image {
         opacity: 0.3;
+        cursor: pointer;
     }
 
     .menu-item:hover .menu-content {
         opacity: 1;
+        cursor: pointer;
     }
 }
 
@@ -270,6 +282,7 @@
         background-size: cover;
         margin: 0 14px 28px;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
+        
     }  
     
     
@@ -317,10 +330,12 @@
     .menu-item:nth-child(4):hover .menu-background-image,
     .menu-item:last-child:hover .menu-background-image {
         opacity: 0.3;
+        cursor: pointer;
     }
 
     .menu-item:hover .menu-content {
         opacity: 1;
+        cursor: pointer;
     }
     
 }

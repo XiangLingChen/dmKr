@@ -7,6 +7,7 @@ import SignUpPageOnly from './pages/sign-up-only/sign-up-only.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import ShopAllPage from './pages/shop all/shop-all.component';
 import DirectoryPage from './pages/directoryPage/directoryPage.component';
+import Q10Page from './pages/series-page/Q10.component';
 
 import {auth, createUserProfileDocument} from './components/firebase/firebase.utils';
 import {connect} from 'react-redux';
@@ -60,6 +61,7 @@ class App extends React.Component {
           <Route exact path="/checkout" component={CheckoutPage} />
           <Route exact path="/shop-all" component={ShopAllPage} />
           <Route exact path="/directory" component={DirectoryPage} />
+          <Route exact path="/skincare-q10" component={Q10Page} />
         </Switch>
       </div>
     );

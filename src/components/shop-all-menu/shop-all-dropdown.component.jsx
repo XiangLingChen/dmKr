@@ -9,7 +9,7 @@ const ShopAlDropdown = () => (
         <div className='list-of-series'>
             <Link className='series' to='/'>Beauty Effect</Link>
             <Link className='series' to='/'>Aqua</Link>
-            <Link className='series' to='/'>Q10</Link>
+            <Link className='series' to='/skincare-q10'>Q10</Link>
             <Link className='series' to='/'>Aloe Vera</Link>
             <Link className='series' to='/'>Lip</Link>
         </div>
