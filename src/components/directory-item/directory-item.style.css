@@ -47,8 +47,10 @@
         opacity: 0;
     }
     
-    .menu-title {
+    .dirctory-menu-title {
         font-size: .9em;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgba(44, 44, 44, 1);
     }
 
     .menu-item:nth-child(2):hover .menu-background-image,
@@ -110,8 +112,10 @@
         opacity: 0;
     }
 
-    .menu-title {
+    .dirctory-menu-title {
         font-size: 1.05em;
+        padding-bottom: 6px;
+        border-bottom: 1px solid rgba(44, 44, 44, 1);
     }
 
     .menu-item:nth-child(2):hover .menu-background-image,
@@ -174,8 +178,10 @@
         opacity: 0;
     }
     
-    .menu-title {
-        font-size: 1.3em;
+    .dirctory-menu-title {
+        font-size: 1.2em;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(44, 44, 44, 1);
     }
 
     .menu-item:nth-child(2):hover .menu-background-image,
@@ -233,8 +239,10 @@
         opacity: 0;
     }
    
-    .menu-title {
-        font-size: 1.3em;
+    .dirctory-menu-title {
+        font-size: 1.2em;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(44, 44, 44, 1);
     }
 
     .menu-item:nth-child(2):hover .menu-background-image,
@@ -296,8 +304,10 @@
         
     }
 
-    .menu-title {
-        font-size: 1.4em;
+    .dirctory-menu-title {
+        font-size: 1.2em;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(44, 44, 44, 1);
     }
 
     

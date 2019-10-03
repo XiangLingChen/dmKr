@@ -1,0 +1,172 @@
+/* Mobile */
+@media only screen and (max-width: 849px) {
+  
+
+    /* Details of Menu */
+
+    .menu-title {
+        width: 100%;
+        line-height: 2.5em;
+        border-bottom: .8px solid rgba(44, 44, 44, 0.3);
+    }
+
+    .shop-all,
+    .shop-by-collections {
+        font-size: .75em;
+        font-weight: 400;
+    }
+
+    .dropDown-collections {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 16px;
+        line-height: 2.2em;
+    }
+    
+
+    .collections-directory {
+        font-size: .78em;
+        font-weight: 600;
+    }
+
+    .list-of-series {
+        width: 70%;
+        line-height: 2.3em;
+        display: flex;
+        flex-direction: column;
+        font-size: .7em;
+    }
+
+}
+
+/* Pad */
+@media only screen and (min-width: 850px) and (max-width: 1199px) {
+    .menu-container {
+        width: 20%;
+        min-width: 150px;
+    }
+    /* Details of Menu */
+
+    .menu-title {
+        width: 100%;
+        line-height: 2.8em;
+        border-bottom: .8px solid rgba(44, 44, 44, 0.3);
+     }
+ 
+     .shop-all,
+     .shop-by-collections {
+         font-size: .8em;
+         font-weight: 400;
+     }
+ 
+     .dropDown-collections {
+         margin-top: 8px;
+         margin-left: 5px;
+         line-height: 3em;
+     }
+     
+ 
+     .collections-directory {
+         font-size: .85em;
+         font-weight: 600;
+     }
+ 
+     .list-of-series {
+         width: 70%;
+         line-height: 2.2em;
+         display: flex;
+         flex-direction: column;
+         font-size: .8em;
+     }
+    
+
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .menu-container {
+        width: 20%;
+    }
+
+    /* Details of Menu */
+
+    .menu-title {
+       width: 100%;
+       line-height: 2.8em;
+       border-bottom: .8px solid rgba(44, 44, 44, 0.3);
+    }
+
+    .shop-all,
+    .shop-by-collections {
+        font-size: .85em;
+        font-weight: 400;
+    }
+
+    .dropDown-collections {
+        margin-top: 8px;
+        margin-left: 5px;
+        line-height: 3em;
+    }
+    
+
+    .collections-directory {
+        font-size: .88em;
+        font-weight: 600;
+    }
+
+    .list-of-series {
+        width: 70%;
+        line-height: 2.2em;
+        display: flex;
+        flex-direction: column;
+        font-size: .8em;
+    }
+
+ 
+    
+}
+
+/* Max-Desktop */
+
+@media only screen and (min-width: 1441px) {
+    .menu-container {
+        width: 20%;
+        min-width: 100px;
+    }
+
+    /* Details of Menu */
+
+    .menu-title {
+        width: 100%;
+        line-height: 2.8em;
+        border-bottom: .8px solid rgba(44, 44, 44, 0.3);
+    }
+
+    .shop-all,
+    .shop-by-collections {
+        font-size: .85em;
+        font-weight: 400;
+    }
+
+    .dropDown-collections {
+        margin-top: 8px;
+        margin-left: 5px;
+        line-height: 3em;
+    }
+
+
+    .collections-directory {
+        font-size: .88em;
+        font-weight: 600;
+    }
+
+    .list-of-series {
+        width: 70%;
+        line-height: 2.2em;
+        display: flex;
+        flex-direction: column;
+        font-size: .8em;
+    }
+
+}

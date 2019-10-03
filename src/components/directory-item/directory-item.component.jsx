@@ -11,7 +11,7 @@ const MenuItem = ({title, imageUrl}) => (
         />
         
         <div className='menu-content'>
-            <p className='menu-title'>{title}</p>
+            <p className='dirctory-menu-title'>{title}</p>
         </div>
         
     </div>
