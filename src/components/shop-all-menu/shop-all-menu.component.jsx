@@ -1,44 +1,38 @@
 import React from 'react';
+import ShopAlDropdown from './shop-all-dropdown.component';
 import {Link} from 'react-router-dom';
+import {connect} from 'react-redux';
+
+import toggleMenuHidden from '../../redux/shop-all-dropdown/shop-all-dropdown.action';
 
 import './shop-all-menu.style.css';
 
-const ShopAllMenu = () => (
+const ShopAllMenu = ({toggleMenuHidden, menuHidden}) => (
     <div className='menu-container'>
         <div className='menu-title'>
                 <Link className='shop-all' to='/shop-all'>SHOP ALL</Link>
             </div>
             <div className='menu-title'>
                 <Link className='shop-by-collections' to='/directory'>COLLECTIONS</Link>
+                <div className='dropdown-toggle-btn' onClick={toggleMenuHidden}>&#xFF0B;</div>
             </div>
-            <div className='dropDown-collections'>
-                <div className='collections-directory'>SKIN CARE</div>
-                    <div className='list-of-series'>
-                        <Link className='series' to='/'>Beauty Effect</Link>
-                        <Link className='series' to='/'>Aqua</Link>
-                        <Link className='series' to='/'>Q10</Link>
-                        <Link className='series' to='/'>Aloe Vera</Link>
-                        <Link className='series' to='/'>Lip</Link>
-                    </div>
-                <div className='collections-directory'>CLEANSING</div>
-                    <div className='list-of-series'>
-                        <Link className='series' to='/'>Makeup Remover</Link>
-                        <Link className='series' to='/'>Cleansing</Link>
-                        <Link className='series' to='/'>Peeling</Link>
-                    </div>
-                <div className='collections-directory'>BODY CARE</div>
-                    <div className='list-of-series'>
-                        <Link className='series' to='/'>Body Fit</Link>
-                        <Link className='series' to='/'>Body Lotion</Link>
-                    </div>
-                <div className='collections-directory'>HAIR</div>
-                    <div className='list-of-series'>
-                        <Link className='series' to='/'>Body Fit</Link>
-                        <Link className='series' to='/'>Body Lotion</Link>
-                    </div>
+            <div>
+                {
+                    menuHidden ? null : <ShopAlDropdown />
+                }
             </div>
     </div>
    
 );
 
-export default ShopAllMenu;
+const mapDispatchToProps = dispatch => ({
+    toggleMenuHidden: () => dispatch(toggleMenuHidden())
+});
+
+const mapStateToProps = (state) => ({
+    menuHidden: state.shopAllDropdown.menuHidden
+});
+
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(ShopAllMenu);
