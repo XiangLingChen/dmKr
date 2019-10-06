@@ -11,6 +11,7 @@ const ShopAlDropdown = () => (
             <Link className='series' to='/'>Aqua</Link>
             <Link className='series' to='/skincare-q10'>Q10</Link>
             <Link className='series' to='/'>Aloe Vera</Link>
+            <Link className='series' to='/'>Almond</Link>
             <Link className='series' to='/'>Lip</Link>
         </div>
     <div className='collections-directory'>CLEANSING</div>
@@ -21,13 +22,13 @@ const ShopAlDropdown = () => (
         </div>
     <div className='collections-directory'>BODY CARE</div>
         <div className='list-of-series'>
+        <Link className='series' to='/'>Body Milk</Link>
             <Link className='series' to='/'>Body Fit</Link>
-            <Link className='series' to='/'>Body Lotion</Link>
         </div>
     <div className='collections-directory'>HAIR</div>
         <div className='list-of-series'>
-            <Link className='series' to='/'>Body Fit</Link>
-            <Link className='series' to='/'>Body Lotion</Link>
+            <Link className='series' to='/'>Shampoo</Link>
+            <Link className='series' to='/'>Conditioner</Link>
         </div>
 </div>
 );

@@ -289,7 +289,7 @@
         max-width: 25%;
         height: auto;
         cursor: pointer;
-        margin: 3vh 2.6vw 3vh 0;
+        margin: 3vh 3.6vw 3vh 0;
         box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.15);
         position: relative;
         opacity: 1;
@@ -309,7 +309,7 @@
     }
 
     .productImage img {
-        max-width: 17.8vw;
+        max-width: 17vw;
     }
 
     .must-have-card:hover .must-have-content {

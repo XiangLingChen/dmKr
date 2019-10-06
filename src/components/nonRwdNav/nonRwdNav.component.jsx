@@ -19,9 +19,9 @@ const Toolbar = ({currentUser, hidden}) => (
                 </Link>
                 <div className='options-container'>
                     <div className='options1'>
-                        <Link className='option' to='/shop-all'>SHOP ALL</Link>
+                        <Link className='option' to='/shop-all-directory'>SHOP</Link>
                         <Link className='option' to='/bestsellers'>BEST-SELLERS</Link>
-                        <Link className='option' to='/directory'>DIRECTORY</Link>
+                        <Link className='option' to='/collections'>COLLECTIONS</Link>
                         <Link className='option' to='/about'>ABOUT</Link>
                     </div>
                 
@@ -43,9 +43,9 @@ const Toolbar = ({currentUser, hidden}) => (
         <nav className="mobile_navigation">
             <div className='mobile-options-container'>
                 <div className='mobile-options1'>
-                    <Link className='option' to='/shop-all'>SHOP ALL</Link>
+                    <Link className='option' to='/shop-all-directory'>SHOP</Link>
                     <Link className='option' to='/bestsellers'>BEST-SELLERS</Link>
-                    <Link className='option' to='/directory'>DIRECTORY</Link>
+                    <Link className='option' to='/collections'>COLLECTIONS</Link>
                     <Link className='option' to='/about'>ABOUT</Link>
                 </div>
             </div>

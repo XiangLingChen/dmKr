@@ -7,7 +7,7 @@ const INITIAL_STATE = {
         },
         {
             id: 1,
-            title: 'SKIN CARE',
+            title: 'SKINCARE',
             imageUrl: 'https://imgur.com/1rULjon.jpg',
         },
         {

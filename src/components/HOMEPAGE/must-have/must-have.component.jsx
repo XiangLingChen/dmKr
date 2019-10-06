@@ -12,49 +12,49 @@ class MustHave extends React.Component {
                 {
                     id: 0,
                     name: 'Beauty Effect Ampoule',
-                    imageUrl: 'https://imgur.com/IGDA28C.jpg',
+                    imageUrl: 'https://imgur.com/5RIBTFf.jpg',
                     price: 20
                 },
                 {
                     id: 1,
                     name: 'Aqua Moisturizing Serum',
-                    imageUrl: 'https://imgur.com/8r0a9Az.jpg',
+                    imageUrl: 'https://imgur.com/NRsMCHg.jpg',
                     price: 15
                 },
                 {
                     id: 2,
-                    name: 'Cleansing Foam Gentle',
-                    imageUrl: 'https://imgur.com/zlfNQHi.jpg',
+                    name: 'Aloe Vera Toner',
+                    imageUrl: 'https://imgur.com/DonaNbx.jpg',
                     price: 10
                 },
                 {
                     id: 3,
                     name: 'Micellar Cleansing Water',
-                    imageUrl: 'https://imgur.com/O6WXccn.jpg',
+                    imageUrl: 'https://imgur.com/UX2oKVc.jpg',
                     price: 10
                 },
                 {
                     id: 4,
-                    name: 'Lip care intensive',
-                    imageUrl: 'https://imgur.com/RZ2Jqon.jpg',
+                    name: 'Lip Balm Intensive Care',
+                    imageUrl: 'https://imgur.com/iI1AYLc.jpg',
                     price: 8
                 },
                 {
                     id: 5,
                     name: 'Q10 Serum',
-                    imageUrl: 'https://imgur.com/cONxThQ.jpg',
+                    imageUrl: 'https://imgur.com/3NFMq0m.jpg',
                     price: 20
                 },
                 {
                     id: 6,
                     name: 'Q10 Concentrate',
-                    imageUrl: 'https://imgur.com/HI0mylc.jpg',
+                    imageUrl: 'https://imgur.com/LMbKvgt.jpg',
                     price: 22
                 },
                 {
                     id: 7,
-                    name: 'Cream Peeling',
-                    imageUrl: 'https://imgur.com/nldZpbX.jpg',
+                    name: 'Almond Seed Oil Cream',
+                    imageUrl: 'https://imgur.com/qlm761z.jpg',
                     price: 14
                 }
         

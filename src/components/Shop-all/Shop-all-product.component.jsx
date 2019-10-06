@@ -85,22 +85,118 @@ class ShopAllProducts extends React.Component {
                 },
                 {
                     id: 12,
-                    name: 'Aloe Vera Eye Cream',
-                    imageUrl: 'https://imgur.com/O6KFJo4.jpg',
-                    price: 15
+                    name: 'Aloe Vera Toner',
+                    imageUrl: 'https://imgur.com/DonaNbx.jpg',
+                    price: 12
                 },
                 {
                     id: 13,
-                    name: 'Lip',
-                    imageUrl: 'https://imgur.com/EA0VORF.jpg',
-                    price: 9
+                    name: 'Aloe Vera Day Cream',
+                    imageUrl: 'https://imgur.com/ZoYXsvL.jpg',
+                    price: 16
                 },
                 {
                     id: 14,
-                    name: 'Lip',
+                    name: 'Aloe Vera Night Cream',
+                    imageUrl: 'https://imgur.com/pxfkLql.jpg',
+                    price: 16
+                },
+                {
+                    id: 15,
+                    name: 'Aloe Vera Eye Cream',
+                    imageUrl: 'https://imgur.com/CzlHsSK.jpg',
+                    price: 14
+                },
+                {
+                    id: 16,
+                    name: 'Aloe Vera Peeling Cream',
+                    imageUrl: 'https://imgur.com/Rv2TIAV.jpg',
+                    price: 12
+                },
+                {
+                    id: 17,
+                    name: 'Aloe Vera Wash Gel',
+                    imageUrl: 'https://imgur.com/AUnNv3x.jpg',
+                    price: 10
+                },
+                {
+                    id: 18,
+                    name: 'Aloe Vera Gentle Foam',
+                    imageUrl: 'https://imgur.com/yJkoEsD.jpg',
+                    price: 11
+                },
+                {
+                    id: 18,
+                    name: 'Almond Flower Toner',
+                    imageUrl: 'https://imgur.com/DzHNprj.jpg',
+                    price: 12
+                },
+                {
+                    id: 18,
+                    name: 'Almond Seed Oil Peeling Cream',
+                    imageUrl: 'https://imgur.com/QlRAEUQ.jpg',
+                    price: 10
+                },
+                {
+                    id: 18,
+                    name: 'Almond Seed Oil Milk',
+                    imageUrl: 'https://imgur.com/qlm761z.jpg',
+                    price: 15
+                },
+                {
+                    id: 19,
+                    name: 'Balm for Sensitive Lip',
+                    imageUrl: 'https://imgur.com/EA0VORF.jpg',
+                    price: 8
+                },
+                {
+                    id: 20,
+                    name: 'Lip Balm Intensive Care',
                     imageUrl: 'https://imgur.com/iI1AYLc.jpg',
                     price: 9
-                }
+                },
+                {
+                    id: 21,
+                    name: 'Cleansing Water for Dry Skin',
+                    imageUrl: 'https://imgur.com/UX2oKVc.jpg',
+                    price: 12
+                },
+                {
+                    id: 22,
+                    name: 'Cleansing Water for Comination Skin',
+                    imageUrl: 'https://imgur.com/VQO6IVD.jpg',
+                    price: 12
+                },
+                {
+                    id: 22,
+                    name: 'Body Lotion',
+                    imageUrl: 'https://imgur.com/ARXUIb2.jpg',
+                    price: 15
+                },
+                {
+                    id: 22,
+                    name: 'Body Milk',
+                    imageUrl: 'https://imgur.com/4BshLeH.jpg',
+                    price: 15
+                },
+                {
+                    id: 22,
+                    name: 'Body Fit Cream',
+                    imageUrl: 'https://imgur.com/Q7gKPHv.jpg',
+                    price: 12
+                },
+                {
+                    id: 22,
+                    name: 'Body Fit Serum',
+                    imageUrl: 'https://imgur.com/hJZnApU.jpg',
+                    price: 14
+                },
+                {
+                    id: 22,
+                    name: 'Body Fit Toner',
+                    imageUrl: 'https://imgur.com/GFvhjSR.jpg',
+                    price: 15
+                },
         
         
             ]

@@ -333,7 +333,10 @@
         cursor: pointer;
     }
 
-    .menu-item:hover .menu-content {
+    .menu-item:nth-child(2):hover .menu-content,
+    .menu-item:nth-child(3):hover .menu-content,
+    .menu-item:nth-child(4):hover .menu-content,
+    .menu-item:last-child:hover .menu-content {
         opacity: 1;
         cursor: pointer;
     }
