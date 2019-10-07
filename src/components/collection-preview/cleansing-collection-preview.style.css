@@ -1,0 +1,40 @@
+/* Mobile */
+@media only screen and (max-width: 849px) {
+    .shop-cleansingPage-container {
+        width: 100%;
+        
+    }
+
+    
+}
+
+/* Pad */
+@media only screen and (min-width: 850px) and (max-width: 1199px) {
+    .shop-cleansingPage-container {
+        width: 80%;
+        margin-top: -3px;
+        
+    }
+
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .shop-cleansingPage-container {
+        width: 80%;
+        margin-top: -7px;
+        
+    }
+
+    
+}
+
+/* Max-Desktop */
+
+@media only screen and (min-width: 1441px) {
+    .shop-cleansingPage-container {
+        width: 80%;
+        margin-top: -7px;
+    }
+}

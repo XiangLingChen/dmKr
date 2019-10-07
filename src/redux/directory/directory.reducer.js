@@ -3,7 +3,7 @@ const INITIAL_STATE = {
         {
             id: 0,
             title: '',
-            imageUrl: 'https://imgur.com/EseQ8dW.jpg',
+            imageUrl: 'https://imgur.com/CuHhzM8.jpg',
         },
         {
             id: 1,

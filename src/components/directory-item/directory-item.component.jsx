@@ -13,7 +13,7 @@ const MenuItem = ({title, imageUrl, history}) => (
         
         <div className='menu-content'>
             <p className='dirctory-menu-title' 
-               onClick={ () => history.push('./shop-skincare')}
+               onClick={ () => history.push('./skincare')}
             >{title}</p>
         </div>
         

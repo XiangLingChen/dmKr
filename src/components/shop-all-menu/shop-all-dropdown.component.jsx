@@ -5,27 +5,27 @@ import './shop-all-dropdown.style.css';
 
 const ShopAlDropdown = () => (
     <div className='dropDown-collections'>
-    <div className='collections-directory'>SKIN CARE</div>
+    <Link className='collections-directory' to='/skincare'>SKIN CARE</Link>
         <div className='list-of-series'>
             <Link className='series' to='/'>Beauty Effect</Link>
             <Link className='series' to='/'>Aqua</Link>
-            <Link className='series' to='/skincare-q10'>Q10</Link>
+            <Link className='series' to='/q10'>Q10</Link>
             <Link className='series' to='/'>Aloe Vera</Link>
-            <Link className='series' to='/'>Almond</Link>
+            <Link className='series' to='/'>Almond Oil</Link>
+            <Link className='series' to='/'>Almond Flower</Link>
             <Link className='series' to='/'>Lip</Link>
         </div>
-    <div className='collections-directory'>CLEANSING</div>
+    <Link className='collections-directory' to='/cleansing'>CLEANSING</Link>
         <div className='list-of-series'>
             <Link className='series' to='/'>Makeup Remover</Link>
             <Link className='series' to='/'>Cleansing</Link>
-            <Link className='series' to='/'>Peeling</Link>
         </div>
-    <div className='collections-directory'>BODY CARE</div>
+    <Link className='collections-directory' to='/bodycare'>BODY CARE</Link>
         <div className='list-of-series'>
         <Link className='series' to='/'>Body Milk</Link>
             <Link className='series' to='/'>Body Fit</Link>
         </div>
-    <div className='collections-directory'>HAIR</div>
+    <Link className='collections-directory' to='/hair'>HAIR</Link>
         <div className='list-of-series'>
             <Link className='series' to='/'>Shampoo</Link>
             <Link className='series' to='/'>Conditioner</Link>

@@ -16,7 +16,7 @@ const SkincareCard = ({name, price, imageUrl}) => {
                 </div>
                 <div className="skincareProductText">
                     <div className="skincareProductName">{name}</div>
-                    <div className="skincaresProductPrice">$ {price}</div>
+                    <div className="skincareProductPrice">$ {price}</div>
                 </div>
             </div>
     
