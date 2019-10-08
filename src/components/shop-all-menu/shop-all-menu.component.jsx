@@ -10,7 +10,7 @@ import './shop-all-menu.style.css';
 const ShopAllMenu = ({toggleMenuHidden, menuHidden}) => (
     <div className='menu-container'>
         <div className='menu-title'>
-                <Link className='shop-all' to='/shop-all'>SHOP ALL</Link>
+                <Link className='shop-all' to='/shopall'>SHOP ALL</Link>
             </div>
             <div className='menu-title'>
                 <Link className='shop-by-collections' to='/directory'>DIRECTORY</Link>
