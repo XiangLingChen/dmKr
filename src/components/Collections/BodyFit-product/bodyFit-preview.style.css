@@ -1,0 +1,74 @@
+/* Mobile */
+@media only screen and (max-width: 849px) {
+    .skincare-collections {
+        width: 100%;
+        margin-top: 8vw;
+        margin-bottom: -8vw
+    }
+
+    
+    .skincare-collections-preview {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 4vw;
+        
+    }
+}
+
+/* Pad */
+@media only screen and (min-width: 850px) and (max-width: 1199px) {
+    .skincare-collections {
+        margin-left: 1.1vw;
+        width: 100%;
+    }
+
+ 
+    .skincare-collections-preview {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .skincare-collections {
+        margin-left: 1.1vw;
+        width: 100%;
+        
+    }
+
+ 
+    .skincare-collections-preview {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    
+}
+
+/* Max-Desktop */
+
+@media only screen and (min-width: 1441px) {
+ 
+    .skincare-collections {
+        margin-left: 1.1vw;
+        width: 100%;
+    }
+
+ 
+    .skincare-collections-preview {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}

@@ -24,7 +24,7 @@ class ShopSkincareProducts extends React.Component {
                 <div className="shop-skincarePage-container">
                     {
                         collections
-                        .filter((item,idx) => idx < 7)
+                        .filter((item,idx) => idx < 6)
                         .map( ({id, ...otherCollectionsProps}) => (
                             <SkincarePreview key={id} {...otherCollectionsProps}/>
                         ))

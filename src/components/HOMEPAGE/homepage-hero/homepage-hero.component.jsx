@@ -1,9 +1,10 @@
 import React from 'react';
 import Aqua from '../homepage-hero/assets/aqua.jpg';
 import Aloe from '../homepage-hero/assets/aloeVera.jpg';
+import {withRouter} from 'react-router-dom';
 import './homepage-hero.style.css'
 
-const HompepageHero = () => (
+const HompepageHero = ({history}) => (
     <div className="page-container">
         <div className="homepage-hero">       
                 <div className="hero-items">
@@ -15,7 +16,7 @@ const HompepageHero = () => (
                             <h1 className="title">DRY SKIN SAVIORS !</h1>
                             <p className="description">Invigorating Moisture:
                             Balea Aqua Collection refreshes dehydrated, depleted-looking skin and softens wrinkles.</p>
-                            <p className="CTA">Shop Now</p>
+                            <p className="CTA" onClick={ ()=> history.push('./aqua')}>Shop Now</p>
                         </div>
                     </div>
                 </div>
@@ -38,4 +39,4 @@ const HompepageHero = () => (
     
 );
 
-export default HompepageHero;
+export default withRouter(HompepageHero);

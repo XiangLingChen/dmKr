@@ -22,7 +22,7 @@ class HairProducts extends React.Component {
                 <div className="shop-hairPage-container">
                     {
                         collections
-                        .filter((item,idx) => idx > 10)
+                        .filter((item,idx) => idx > 9)
                         .map( ({id, ...otherCollectionsProps}) => (
                             <SkincarePreview key={id} {...otherCollectionsProps}/>
                         ))

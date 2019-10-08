@@ -8,7 +8,6 @@ const SkincarePreview = ({title, items}) => (
         <div className='skincare-collections-preview'>
             {
                 items
-                    .filter((item, idx) => idx < 4)
                     .map(({id, ...otherItemProps}) => (
                     <SkincareCard key={id} {...otherItemProps} />
                     )

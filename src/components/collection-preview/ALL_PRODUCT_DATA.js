@@ -131,18 +131,18 @@ const ALL_PRODUCT_DATA = [
     },
     {
       id: 5,
-      title: 'Almond Oil',
-      routeName: 'almond-oil',
+      title: 'Almond',
+      routeName: 'almond',
       items: [
         {
           id: 18,
-          name: 'Almond Oil Peeling Cream',
+          name: 'Almond Peeling Cream',
           imageUrl: 'https://imgur.com/QlRAEUQ.jpg',
           price: 10
         },
         {
           id: 19,
-          name: 'Almond Oil Cream',
+          name: 'Almond Cream',
           imageUrl: 'https://imgur.com/qlm761z.jpg',
           price: 15
         }
@@ -150,19 +150,6 @@ const ALL_PRODUCT_DATA = [
     },
     {
       id: 6,
-      title: 'Almond Flower',
-      routeName: 'almond-flower',
-      items: [
-        {
-          id: 20,
-          name: 'Almond Flower Toner',
-          imageUrl: 'https://imgur.com/DzHNprj.jpg',
-          price: 12
-        }
-      ]
-    },
-    {
-      id: 7,
       title: 'Lip Balm',
       routeName: 'lip-balm',
       items: [
@@ -181,7 +168,7 @@ const ALL_PRODUCT_DATA = [
       ]
     },
     {
-      id: 8,
+      id: 7,
       title: 'Makeup Remover',
       routeName: 'makeup-remover',
       items: [
@@ -200,7 +187,7 @@ const ALL_PRODUCT_DATA = [
       ]
     },
     {
-      id: 9,
+      id: 8,
       title: 'Cleansing',
       routeName: 'cleansing',
       items: [
@@ -219,9 +206,9 @@ const ALL_PRODUCT_DATA = [
       ]
     },
     {
-      id: 10,
-      title: 'Body Care',
-      routeName: 'body-care',
+      id: 9,
+      title: 'Body Milk',
+      routeName: 'body-milk',
       items: [
         {
           id: 27,
@@ -238,7 +225,7 @@ const ALL_PRODUCT_DATA = [
       ]
     },
     {
-      id: 11,
+      id: 10,
       title: 'Body Fit',
       routeName: 'body-fit',
       items: [
@@ -263,7 +250,7 @@ const ALL_PRODUCT_DATA = [
       ]
     },
     {
-      id: 12,
+      id: 11,
       title: 'Shampoo',
       routeName: 'shampoo',
       items: [
@@ -288,7 +275,7 @@ const ALL_PRODUCT_DATA = [
       ]
     },
     {
-      id: 13,
+      id: 12,
       title: 'Conditioner',
       routeName: 'conditioner',
       items: [
