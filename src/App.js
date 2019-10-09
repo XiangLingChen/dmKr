@@ -77,10 +77,6 @@ class App extends React.Component {
           <Route exact path="/shopall" component={ShopAllPage} />
           <Route exact path="/directory" component={DirectoryPage} />
          
-          <Route exact path="/skincare" component={SkincarePage} />
-          <Route exact path="/cleansing" component={CleansingPage} />
-          <Route exact path="/bodycare" component={BodycarePage} />
-          <Route exact path="/hair" component={HairPage} />
           <Route exact path="/beautyeffect" component={BeautyEffectPage} />
           <Route exact path="/aqua" component={AquaPage} />
           <Route exact path="/q10" component={Q10Page} />

@@ -1,6 +1,6 @@
 /* Mobile-1 */
 @media only screen and (max-width: 532px) {
-    .skincare-card {
+    .shopAll-card {
         max-width: 45%;
         height: auto;
         cursor: pointer;
@@ -11,19 +11,19 @@
         
     }
 
-    .skincareProductImage img {
+    .shopAllProductImage img {
         max-width: 100%;
         
     }
 
 
 
-    .skincare-card:hover .skincare-custom-btn {
+    .shopAll-card:hover .shopAll-custom-btn {
         opacity: 1;
     }
 
     
-    .skincareProductText {
+    .shopAllProductText {
         width: 90%;
         height: 25px;
         margin: 2vh auto;
@@ -34,7 +34,7 @@
     
     
     
-    .skincareProductName {
+    .shopAllProductName {
         font-size: .65em;
         text-align: left;
         width: 80%;
@@ -43,7 +43,7 @@
         
     }
     
-    .skincareProductPrice {
+    .shopAllProductPrice {
         font-size: .65em;
         text-align: right;
         width: 20%;
@@ -52,7 +52,7 @@
         
     }
 
-    .skincare-custom-btn {
+    .shopAll-custom-btn {
         width: 90%;
         height: 28px;
         position: absolute;
@@ -68,7 +68,7 @@
         transition: .5s ease;
     }
 
-    .skincare-custom-btn:hover {
+    .shopAll-custom-btn:hover {
         background-color: rgb(0, 0, 0);
         color: white;
         border: none;
@@ -76,7 +76,7 @@
         cursor: pointer;
     }
 
-    .skincare-custom-btn:active {
+    .shopAll-custom-btn:active {
         background-color: rgb(56, 56, 56);
         color: white;
         border: none;
@@ -88,7 +88,7 @@
 
 /* Mobile-2 */
 @media only screen and (min-width: 533px) and (max-width: 849px) {
-    .skincare-card {
+    .shopAll-card {
         max-width: 30%;
         height: auto;
         cursor: pointer;
@@ -99,19 +99,19 @@
         
     }
 
-    .skincareProductImage img {
+    .shopAllProductImage img {
         max-width: 100%;
         
     }
 
 
 
-    .skincare-card:hover .skincare-custom-btn {
+    .shopAll-card:hover .shopAll-custom-btn {
         opacity: 1;
     }
 
     
-    .skincareProductText {
+    .shopAllProductText {
         width: 90%;
         height: 25px;
         margin: 2vh auto;
@@ -122,7 +122,7 @@
     
     
     
-    .skincareProductName {
+    .shopAllProductName {
         font-size: .7em;
         text-align: left;
         width: 80%;
@@ -131,7 +131,7 @@
         
     }
     
-    .skincareProductPrice {
+    .shopAllProductPrice {
         font-size: .7em;
         text-align: right;
         width: 20%;
@@ -140,7 +140,7 @@
         
     }
 
-    .skincare-custom-btn {
+    .shopAll-custom-btn {
         width: 90%;
         height: 28px;
         position: absolute;
@@ -156,7 +156,7 @@
         transition: .5s ease;
     }
 
-    .skincare-custom-btn:hover {
+    .shopAll-custom-btn:hover {
         background-color: rgb(0, 0, 0);
         color: white;
         border: none;
@@ -164,7 +164,7 @@
         cursor: pointer;
     }
 
-    .skincare-custom-btn:active {
+    .shopAll-custom-btn:active {
         background-color: rgb(56, 56, 56);
         color: white;
         border: none;
@@ -178,7 +178,7 @@
 
 /* Pad */
 @media only screen and (min-width: 850px) and (max-width: 1199px) {
-    .skincare-card {
+    .shopAll-card {
         max-width: 29%;
         height: auto;
         cursor: pointer;
@@ -189,19 +189,19 @@
         
     }
 
-    .skincareProductImage img {
+    .shopAllProductImage img {
         max-width: 100%;
         
     }
 
 
 
-    .skincare-card:hover .skincare-custom-btn {
+    .shopAll-card:hover .shopAll-custom-btn {
         opacity: 1;
     }
 
     
-    .skincareProductText {
+    .shopAllProductText {
         width: 90%;
         height: 30px;
         margin: 2vh auto;
@@ -212,7 +212,7 @@
     
     
     
-    .skincareProductName {
+    .shopAllProductName {
         font-size: .8em;
         text-align: left;
         width: 80%;
@@ -221,7 +221,7 @@
         
     }
     
-    .skincareProductPrice {
+    .shopAllProductPrice {
         font-size: .8em;
         text-align: right;
         width: 20%;
@@ -230,7 +230,7 @@
         
     }
 
-    .skincare-custom-btn {
+    .shopAll-custom-btn {
         width: 90%;
         height: 32px;
         position: absolute;
@@ -246,7 +246,7 @@
         transition: .5s ease;
     }
 
-    .skincare-custom-btn:hover {
+    .shopAll-custom-btn:hover {
         background-color: rgb(0, 0, 0);
         color: white;
         border: none;
@@ -254,7 +254,7 @@
         cursor: pointer;
     }
 
-    .skincare-custom-btn:active {
+    .shopAll-custom-btn:active {
         background-color: rgb(56, 56, 56);
         color: white;
         border: none;
@@ -267,7 +267,7 @@
 /* Desktop */
 
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
-    .skincare-card {
+    .shopAll-card {
         max-width: 22%;
         height: auto;
         cursor: pointer;
@@ -279,19 +279,19 @@
     }
 
 
-    .skincareProductImage img {
+    .shopAllProductImage img {
         max-width: 100%;
         
     }
 
 
 
-    .skincare-card:hover .skincare-custom-btn {
+    .shopAll-card:hover .shopAll-custom-btn {
         opacity: 1;
     }
 
     
-    .skincareProductText {
+    .shopAllProductText {
         width: 90%;
         height: 30px;
         margin: 2vh auto;
@@ -301,7 +301,7 @@
     
     
     
-    .skincareProductName {
+    .shopAllProductName {
         font-size: .8em;
         text-align: left;
         width: 80%;
@@ -310,7 +310,7 @@
         
     }
     
-    .skincareProductPrice {
+    .shopAllProductPrice {
         font-size: .8em;
         text-align: right;
         width: 20%;
@@ -319,7 +319,7 @@
         
     }
 
-    .skincare-custom-btn {
+    .shopAll-custom-btn {
         width: 90%;
         height: 40px;
         position: absolute;
@@ -335,7 +335,7 @@
         transition: .5s ease;
     }
 
-    .skincare-custom-btn:hover {
+    .shopAll-custom-btn:hover {
         background-color: rgb(0, 0, 0);
         color: white;
         border: none;
@@ -343,7 +343,7 @@
         cursor: pointer;
     }
 
-    .skincare-custom-btn:active {
+    .shopAll-custom-btn:active {
         background-color: rgb(56, 56, 56);
         color: white;
         border: none;
@@ -356,7 +356,7 @@
 /* Max-Desktop */
 
 @media only screen and (min-width: 1441px) {
-    .skincare-card {
+    .shopAll-card {
         max-width: 22%;
         height: auto;
         cursor: pointer;
@@ -366,19 +366,19 @@
         opacity: 1;
     }
 
-    .skincareProductImage img {
+    .shopAllProductImage img {
         max-width: 100%;
         
     }
 
 
 
-    .skincare-card:hover .skincare-custom-btn {
+    .shopAll-card:hover .shopAll-custom-btn {
         opacity: 1;
     }
 
     
-    .skincareProductText {
+    .shopAllProductText {
         width: 90%;
         height: 30px;
         margin: 2vh auto;
@@ -388,7 +388,7 @@
     
     
     
-    .skincareProductName {
+    .shopAllProductName {
         font-size: .8em;
         text-align: left;
         width: 80%;
@@ -397,7 +397,7 @@
         
     }
     
-    .skincareProductPrice {
+    .shopAllProductPrice {
         font-size: .8em;
         text-align: right;
         width: 20%;
@@ -406,7 +406,7 @@
         
     }
 
-    .skincare-custom-btn {
+    .shopAll-custom-btn {
         width: 90%;
         height: 40px;
         position: absolute;
@@ -422,7 +422,7 @@
         transition: .5s ease;
     }
 
-    .skincare-custom-btn:hover {
+    .shopAll-custom-btn:hover {
         background-color: rgb(0, 0, 0);
         color: white;
         border: none;
@@ -430,7 +430,7 @@
         cursor: pointer;
     }
 
-    .skincare-custom-btn:active {
+    .shopAll-custom-btn:active {
         background-color: rgb(56, 56, 56);
         color: white;
         border: none;

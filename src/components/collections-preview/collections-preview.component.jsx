@@ -1,15 +1,15 @@
 import React from 'react';
-import SkincareCard from '../../components/collection-preview/skincare-card.component';
-import './shopAll-preview.style.css';
+import CollectionsItemCard from '../../components/collections-item/collections-item-card.component';
+import './collections-preview.style.css'
 
-const ShopAllPreview = ({title, items}) => (
+const CollectionsPreview = ({title, items}) => (
     <div className='skincare-collections'>
         <p className='skincare-title'>{title.toUpperCase()}</p>
         <div className='skincare-collections-preview'>
             {
                 items
                     .map(({id, ...otherItemProps}) => (
-                    <SkincareCard key={id} {...otherItemProps} />
+                    <CollectionsItemCard key={id} {...otherItemProps} />
                     )
                 )
             }
@@ -17,4 +17,4 @@ const ShopAllPreview = ({title, items}) => (
     </div>
 );
 
-export default ShopAllPreview;
+export default CollectionsPreview;
