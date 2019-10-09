@@ -1,5 +1,5 @@
 import React from 'react';
-import ALL_PRODUCT_DATA from '../../collection-preview/ALL_PRODUCT_DATA';
+import ALL_PRODUCT_DATA from '../ALL_PRODUCT_DATA';
 import LipPreview from './lip-preview.component';
 import './lip-collection.style.css';
 

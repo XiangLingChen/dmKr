@@ -1,5 +1,5 @@
 import React from 'react';
-import ALL_PRODUCT_DATA from '../../collection-preview/ALL_PRODUCT_DATA';
+import ALL_PRODUCT_DATA from '../ALL_PRODUCT_DATA';
 import AlmondPreview from './almond-preview.component';
 import './almond-collection.style.css';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import ALL_PRODUCT_DATA from '../../collection-preview/ALL_PRODUCT_DATA';
+import ALL_PRODUCT_DATA from '../ALL_PRODUCT_DATA';
 import ConditionerPreview from './Conditioner-preview.component';
 import './Conditioner-collection.style.css';
 

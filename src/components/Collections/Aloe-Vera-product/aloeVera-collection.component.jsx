@@ -1,5 +1,5 @@
 import React from 'react';
-import ALL_PRODUCT_DATA from '../../collection-preview/ALL_PRODUCT_DATA';
+import ALL_PRODUCT_DATA from '../ALL_PRODUCT_DATA';
 import AloeVeraPreview from './aloeVera-preview.component';
 import './aloeVera-collection.style.css';
 

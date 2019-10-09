@@ -1,5 +1,5 @@
 import React from 'react';
-import ALL_PRODUCT_DATA from '../../collection-preview/ALL_PRODUCT_DATA';
+import ALL_PRODUCT_DATA from '../ALL_PRODUCT_DATA';
 import MakeupRemoverPreview from './makeupRemover-preview.component';
 import './makeupRemover-collection.style.css';
 
