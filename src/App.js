@@ -60,7 +60,7 @@ class App extends React.Component {
              />
           <Route path="/signup" component={SignUpPageOnly} />
           <Route exact path="/checkout" component={CheckoutPage} />
-          <Route exact path="/shopall" component={ShopAllPage} />
+          <Route path="/shopall" component={ShopAllPage} />
           <Route exact path="/directory" component={DirectoryPage} />
          
 
