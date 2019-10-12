@@ -2,7 +2,7 @@ const ALL_PRODUCT_DATA = [
     {
       id: 1,
       title: 'Beauty Effect',
-      routeName: 'beauty-effect',
+      routeName: 'beautyEffect',
       items: [
         {
           id: 1,
@@ -95,7 +95,7 @@ const ALL_PRODUCT_DATA = [
     {
       id: 4,
       title: 'Aloe Vera',
-      routeName: 'aloe-vera',
+      routeName: 'aloeVera',
       items: [
         {
           id: 13,
@@ -151,7 +151,7 @@ const ALL_PRODUCT_DATA = [
     {
       id: 6,
       title: 'Lip Balm',
-      routeName: 'lip-balm',
+      routeName: 'lipBalm',
       items: [
         {
           id: 21,
@@ -170,7 +170,7 @@ const ALL_PRODUCT_DATA = [
     {
       id: 7,
       title: 'Makeup Remover',
-      routeName: 'makeup-remover',
+      routeName: 'makeupRemover',
       items: [
         {
           id: 23,
@@ -208,7 +208,7 @@ const ALL_PRODUCT_DATA = [
     {
       id: 9,
       title: 'Body Milk',
-      routeName: 'body-milk',
+      routeName: 'bodyMilk',
       items: [
         {
           id: 27,
@@ -227,7 +227,7 @@ const ALL_PRODUCT_DATA = [
     {
       id: 10,
       title: 'Body Fit',
-      routeName: 'body-fit',
+      routeName: 'bodyFit',
       items: [
         {
           id: 29,

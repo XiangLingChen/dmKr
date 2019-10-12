@@ -8,6 +8,7 @@ const CollectionsPreview = ({title, items}) => (
         <div className='skincare-collections-preview'>
             {
                 items
+                    
                     .map(({id, ...otherItemProps}) => (
                     <CollectionsItemCard key={id} {...otherItemProps} />
                     )
