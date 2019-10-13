@@ -12,8 +12,8 @@ const CollectionPage = ({collection}) => {
             <div className='collectionPage-product'>
                 {
                     items
-                        .map(({id, ...otherItemProps}) => (
-                        <CollectionsItemCard key={id} {...otherItemProps} />
+                        .map(item => (
+                        <CollectionsItemCard key={item.id} item={item} />
                         )
                     )
                 }
