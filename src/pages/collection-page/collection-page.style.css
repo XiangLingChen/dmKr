@@ -1,18 +1,115 @@
 
+/* Mobile */
+
 @media only screen and (max-width: 849px) {
     .collectionPage-container {
-        width: 90%;
-        margin: 100px auto;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 2vw;
         display: flex;
         flex-direction: column;
+    }
+
+    .collection-title {
+        font-size: .9em;
+        font-weight: 500;
+        margin-bottom: 4vw;
+        cursor: pointer;
+    }
+
+    .collectionPage-product {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
         
     }
 }
 
-@media only screen and (min-width: 850px) {
+/* Pad */
+
+@media only screen and (min-width: 850px) and (max-width: 1199px){
     .collectionPage-container {
-        margin: 100px auto;
-        width: 80%;
+        margin: 0 auto;
+        margin-left: 1.1vw;
+        width: 100%;
         display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .collection-title {
+        font-size: 1.1em;
+        font-weight: 500;
+        margin-left: 1.7vw;
+        margin-bottom: 2.8vw;
+        line-height: 0;
+    }
+
+
+    .collectionPage-product {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .collectionPage-container {
+        margin: 0 auto;
+        margin-left: 1.1vw;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .collection-title {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-left: 1.7vw;
+        margin-bottom: 2.4vw;
+        line-height: 0;
+        
+    }
+
+
+    .collectionPage-product {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+/* Max-Desktop */
+
+@media only screen and (min-width: 1441px) {
+    .collectionPage-container {
+        margin: 0 auto;
+        margin-left: 1.1vw;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .collection-title {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-left: 1.7vw;
+        margin-bottom: 2vw;
+        line-height: 0;
+    }
+
+
+    .collectionPage-product {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
     }
 }

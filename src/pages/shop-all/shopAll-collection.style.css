@@ -11,8 +11,8 @@
         
     }
 
-    .shop-all-product-container {
-        width: 100%;
+    .shop-all-page-product-container {
+        margin-top: 10px;
         
     }
 
@@ -28,10 +28,9 @@
         display: flex;
     }
 
-    .shop-all-product-container {
+    .shop-all-page-product-container {
         width: 80%;
-        margin-top: -3px;
-        
+    
     }
 
 }
@@ -41,14 +40,14 @@
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
 
     .shop-all-page-container {
-        margin: 100px auto;
+        margin: 140px auto;
         width: 80%;
         display: flex;
+        
     }
 
-    .shop-all-product-container {
+    .shop-all-page-product-container {
         width: 80%;
-        margin-top: -7px;
         
     }
 
@@ -65,9 +64,10 @@
         display: flex;
     }
 
-    .shop-all-product-container {
+    .shop-all-page-product-container {
         width: 80%;
-        margin-top: -7px;
+    
     }
+
 }
 

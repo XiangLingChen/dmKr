@@ -2,13 +2,12 @@
 @media only screen and (max-width: 849px) {
     .skincare-collections {
         width: 100%;
-        margin-top: 8vw;
-        margin-bottom: -8vw
+
     }
 
     .skincare-title {
-        font-size: .8em;
-        font-weight: 600;
+        font-size: .9em;
+        font-weight: 500;
         cursor: pointer;
     }
     
@@ -29,10 +28,11 @@
     }
 
     .skincare-title {
-        font-size: .9em;
+        font-size: 1.1em;
         font-weight: 500;
         margin-left: 1.7vw;
-        margin-bottom: 1.8vw;
+        margin-bottom: 2.8vw;
+        margin-top: 1vw;
         cursor: pointer;
     }
 
@@ -52,13 +52,16 @@
         margin-left: 1.1vw;
         width: 100%;
         
+        
     }
     .skincare-title {
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: 500;
         margin-left: 1.7vw;
-        margin-bottom: 1.5vw;
+        margin-bottom: 2.4vw;
+        margin-top: 0.4vw;
         cursor: pointer;
+        
     }
  
     .skincare-collections-preview {
@@ -82,10 +85,11 @@
     }
 
     .skincare-title {
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: 500;
         margin-left: 1.7vw;
-        margin-bottom: 1.5vw;
+        margin-bottom: 2vw;
+        margin-top: 0.4vw;
         cursor: pointer;
     }
     

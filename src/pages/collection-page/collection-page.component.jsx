@@ -1,21 +1,29 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import selectCollection from '../../redux/shop/shop.selector';
+import CollectionsItemCard from '../../components/collections-item/collections-item-card.component';
 import './collection-page.style.css';
 
 const CollectionPage = ({collection}) => {
-    console.log(collection);
-    return ( 
+    const {title, items} = collection;
+    return(    
         <div className='collectionPage-container'>
-            <h2>Collection Page</h2>
-  
+            <p className='collection-title'>{title.toUpperCase()}</p>
+            <div className='collectionPage-product'>
+                {
+                    items
+                        .map(({id, ...otherItemProps}) => (
+                        <CollectionsItemCard key={id} {...otherItemProps} />
+                        )
+                    )
+                }
+            </div>
         </div>
     );
-    
 };
 
-const mapStaeToProps = (state, ownProps) => ({
+const mapStateToProps = (state, ownProps) => ({
     collection: selectCollection(ownProps.match.params.collectionId)(state)
 });
 
-export default connect(mapStaeToProps)(CollectionPage);
+export default connect(mapStateToProps)(CollectionPage);

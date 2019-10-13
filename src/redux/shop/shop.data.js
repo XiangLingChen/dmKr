@@ -1,5 +1,5 @@
-const ALL_PRODUCT_DATA = [
-    {
+const ALL_PRODUCT_DATA = {
+    beautyEffect : {
       id: 1,
       title: 'Beauty Effect',
       routeName: 'beautyEffect',
@@ -30,7 +30,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    aqua : {
       id: 2,
       title: 'Aqua',
       routeName: 'aqua',
@@ -55,7 +55,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    q10 : {
       id: 3,
       title: 'Q10',
       routeName: 'q10',
@@ -92,7 +92,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    aloeVera : {
       id: 4,
       title: 'Aloe Vera',
       routeName: 'aloeVera',
@@ -129,7 +129,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    almond : {
       id: 5,
       title: 'Almond',
       routeName: 'almond',
@@ -148,7 +148,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    lipBalm : {
       id: 6,
       title: 'Lip Balm',
       routeName: 'lipBalm',
@@ -167,7 +167,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    makeupRemover : {
       id: 7,
       title: 'Makeup Remover',
       routeName: 'makeupRemover',
@@ -186,7 +186,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    cleansing : {
       id: 8,
       title: 'Cleansing',
       routeName: 'cleansing',
@@ -205,7 +205,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    bodyMilk : {
       id: 9,
       title: 'Body Milk',
       routeName: 'bodyMilk',
@@ -224,7 +224,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    bodyFit : {
       id: 10,
       title: 'Body Fit',
       routeName: 'bodyFit',
@@ -249,7 +249,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    shampoo : {
       id: 11,
       title: 'Shampoo',
       routeName: 'shampoo',
@@ -274,7 +274,7 @@ const ALL_PRODUCT_DATA = [
         }
       ]
     },
-    {
+    conditioner : {
       id: 12,
       title: 'Conditioner',
       routeName: 'conditioner',
@@ -298,8 +298,8 @@ const ALL_PRODUCT_DATA = [
           price: 20
         }
       ]
-    },
-  ];
+    }
+};
   
   export default ALL_PRODUCT_DATA;
   

@@ -92,7 +92,7 @@
         max-width: 30%;
         height: auto;
         cursor: pointer;
-        margin: 0 0 7vh 2.2vw;
+        margin: 0 0 8.5vh 2.2vw;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
         position: relative;
         opacity: 1;
@@ -144,7 +144,7 @@
         width: 90%;
         height: 28px;
         position: absolute;
-        bottom: -35px;
+        bottom: -38px;
         left: 5%;
         margin: 0 auto;
         font-size: .7em;
@@ -182,7 +182,7 @@
         max-width: 29%;
         height: auto;
         cursor: pointer;
-        margin: 0 0 9vh 2vw;
+        margin: 0 0 9.5vh 2vw;
         box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.4);
         position: relative;
         opacity: 1;
@@ -234,7 +234,7 @@
         width: 90%;
         height: 32px;
         position: absolute;
-        bottom: -47px;
+        bottom: -44px;
         left: 5%;
         margin: 0 auto;
         font-size: 14px;
@@ -321,9 +321,9 @@
 
     .shopAll-custom-btn {
         width: 90%;
-        height: 40px;
+        height: 35px;
         position: absolute;
-        bottom: -52px;
+        bottom: -46px;
         left: 5%;
         margin: 0 auto;
         font-size: 14px;
@@ -408,7 +408,7 @@
 
     .shopAll-custom-btn {
         width: 90%;
-        height: 40px;
+        height: 38px;
         position: absolute;
         bottom: -52px;
         left: 5%;
