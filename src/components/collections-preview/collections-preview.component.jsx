@@ -1,4 +1,5 @@
 import React from 'react';
+import {withRouter} from 'react-router-dom';
 import CollectionsItemCard from '../../components/collections-item/collections-item-card.component';
 import './collections-preview.style.css'
 
@@ -9,8 +10,8 @@ const CollectionsPreview = ({title, items}) => (
             {
                 items
                     
-                    .map(({id, ...otherItemProps}) => (
-                    <CollectionsItemCard key={id} {...otherItemProps} />
+                    .map(item => (
+                    <CollectionsItemCard key={item.id} item={item} />
                     )
                 )
             }
@@ -18,4 +19,4 @@ const CollectionsPreview = ({title, items}) => (
     </div>
 );
 
-export default CollectionsPreview;
+export default withRouter(CollectionsPreview);
