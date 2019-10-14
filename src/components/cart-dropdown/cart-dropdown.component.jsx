@@ -7,7 +7,7 @@ import {selectCartItems} from '../../redux/cart/cart.selector';
 import {toggleCartHidden} from '../../redux/cart/cart.action';
 import './cart-dropdown.style.css';
 
-const CartDropdown = ({cartItems, history, dispatch}) => (
+const CartDropdown = ({cartItems, match, history, dispatch}) => (
     <div className='cart-dropdown'>
         <div className='cart-items'>
             {   cartItems.length ?

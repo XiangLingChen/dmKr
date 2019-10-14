@@ -4,9 +4,10 @@ import storage from 'redux-persist/lib/storage';
 
 import userReducer from './user/user.reducer';
 import cartReducer from './cart/cart.reducer';
-import directoryReducer from './directory/directory.reducer';
+
 import dropdownMenuReducer from './shop-all-dropdown/shop-all-dropdown.reducer';
 import shopReducer from './shop/shop.reducer';
+import BestSellersReducer from './directory/bestSellers.reducer';
 
 export const persistConfig = {
     key: 'root',
@@ -17,9 +18,10 @@ export const persistConfig = {
 export const rootReducer = combineReducers({
     user: userReducer,
     cart: cartReducer,
-    directory: directoryReducer,
+    
     shopAllDropdown: dropdownMenuReducer,
-    shop: shopReducer
+    shop: shopReducer,
+    bestSellers: BestSellersReducer
 });
 
 export default persistReducer(persistConfig, rootReducer);

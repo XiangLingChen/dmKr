@@ -1,0 +1,84 @@
+
+
+/* Mobile */
+@media only screen and (max-width: 849px) {
+
+    .bestSeller-overview {
+        width: 90%;
+        margin: -20px auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .bestSeller-products{
+        margin-top: 7vw;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+/* Pad */
+@media only screen and (min-width: 850px) and (max-width: 1199px) {
+
+    .bestSeller-overview {
+        margin: 100px auto;
+        width: 80%;
+        display: flex;
+    }
+
+    .bestSeller-products {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 1.1vw;
+    }
+
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+    .bestSeller-overview {
+        margin: 100px auto;
+        width: 80%;
+        display: flex;
+        
+    }
+
+    .bestSeller-products {
+        width: 90%;
+        max-height: 48vh;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 1.1vw;
+        
+    }
+
+    
+}
+
+/* Max-Desktop */
+
+@media only screen and (min-width: 1441px) {
+
+    .bestSeller-overview {
+        margin: 100px auto;
+        width: 80%;
+        display: flex;
+    }
+
+    .bestSeller-products {
+        width: 90%;
+        max-height: 48vh;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 1.1vw;
+    }
+
+}
+

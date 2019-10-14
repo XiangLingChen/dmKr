@@ -1,6 +1,6 @@
 /* Mobile */
 
-@media only screen and (max-width: 563px) {
+@media only screen and (max-width: 499px) {
     .header-container {
         position: relative;
         width: 100%;
@@ -33,11 +33,12 @@
     
     .ContentTextContainer {
         margin-top: -2vh;
-
+        
     }
 
     .content {
-        font-size: 1em;  
+        font-size: .7em;  
+        line-height: 1.5em;
     }
 
     
@@ -54,7 +55,7 @@
 
 /* Tablet 2 */
 
-@media only screen and (min-width: 564px) and (max-width: 638px) {
+@media only screen and (min-width: 500px) and (max-width: 638px) {
     .header-container {
         position: relative;
         width: 100%;
@@ -87,7 +88,9 @@
     }
 
     .content {
-        font-size: 1em;  
+        font-size: .9em;  
+        line-height: 2em;
+        
     }
 
     

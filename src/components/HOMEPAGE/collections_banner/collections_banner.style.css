@@ -11,7 +11,7 @@
     }
     
     .CollectionsBanner_content {
-        transform: translate(0, 46%);
+        transform: translate(0, 180%);
         text-align: center;
         font-size: .68em;
         line-height: 1.3em;
@@ -19,19 +19,6 @@
         letter-spacing: 1.5px;
     }
 
-    
-    .CTA_container {
-        margin: 25px auto;
-        width: 200px;
-        padding: 6px 0px;
-        border: 1px solid;
-        cursor: pointer;
-    }
-
-
-    .CollectionsBanner_CTA {
-        font-size: 1em;
-    }
     
 }
 
@@ -49,7 +36,7 @@
     }
     
     .CollectionsBanner_content {
-        transform: translate(0, 60%);
+        transform: translate(0, 200%);
         text-align: center;
         font-size: .8em;
         line-height: 1.3em;
@@ -57,26 +44,7 @@
     }
 
     
-    .CTA_container {
-        margin: 32px auto;
-        width: 200px;
-        padding: 6px 0px;
-        border: 1px solid;
-        cursor: pointer;
-    }
 
-    .CTA_container:hover {
-        background-color: rgb(249, 252, 255);
-    }
-
-
-    .CTA_container:active{
-        background-color: rgb(236, 245, 255);
-    }
-
-    .CollectionsBanner_CTA {
-        font-size: .9em;
-    }
     
  
 }
@@ -95,35 +63,14 @@
     }
     
     .CollectionsBanner_content {
-        transform: translate(0, 38%);
+        transform: translate(0, 145%);
         text-align: center;
         font-size: 1em;
         line-height: 1.3em;
         letter-spacing: 1.5px;
     }
 
-    
-    .CTA_container {
-        margin: 32px auto;
-        width: 200px;
-        padding: 6px 0px;
-        border: 1px solid;
-        cursor: pointer;
-    }
 
-    .CTA_container:hover {
-        background-color: rgb(249, 252, 255);
-        cursor: pointer;
-    }
-
-
-    .CTA_container:active{
-        background-color: rgb(236, 245, 255);
-    }
-
-    .CollectionsBanner_CTA {
-        font-size: .8em;
-    }
     
 }
 
@@ -143,35 +90,14 @@
     
     
     .CollectionsBanner_content {
-        transform: translate(0, 28%);
+        transform: translate(0, 100%);
         text-align: center;
         font-size: 1.1em;
         line-height: 1.5em;
         letter-spacing: 1.5px;
     }
 
-    
-    .CTA_container {
-        margin: 28px auto;
-        width: 200px;
-        padding: 4px 0px;
-        border: 1px solid;
-        cursor: pointer;
-    }
 
-    .CTA_container:hover {
-        background-color: rgb(249, 252, 255);
-    }
-
-
-    .CTA_container:active{
-        background-color: rgb(236, 245, 255);
-    }
-
-    .CollectionsBanner_CTA {
-        font-size: .8em;
-    }
-    
   
 }
 

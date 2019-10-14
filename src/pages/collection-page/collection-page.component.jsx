@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import selectCollection from '../../redux/shop/shop.selector';
+import {selectCollection} from '../../redux/shop/shop.selector';
 import CollectionsItemCard from '../../components/collections-item/collections-item-card.component';
 import './collection-page.style.css';
 

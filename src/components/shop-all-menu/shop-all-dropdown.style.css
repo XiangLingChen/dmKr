@@ -72,11 +72,12 @@
     }
 
     .list-of-series {
-        width: 70%;
+        width: 80%;
         line-height: 2.2em;
         display: flex;
         flex-direction: column;
         font-size: .8em;
+        
     }
 
  

@@ -16,7 +16,7 @@ const HompepageHero = ({history}) => (
                             <h1 className="title">DRY SKIN SAVIORS !</h1>
                             <p className="description">Invigorating Moisture:
                             Balea Aqua Collection refreshes dehydrated, depleted-looking skin and softens wrinkles.</p>
-                            <p className="CTA" onClick={ ()=> history.push('./aqua')}>Shop Now</p>
+                            <p className="CTA" onClick={ ()=> history.push('./shopall/aqua')}>Shop Now</p>
                         </div>
                     </div>
                 </div>

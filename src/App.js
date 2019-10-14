@@ -9,7 +9,6 @@ import ShopAllPage from './pages/shop-all/shopAll-collection.component';
 import DirectoryPage from './pages/directoryPage/directoryPage.component';
 
 
-
 import {auth, createUserProfileDocument} from './components/firebase/firebase.utils';
 import {connect} from 'react-redux';
 import {setCurrentUser} from './redux/user/user.action';
@@ -61,8 +60,8 @@ class App extends React.Component {
           <Route path="/signup" component={SignUpPageOnly} />
           <Route exact path="/checkout" component={CheckoutPage} />
           <Route path="/shopall" component={ShopAllPage} />
-          <Route exact path="/directory" component={DirectoryPage} />
-         
+          <Route path="/bestSellers" component={DirectoryPage} />
+          
 
         </Switch>
       </div>

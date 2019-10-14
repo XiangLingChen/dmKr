@@ -256,7 +256,7 @@ const ALL_PRODUCT_DATA = {
       items: [
         {
           id: 32,
-          name: 'Shampoo Intensive Care',
+          name: 'Shampoo Color Gloss',
           imageUrl: 'https://imgur.com/cZWYrgu.jpg',
           price: 20
         },

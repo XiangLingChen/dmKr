@@ -7,27 +7,27 @@ const ShopAlDropdown = () => (
     <div className='dropDown-collections'>
     <div className='collections-directory'>SKIN CARE</div>
         <div className='list-of-series'>
-            <Link className='series' to='/beautyeffect'>Beauty Effect</Link>
-            <Link className='series' to='/aqua'>Aqua</Link>
-            <Link className='series' to='/q10'>Q10</Link>
-            <Link className='series' to='/aloevera'>Aloe Vera</Link>
-            <Link className='series' to='/almond'>Almond</Link>
-            <Link className='series' to='/lip'>Lip</Link>
+            <Link className='series' to='/shopall/beautyEffect'>Beauty Effect</Link>
+            <Link className='series' to='/shopall/aqua'>Aqua</Link>
+            <Link className='series' to='/shopall/q10'>Q10</Link>
+            <Link className='series' to='/shopall/aloeVera'>Aloe Vera</Link>
+            <Link className='series' to='/shopall/almond'>Almond</Link>
+            <Link className='series' to='/shopall/lipBalm'>Lip</Link>
         </div>
     <div className='collections-directory'>CLEANSING</div>
         <div className='list-of-series'>
-            <Link className='series' to='/makeupremover'>Makeup Remover</Link>
-            <Link className='series' to='/cleansingCollection'>Cleansing</Link>
+            <Link className='series' to='/shopall/makeupRemover'>Makeup Remover</Link>
+            <Link className='series' to='/shopall/cleansing'>Cleansing</Link>
         </div>
     <div className='collections-directory'>BODY CARE</div>
         <div className='list-of-series'>
-        <Link className='series' to='/bodymilk'>Body Milk</Link>
-            <Link className='series' to='/bodyfit'>Body Fit</Link>
+        <Link className='series' to='/shopall/bodyMilk'>Body Milk</Link>
+            <Link className='series' to='/shopall/bodyFit'>Body Fit</Link>
         </div>
     <div className='collections-directory'>HAIR</div>
         <div className='list-of-series'>
-            <Link className='series' to='/shampoo'>Shampoo</Link>
-            <Link className='series' to='/conditioner'>Conditioner</Link>
+            <Link className='series' to='/shopall/shampoo'>Shampoo</Link>
+            <Link className='series' to='/shopall/conditioner'>Conditioner</Link>
         </div>
 </div>
 );

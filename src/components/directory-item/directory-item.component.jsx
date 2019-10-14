@@ -1,8 +1,9 @@
 import React from 'react';
 import {withRouter} from 'react-router-dom';
+
 import './directory-item.style.css';
 
-const MenuItem = ({title, imageUrl, history, match, linkUrl}) => (
+const MenuItem = ({title, imageUrl, match, history, routeName}) => (
     <div className='menu-item'>
         <div 
             className='menu-background-image'
@@ -12,9 +13,10 @@ const MenuItem = ({title, imageUrl, history, match, linkUrl}) => (
         />
         
         <div className='menu-content'>
-            <p className='dirctory-menu-title' 
-               onClick={ () => history.push(`${linkUrl}`)}
-            >{title}</p>
+            <div className='dirctory-menu-title' onClick={()=> history.push(`${match.url}/${routeName}`)}
+            >
+            {title}
+            </div>
         </div>
         
     </div>
