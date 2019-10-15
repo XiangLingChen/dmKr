@@ -49,14 +49,23 @@
       
     
     .total {
-        width: 18%;
+        width: 20%;
         margin-top: 30px;
+        margin-bottom: 15px;
         margin-left: auto;
         font-size: .6em;
         text-align: center;
         
     }
-    
+
+    .test-warning {
+        font-size: .64em;
+        line-height: 2em;
+        text-align: center;
+        color: gray;
+        margin-bottom: 15px;
+    }
+  
 }
 
 
@@ -117,10 +126,18 @@
     .total {
         width: 18%;
         margin-top: 60px;
+        margin-bottom: 20px;
         margin-left: auto;
         font-size: .8em;
         text-align: center;
         
+    }
+
+    .test-warning {
+        font-size: .7em;
+        text-align: center;
+        color: gray;
+        margin-bottom: 50px;
     }
     
 }
@@ -179,11 +196,20 @@
     .total {
         width: 18%;
         margin-top: 60px;
+        margin-bottom: 20px;
         margin-left: auto;
         font-size: 1em;
         text-align: center;
         
     }
+
+    .test-warning {
+        font-size: .8em;
+        text-align: center;
+        color: gray;
+        margin-bottom: 50px;
+    }
+
     
 }
 

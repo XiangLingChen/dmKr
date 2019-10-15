@@ -10,7 +10,7 @@ const HompepageHero = ({history}) => (
                 <div className="hero-items">
                     <div className="hero-content">
                         <div className="banner-container">
-                            <img className="HeroBanner" src={Aqua} alt=''/>    
+                            <img className="HeroBanner" src={Aqua} alt='' onClick={ ()=> history.push('./shopall/aqua')}/>    
                         </div>
                         <div className="content-container">
                             <h1 className="title">DRY SKIN SAVIORS !</h1>
@@ -23,14 +23,14 @@ const HompepageHero = ({history}) => (
                 <div className="hero-items">
                     <div className="hero-content">
                         <div className="banner-container">
-                            <img className="HeroBanner" src={Aloe} alt=''/>
+                            <img className="HeroBanner" src={Aloe} alt='' onClick={ ()=> history.push('./shopall/cleansing')}/>
                         </div>
                         <div className="content-container">
                             <h1 className="title">NEW ! CLEANSING CHOICE</h1>
                             <p className="description">Thorough and gentle cleansing :
                             with a creamy and delicate texture : Balea gentle cleansing foam pampers and nourishes your skin. 
                             </p>
-                            <p className="CTA">Shop Now</p>
+                            <p className="CTA" onClick={ ()=> history.push('./shopall/cleansing')}>Shop Now</p>
                         </div>
                     </div>
                 </div>

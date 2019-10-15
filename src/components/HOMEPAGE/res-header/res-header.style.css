@@ -9,7 +9,7 @@
         background: url(./header4.jpg) no-repeat center;
         background-size: cover;
         margin-top: 60px;
-        
+        cursor: pointer;
     }
 
     
@@ -64,6 +64,7 @@
         background: url(./header3.jpg) no-repeat center;
         background-size: cover;
         margin-top: 60px;
+        cursor: pointer;
     }
 
     
@@ -117,7 +118,7 @@
         overflow: hidden;
         background: url(./header2.jpg) no-repeat center;
         background-size: cover;
-       
+        cursor: pointer;
     }
     
 
@@ -161,6 +162,7 @@
         background: url(./header1.jpg) no-repeat center;
         background-size: cover;
         margin-top: 60px;
+        cursor: pointer;
     }
 
     

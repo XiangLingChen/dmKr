@@ -38,7 +38,40 @@ const Toolbar = ({currentUser, hidden}) => (
                     </div>
                 </div>
             </div> 
+            <div className='shopall-dropdown'>
+                <div className='shopall-dropdown-content'>
+                    <div className='shopall-dropdown-col1'>
+                        <div className='dropdown-directory'>SKIN CARE</div>
+                            <div className='dropdown-list-of-series'>
+                                <Link className='dropdown-series' to='/shopall/beautyEffect'>Beauty Effect</Link>
+                                <Link className='dropdown-series' to='/shopall/aqua'>Aqua</Link>
+                                <Link className='dropdown-series' to='/shopall/q10'>Q10</Link>
+                                <Link className='dropdown-series' to='/shopall/aloeVera'>Aloe Vera</Link>
+                                <Link className='dropdown-series' to='/shopall/almond'>Almond</Link>
+                                <Link className='dropdown-series' to='/shopall/lipBalm'>Lip</Link>
+                            </div>
+                        </div>
+                    <div className='shopall-dropdown-col2'>
+                        <div className='dropdown-directory'>CLEANSING</div>
+                            <div className='dropdown-list-of-series'>
+                                <Link className='dropdown-series' to='/shopall/makeupRemover'>Makeup Remover</Link>
+                                <Link className='dropdown-series' to='/shopall/cleansing'>Cleansing</Link>
+                            </div>
+                        <div className='dropdown-directory'>BODY CARE</div>
+                            <div className='dropdown-list-of-series'>
+                                <Link className='dropdown-series' to='/shopall/bodyMilk'>Body Milk</Link>
+                                <Link className='dropdown-series' to='/shopall/bodyFit'>Body Fit</Link>
+                            </div>
+                        <div className='dropdown-directory'>HAIR</div>
+                            <div className='list-of-series'>
+                                <Link className='dropdown-series' to='/shopall/shampoo'>Shampoo</Link>
+                                <Link className='dropdown-series' to='/shopall/conditioner'>Conditioner</Link>
+                            </div>
+                        </div>
+                    </div>
+            </div>
         </nav>
+
         <nav className="mobile_navigation">
             <div className='mobile-options-container'>
                 <div className='mobile-options1'>

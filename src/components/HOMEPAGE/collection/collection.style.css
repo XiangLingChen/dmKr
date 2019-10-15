@@ -42,10 +42,6 @@
         
     }
 
-    .arrow-left:hover {
-        background:  rgba(199, 199, 199, 0.2);
-    }
-
     .arrow-right {
         cursor: pointer;
         width: 15vw;
@@ -55,10 +51,29 @@
         
     }
 
+    .arrow-left:hover {
+        background:  rgba(199, 199, 199, 0.2);
+    }
+    
     .arrow-right:hover {
         background:  rgba(199, 199, 199, 0.2);
     }
     
+    
+    .arrow-left:focus,
+    .arrow-right:focus {
+        outline: none;
+        
+    }
+
+
+    .arrow-left:disabled,
+    .arrow-right:disabled {
+        cursor: not-allowed;
+        color: rgb(189, 189, 189)
+    }
+
+
 }
 
 
@@ -108,9 +123,6 @@
         
     }
 
-    .arrow-left:hover {
-        background:  rgba(199, 199, 199, 0.2);
-    }
 
     .arrow-right {
         cursor: pointer;
@@ -121,10 +133,29 @@
         
     }
 
+    .arrow-left:hover {
+        background:  rgba(199, 199, 199, 0.2);
+    }
+    
     .arrow-right:hover {
         background:  rgba(199, 199, 199, 0.2);
     }
     
+    
+    .arrow-left:focus,
+    .arrow-right:focus {
+        outline: none;
+        
+    }
+
+
+    .arrow-left:disabled,
+    .arrow-right:disabled {
+        cursor: not-allowed;
+        color: rgb(189, 189, 189)
+    }
+
+
 }
 
 /* Pad */
@@ -171,10 +202,6 @@
         
     }
 
-    .arrow-left:hover {
-        background:  rgba(199, 199, 199, 0.2);
-    }
-
     .arrow-right {
         cursor: pointer;
         width: 8vw;
@@ -184,9 +211,29 @@
         
     }
 
+    .arrow-left:hover {
+        background:  rgba(199, 199, 199, 0.2);
+    }
+    
     .arrow-right:hover {
         background:  rgba(199, 199, 199, 0.2);
     }
+    
+    
+    .arrow-left:focus,
+    .arrow-right:focus {
+        outline: none;
+        
+    }
+
+
+    .arrow-left:disabled,
+    .arrow-right:disabled {
+        cursor: not-allowed;
+        color: rgb(189, 189, 189)
+    }
+
+
     
     
 }
@@ -237,11 +284,7 @@
         border-right: none;
         
     }
-    
-    .arrow-left:hover {
-        background:  rgba(199, 199, 199, 0.2);
-    }
-    
+
     .arrow-right {
         cursor: pointer;
         width: 6vw;
@@ -250,10 +293,31 @@
         border: .1em solid #000;
         
     }
+
+    .arrow-left:hover {
+        background:  rgba(199, 199, 199, 0.2);
+    }
     
     .arrow-right:hover {
         background:  rgba(199, 199, 199, 0.2);
     }
+    
+    
+    .arrow-left:focus,
+    .arrow-right:focus {
+        outline: none;
+        
+    }
+
+
+    .arrow-left:disabled,
+    .arrow-right:disabled {
+        cursor: not-allowed;
+        color: rgb(189, 189, 189)
+    }
+
+    
+
 }
 
 /* Desktop */
@@ -291,34 +355,47 @@
         justify-content: space-between;
         
     }
-    
+
     .arrow-left {
         cursor: pointer;
         width: 6vw;
         font-size: .8em;
         background: transparent; 
-        border: .1em solid #000;
-        border-right: none;
-        
+        border: .1em solid #000;border-right: none;
     }
     
-    .arrow-left:hover {
-        background:  rgba(199, 199, 199, 0.2);
-    }
-    
+
     .arrow-right {
         cursor: pointer;
         width: 6vw;
         font-size: .8em;
         background: transparent; 
         border: .1em solid #000;
-        
+    }
+
+    .arrow-left:hover {
+        background:  rgba(199, 199, 199, 0.2);
     }
     
     .arrow-right:hover {
         background:  rgba(199, 199, 199, 0.2);
     }
     
+    
+    .arrow-left:focus,
+    .arrow-right:focus {
+        outline: none;
+        
+    }
+
+
+    .arrow-left:disabled,
+    .arrow-right:disabled {
+        cursor: not-allowed;
+        color: rgb(189, 189, 189)
+    }
+
+
 }
 
 /* Max-Desktop */
@@ -367,10 +444,6 @@
         
     }
     
-    .arrow-left:hover {
-        background:  rgba(199, 199, 199, 0.2);
-    }
-    
     .arrow-right {
         cursor: pointer;
         width: 4vw;
@@ -379,10 +452,29 @@
         border: .1em solid #000;
         
     }
+    .arrow-left:hover {
+        background:  rgba(199, 199, 199, 0.2);
+    }
     
     .arrow-right:hover {
         background:  rgba(199, 199, 199, 0.2);
     }
+    
+    
+    .arrow-left:focus,
+    .arrow-right:focus {
+        outline: none;
+        
+    }
+
+
+    .arrow-left:disabled,
+    .arrow-right:disabled {
+        cursor: not-allowed;
+        color: rgb(189, 189, 189)
+    }
+    
+
     
 }
 
@@ -429,10 +521,7 @@
         border-right: none;
         
     }
-    
-    .arrow-left:hover {
-        background:  rgba(199, 199, 199, 0.2);
-    }
+
     
     .arrow-right {
         cursor: pointer;
@@ -442,10 +531,30 @@
         border: .1em solid #000;
         
     }
+
+    .arrow-left:hover {
+        background:  rgba(199, 199, 199, 0.2);
+    }
     
     .arrow-right:hover {
         background:  rgba(199, 199, 199, 0.2);
     }
+    
+    
+    .arrow-left:focus,
+    .arrow-right:focus {
+        outline: none;
+        
+    }
+
+
+    .arrow-left:disabled,
+    .arrow-right:disabled {
+        cursor: not-allowed;
+        color: rgb(189, 189, 189)
+    }
+    
+   
     
 }
 
