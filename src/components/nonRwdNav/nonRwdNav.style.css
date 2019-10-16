@@ -163,7 +163,6 @@
     .option {
         padding: 10px 0px 10px 20px;
         font-size: .7em;
-        
         cursor: pointer;
     }
 }
@@ -234,21 +233,45 @@
         
     }
 
-    .option {
-        padding: 10px 0px 10px 30px;
+    .option.shopAll,
+    .option.bestseller{
+        margin: 0 15px;
+        padding: 16px 6px;
         font-size: .75em;
         cursor: pointer;
+        
     }
 
-    /* hover dropdown */
+    .option{
+        margin: 0 15px;
+        padding: 5px 6px;
+        font-size: .75em;
+        cursor: pointer;
+        
+    }
+
+      /* option hover */
+
+      .option:hover {
+        border-bottom: .03em solid rgba(101, 101, 101, 0.95);
+        
+    }
+
+
+    /* hover dropdown styling */
+
+    /* SHOP ALL */
 
     .shopall-dropdown {
-        width: 100%;
+        position: fixed;
+        margin-top: 15px;
+        left: 0px;
+        width: 100vw;
         padding: 20px 20px;
-        background: #fff;
+        background: rgba(255, 255, 255, 0.95);
         border-top: .03em solid rgba(0,0,0,0.2);
-        box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.15);
-        
+        box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.2);
+        display: none;
     }
 
     .shopall-dropdown-content {
@@ -260,7 +283,8 @@
 
     .shopall-dropdown-col1,
     .shopall-dropdown-col2 {
-        margin-right: 5vw;
+        min-width: 100px;
+        margin-right: 3vw;
         
     }
 
@@ -277,6 +301,73 @@
         font-size: .7em;
         margin-bottom: 10px;
     }
+
+  
+
+    /* shopall hover */
+
+    .option.shopAll:hover {
+        border-bottom: .03em solid rgb(101, 101, 101);
+    }
+
+    .shopall-option:hover .shopall-dropdown {
+        display: block;
+    }
+
+
+
+
+    /* BEST-SELLERS */
+
+    .bestSellers-dropdown {
+        position: fixed;
+        margin-top: 15px;
+        left: 0px;
+        width: 100vw;
+        padding: 42px 0 32px 0;
+        background: rgba(255, 255, 255, 0.95);
+        border-top: .03em solid rgba(0,0,0,0.2);
+        box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    .bestSellers-dropdown-content {
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 0 auto;
+       
+        
+    }
+
+    .bestSellers-dropdown-frame {
+        cursor: pointer;
+    }
+
+    .bestSellers-dropdown-img {
+        max-width: 20vw;
+    }
+
+    .bestSellers-dropdown-title {
+        margin-top: 20px;
+        font-size: .8em;
+    }
+
+
+
+    /* best-sellers hover */
+
+    .option.bestseller:hover {
+        border-bottom: .03em solid rgb(101, 101, 101);
+    }
+
+    .bestseller-option:hover .bestSellers-dropdown {
+        display: block;
+    }
+
+   
+
 
 
 }

@@ -8,6 +8,7 @@ const BEST_PRODUCT_DATA = [
       id: 2,
       title: 'SKINCARE',
       imageUrl: 'https://imgur.com/1rULjon.jpg',
+      hoverImage: 'https://imgur.com/Us13vpo.jpg',
       routeName: 'skincare',
       items: [
         {
@@ -88,6 +89,7 @@ const BEST_PRODUCT_DATA = [
       id: 3,
       title: 'CLEANSING',
       imageUrl: 'https://imgur.com/JGEa0Mu.jpg',
+      hoverImage: 'https://imgur.com/5axOiRw.jpg',
       routeName: 'cleansing',
       items: [
         {
@@ -114,6 +116,7 @@ const BEST_PRODUCT_DATA = [
       id: 4,
       title: 'BODY CARE',
       imageUrl: 'https://imgur.com/6LdpfB7.jpg',
+      hoverImage: 'https://imgur.com/nzXDyXH.jpg',
       routeName: 'bodycare',
       items: [
         {

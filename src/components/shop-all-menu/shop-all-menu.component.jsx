@@ -13,7 +13,7 @@ const ShopAllMenu = ({toggleMenuHidden, menuHidden}) => (
                 <Link className='shop-all' to='/shopall'>SHOP ALL</Link>
             </div>
             <div className='menu-title'>
-                <Link className='shop-by-collections' to='/directory'>COLLECTIONS</Link>
+                <div className='shop-by-collections'>COLLECTIONS</div>
                 <div className='dropdown-toggle-btn' onClick={toggleMenuHidden}>&#xFF0B;</div>
             </div>
             <div>
