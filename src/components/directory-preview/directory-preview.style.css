@@ -12,10 +12,12 @@
 @media only screen and (min-width: 888px) and (max-width: 1440px) {
     .directory-preview-container {
         width: 80%;
+        
         margin: 90px auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        
       }
 }
 

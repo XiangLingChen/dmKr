@@ -21,7 +21,7 @@ import {selectdirectoriesOverview} from '../../redux/directory/bestSellers.selec
 
 import './nonRwdNav.style.css'
 
-const Toolbar = ({currentUser, hidden, directoryDropdown, history}) => (
+const Toolbar = ({currentUser, hidden, directoryDropdown}) => (
     <header className="toolbar">
         <nav className="toolbar_navigation">
             <div className="toolbar_navigation-content">

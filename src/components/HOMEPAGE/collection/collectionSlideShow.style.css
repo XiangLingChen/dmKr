@@ -18,7 +18,7 @@
     .text {
         font-size: .86em;
         line-height: 1.6em;
-        height: 102px;
+        height: 90px;
         overflow-y: scroll;
         
     }
@@ -104,7 +104,7 @@
     }
 
     .collectionsImage {
-        width: 95%;
+        width: 90%;
         cursor: pointer;
         margin-top: 70px;
     }
@@ -119,6 +119,7 @@
         line-height: 1.8em;
         height: 78px;
         overflow-y: scroll;
+        
     }
 
 
@@ -141,6 +142,7 @@
         text-decoration: underline;  
         font-size: 1em; 
         font-weight: 700; 
+        
     }
 
     .card-CTA {

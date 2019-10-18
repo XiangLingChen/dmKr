@@ -7,7 +7,7 @@ import SignUpPageOnly from './pages/sign-up-only/sign-up-only.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import ShopAllPage from './pages/shop-all/shopAll-collection.component';
 import DirectoryPage from './pages/directoryPage/directoryPage.component';
-
+import Footer from './components/footer/footer.component';
 
 import {auth, createUserProfileDocument} from './components/firebase/firebase.utils';
 import {connect} from 'react-redux';
@@ -62,8 +62,9 @@ class App extends React.Component {
           <Route path="/shopall" component={ShopAllPage} />
           <Route path="/bestSellers" component={DirectoryPage} />
           
-
+          
         </Switch>
+        <Footer />
       </div>
     );
   }
