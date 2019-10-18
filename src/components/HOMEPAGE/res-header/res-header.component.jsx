@@ -10,7 +10,7 @@ const ResHeader = ({history}) => (
                 <p className='content'>Tightens and strengthens :</p>
                 <p className='content'>Effective Energy source For Your Skin.</p>
             </div>
-            <h3 className="CTA" onClick={ ()=> history.push('./shopall/q10')}>SHOP NOW</h3>
+            <h3 className="CTA">SHOP NOW</h3>
         </div>
     </div>
 );

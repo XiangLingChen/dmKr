@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {selectdirectoriesOverview} from '../../redux/directory/bestSellers.selector';
 import ShopAllMenu from '../../components/shop-all-menu/shop-all-menu.component';
 import CollectionsItemCard from '../../components/collections-item/collections-item-card.component';
+
 import './bestSeller-page.style.css';
 
 const BestSellersOverviewPage = ({directoryOverview}) => {
@@ -17,6 +18,7 @@ const BestSellersOverviewPage = ({directoryOverview}) => {
                     ))
                 }
             </div>
+         
         </div>
     )
 };

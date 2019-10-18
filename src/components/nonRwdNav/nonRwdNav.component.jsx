@@ -6,7 +6,7 @@ import BODYCARE from './assets/directory-preview-08.jpg'
 import HAIR from './assets/directory-preview-09.jpg'
 
 import {Link} from 'react-router-dom';
-import {withRouter} from 'react-router-dom';
+
 import {ReactComponent as Logo} from '../nonRwdNav/dmLogo.svg';
 import {auth} from '../firebase/firebase.utils';
 import {connect} from 'react-redux';
@@ -16,12 +16,12 @@ import {createStructuredSelector} from 'reselect';
 import {selectCartHidden} from '../../redux/cart/cart.selector';
 import {selectCurrentUser} from '../../redux/user/user.selector';
 
-import {selectdirectoriesOverview} from '../../redux/directory/bestSellers.selector';
+
 
 
 import './nonRwdNav.style.css'
 
-const Toolbar = ({currentUser, hidden, directoryDropdown}) => (
+const Toolbar = ({currentUser, hidden}) => (
     <header className="toolbar">
         <nav className="toolbar_navigation">
             <div className="toolbar_navigation-content">
@@ -206,7 +206,7 @@ const Toolbar = ({currentUser, hidden, directoryDropdown}) => (
 const mapStateToProps = createStructuredSelector ({
     currentUser: selectCurrentUser,
     hidden: selectCartHidden,
-    directoryDropdown: selectdirectoriesOverview
+    
 });
 
-export default withRouter(connect(mapStateToProps)(Toolbar));
+export default connect(mapStateToProps)(Toolbar);

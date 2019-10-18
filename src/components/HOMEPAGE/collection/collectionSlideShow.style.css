@@ -16,9 +16,9 @@
     }
 
     .text {
-        font-size: .86em;
+        font-size: 1em;
         line-height: 1.6em;
-        height: 90px;
+        height: 88px;
         overflow-y: scroll;
         
     }
@@ -98,6 +98,10 @@
 /* Pad */
 
 @media only screen and (min-width: 768px) and (max-width: 899px) {
+     .details-container {
+        display: flex;
+        flex-direction: row;
+    }
 
     .card {
         line-height: .4em;
@@ -158,6 +162,11 @@
 
 /* Pad--2 */
 @media only screen and (min-width: 900px) and (max-width: 1199px) {
+    .details-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
     .details {
         margin-top: 45px;
         margin-right: 14px;
@@ -221,9 +230,15 @@
 /* Desktop */
 
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .details-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
     .details {
         margin-top: 50px;
         margin-right: 20px;
+        
     }
 
     .card {
@@ -232,12 +247,12 @@
         align-items: flex-start;
         margin-top: -60px;
         line-height: 1em;
+        
     }
 
 
     .collectionsImage {
         max-width: 600px;
-        
         cursor: pointer;
         
     }
@@ -286,6 +301,13 @@
 /* MAX-Desktop */
 
 @media only screen and (min-width: 1441px) {
+
+    .details-container {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
     .details {
         margin-top: 70px;
         margin-right: 25px;

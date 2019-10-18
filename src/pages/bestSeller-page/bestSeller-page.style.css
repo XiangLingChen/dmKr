@@ -6,6 +6,7 @@
     .bestSeller-overview {
         width: 90%;
         margin: -20px auto;
+        margin-bottom: 5vh;
         display: flex;
         flex-direction: column;
         
@@ -26,8 +27,9 @@
 
     .bestSeller-overview {
         margin: 100px auto;
-        width: 80%;
+        width: 90%;
         display: flex;
+        
     }
 
     .bestSeller-products {
@@ -46,14 +48,13 @@
     .bestSeller-overview {
         margin: 100px auto;
         width: 80%;
-        height: 165vh;
+        
         display: flex;
         
     }
 
     .bestSeller-products {
         width: 90%;
-        max-height: 48vh;
         display: flex;
         flex-wrap: wrap;
         padding-left: 1.1vw;
@@ -75,7 +76,6 @@
 
     .bestSeller-products {
         width: 90%;
-        max-height: 48vh;
         display: flex;
         flex-wrap: wrap;
         padding-left: 1.1vw;

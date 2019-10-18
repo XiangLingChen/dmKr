@@ -12,7 +12,7 @@ const DirectoryPage = ({match}) => {
             <DirectoryHeader />
             <Route exact path={`${match.path}`} component = {DirectoryPreview}/>
             <Route path={`${match.path}/:categoryId`} component = {BestSellersOverviewPage}/>
-       
         </div>)
+    
 };
 export default DirectoryPage;

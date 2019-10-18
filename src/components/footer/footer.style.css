@@ -55,7 +55,7 @@
     .instagram-icon,
     .youtube-icon {
         width: 24px;
-        margin-right: 8vw;
+        margin-right: 11vw;
         cursor: pointer;
     }
 
@@ -315,7 +315,7 @@
         line-height: 75px;
         align-self: center;
         text-align: center;
-        font-size: .8em;
+        font-size: .75em;
         cursor: pointer;
     }
 
@@ -434,7 +434,7 @@
         line-height: 80px;
         align-self: center;
         text-align: center;
-        font-size: .8em;
+        font-size: .75em;
         cursor: pointer;
     }
 
@@ -551,7 +551,7 @@
         line-height: 80px;
         align-self: center;
         text-align: center;
-        font-size: .8em;
+        font-size: .75em;
         cursor: pointer;
     }
 

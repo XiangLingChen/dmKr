@@ -4,11 +4,12 @@ import INSTAGRAM from './assets/instagram.svg';
 import YOUTUBE from './assets/youtube.svg';
 import ROCKET from './assets/rocket.svg';
 
-import {Link} from 'react-router-dom';
 
+import {Link} from 'react-router-dom';
+import {withRouter, Redirect} from 'react-router-dom';
 import './footer.style.css';
 
-const Footer = () => (
+const Footer = ({match, history}) => (
     <div className='footer-container'>
 
         <div className='footer-content-container1'>
@@ -21,10 +22,10 @@ const Footer = () => (
                             <img className='youtube-icon' src={YOUTUBE} alt=''/>
                         </div>
                         <div className='footer-nav'>
-                            <Link className='footer-nav-shopall' to='./shopall'>SHOP ALL</Link>
-                            <Link className='footer-nav-bestseller' to='./bestSellers'>BEST-SELLERS</Link>
-                            <Link className='footer-nav-about' to='./about'>ABOUT</Link>
-                            <div className='footer-nav-contact'>CONTACT US</div>
+                            <Link className='footer-nav-shopall' to='/shopall'>SHOP ALL</Link>
+                            <Link className='footer-nav-bestseller' to='/bestSellers'>BEST-SELLERS</Link>
+                            <Link className='footer-nav-about' to='/about'>ABOUT</Link>
+                            <Link className='footer-nav-contact' to='/contact'>CONTACT US</Link>
                         </div>
                     </div>
                     <div className='back-to-top'>
@@ -47,4 +48,6 @@ const Footer = () => (
     </div>
 );
 
-export default Footer;
+
+
+export default withRouter(Footer);
