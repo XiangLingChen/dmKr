@@ -55,6 +55,7 @@
 
     .bestSeller-products {
         width: 90%;
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
         padding-left: 1.1vw;
@@ -76,9 +77,11 @@
 
     .bestSeller-products {
         width: 90%;
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
         padding-left: 1.1vw;
+        
     }
 
 }
