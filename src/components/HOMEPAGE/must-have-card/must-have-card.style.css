@@ -82,6 +82,7 @@
         opacity: 0;
         transition: .5s ease;
         cursor: pointer;
+        
     }
 
     .custom-btn-hm:hover {
@@ -90,6 +91,18 @@
         border: none;
         opacity: 1;
         cursor: pointer;
+    }
+
+    .custom-btn-hm:active {
+        background-color: rgb(155, 155, 155);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
+
+    .custom-btn-hm:focus {
+        outline: none;
     }
   
 }
@@ -182,6 +195,18 @@
         border: none;
         opacity: 1;
         cursor: pointer;
+    }
+
+    .custom-btn-hm:active {
+        background-color: rgb(155, 155, 155);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
+
+    .custom-btn-hm:focus {
+        outline: none;
     }
 
 
@@ -279,6 +304,18 @@
         cursor: pointer;
     }
 
+    .custom-btn-hm:active {
+        background-color: rgb(155, 155, 155);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
+
+    .custom-btn-hm:focus {
+        outline: none;
+    }
+
 
 }
 
@@ -293,7 +330,7 @@
         box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.15);
         position: relative;
         opacity: 1;
-     
+        
     }
 
     .best-seller-logo {
@@ -374,11 +411,15 @@
     }
 
     .custom-btn-hm:active {
-        background-color: rgb(56, 56, 56);
+        background-color: rgb(155, 155, 155);
         color: white;
         border: none;
         opacity: 1;
         
+    }
+
+    .custom-btn-hm:focus {
+        outline: none;
     }
 }
 
@@ -474,5 +515,17 @@
         border: none;
         opacity: 1;
         cursor: pointer;
+    }
+
+    .custom-btn-hm:active {
+        background-color: rgb(155, 155, 155);
+        color: white;
+        border: none;
+        opacity: 1;
+        
+    }
+
+    .custom-btn-hm:focus {
+        outline: none;
     }
 }

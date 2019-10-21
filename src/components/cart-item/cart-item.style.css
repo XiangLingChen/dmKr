@@ -1,50 +1,126 @@
-.cartDropdown {
-    width: 100%;
-    display: flex;
-    height: auto;
-    padding: 5px 0;
-    border-bottom: .5px solid rgba(0,0,0,0.2);
-}
- 
-.ProductPic {
-    width: 30%; 
-}
-
-
-
-.dropdownDetails {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 10px 20px;
-    line-height: 20px;
+@media only screen and (max-width: 479px)  {
+    .cartDropdown {
+        width: 100%;
+        display: flex;
+        height: auto;
+        padding: 8px 0 8px 0;
+        border-bottom: .5px solid rgba(0,0,0,0.2);
+        
+    }
+     
+    .ProductPic {
+        width: 24%; 
+    }
+    
+    
+    
+    .dropdownDetails {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10px 20px;
+        line-height: 1.5em;
+        
+    }
+    
+    .dropdownName {
+        width: 110%;
+        font-size: .8em;
+    }
+    
+    .quantityXprice {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 6px;
+        width: 40%;
+        
+    }
+    
+    .dropdownQuantity {
+        font-size: .8em;
+    }
+    
+    .dropdownMultiply {
+        font-size: .8em;
+    }
+    
+    .dropdownPrice {
+        font-size: .8em;
+    }
+    
+    .remove-btn {
+        font-size: .8em;
+        align-self: center;
+        margin-right: 8px;
+        cursor: pointer;
+        color: rgba(0,0,0,0.5);
+    }
+    
     
 }
 
-.dropdownName {
-    width: 110%;
-    font-size: 12px;
-}
-
-.quantityXprice {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 60%;
+@media only screen and (min-width: 480px)  {
+    .cartDropdown {
+        width: 100%;
+        display: flex;
+        height: auto;
+        padding: 5px 0;
+        border-bottom: .5px solid rgba(0,0,0,0.2);
+    }
+     
+    .ProductPic {
+        width: 30%; 
+    }
+    
+    
+    
+    .dropdownDetails {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10px 20px;
+        line-height: 1.5em;
+        
+    }
+    
+    .dropdownName {
+        width: 110%;
+        font-size: .8em;
+    }
+    
+    .quantityXprice {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 6px;
+        width: 60%;
+        
+    }
+    
+    .dropdownQuantity {
+        font-size: .8em;
+    }
+    
+    .dropdownMultiply {
+        font-size: .8em;
+    }
+    
+    .dropdownPrice {
+        font-size: .8em;
+    }
+    
+    .remove-btn {
+        font-size: .8em;
+        align-self: center;
+        margin-left: 10px;
+        cursor: pointer;
+        color: rgba(0,0,0,0.5);
+    }
+    
     
 }
-
-.dropdownQuantity {
-    font-size: 12px;
-}
-
-.dropdownMultiply {
-    font-size: 12px;
-}
-
-.dropdownPrice {
-    font-size: 12px;
-}
-

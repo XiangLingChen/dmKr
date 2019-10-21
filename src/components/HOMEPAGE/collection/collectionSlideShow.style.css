@@ -108,7 +108,7 @@
     }
 
     .collectionsImage {
-        width: 90%;
+        width: 100%;
         cursor: pointer;
         margin-top: 70px;
     }
@@ -195,7 +195,7 @@
     .text {
         font-size: .96em;
         line-height: 1.8em;
-        max-height: 146px;
+        max-height: 120px;
         overflow-y: scroll;
         
     }
@@ -233,9 +233,11 @@
     .details-container {
         display: flex;
         flex-direction: row;
+    
     }
     
     .details {
+    
         margin-top: 50px;
         margin-right: 20px;
         
@@ -254,7 +256,6 @@
     .collectionsImage {
         max-width: 600px;
         cursor: pointer;
-        
     }
 
     .name {
@@ -265,7 +266,7 @@
     .text {
         font-size: 1.05em;
         line-height: 2em;
-        max-height: 170px;
+        max-height: 150px;
         
         overflow-y: scroll;
         
@@ -292,6 +293,10 @@
         text-decoration: underline;  
         font-size: 1.1em; 
         font-weight: 700; 
+    }
+
+    .slide-page {
+        margin-top: 30px;
     }
 
 
@@ -323,10 +328,12 @@
 
 
     .collectionsImage {
+        margin-top: 20px;
         max-width: 600px;
         cursor: pointer;
         
     }
+
 
     .name {
         font-size: 1.3em;
@@ -336,7 +343,8 @@
     .text {
         font-size: 1.05em;
         line-height: 2em;
-
+        max-height: 120px;
+        overflow-y: scroll;
     }
 
     .text::-webkit-scrollbar {

@@ -15,7 +15,6 @@
         text-align: center;
         font-size: .68em;
         line-height: 1.3em;
-        cursor: pointer;
         letter-spacing: 1.5px;
     }
 
@@ -32,7 +31,7 @@
         overflow: hidden;
         background: url(./HP_collections_banner_2.jpg) no-repeat center;
         background-size: cover;
-        
+        cursor: pointer;
     }
     
     .CollectionsBanner_content {
@@ -41,6 +40,7 @@
         font-size: .8em;
         line-height: 1.3em;
         letter-spacing: 1.5px;
+        
     }
 
     
@@ -59,7 +59,7 @@
         overflow: hidden;
         background: url(./HP_collections_banner.jpg) no-repeat center;
         background-size: cover;
-        
+        cursor: pointer;
     }
     
     .CollectionsBanner_content {
@@ -68,6 +68,7 @@
         font-size: 1em;
         line-height: 1.3em;
         letter-spacing: 1.5px;
+        
     }
 
 
@@ -83,7 +84,7 @@
         overflow: hidden;
         background: url(./HP_collections_banner.jpg) no-repeat center;
         background-size: cover;
-        
+        cursor: pointer;
     }
 
  

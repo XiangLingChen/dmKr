@@ -77,11 +77,15 @@
     }
 
     .shopAll-custom-btn:active {
-        background-color: rgb(56, 56, 56);
+        background-color: rgb(155, 155, 155);
         color: white;
         border: none;
         opacity: 1;
         
+    }
+
+    .shopAll-custom-btn:focus {
+        outline: none;
     }
 
 }
@@ -165,11 +169,15 @@
     }
 
     .shopAll-custom-btn:active {
-        background-color: rgb(56, 56, 56);
+        background-color: rgb(155, 155, 155);
         color: white;
         border: none;
         opacity: 1;
         
+    }
+
+    .shopAll-custom-btn:focus {
+        outline: none;
     }
 
 
@@ -256,11 +264,15 @@
     }
 
     .shopAll-custom-btn:active {
-        background-color: rgb(56, 56, 56);
+        background-color: rgb(155, 155, 155);
         color: white;
         border: none;
         opacity: 1;
         
+    }
+
+    .shopAll-custom-btn:focus {
+        outline: none;
     }
 
 }
@@ -345,11 +357,15 @@
     }
 
     .shopAll-custom-btn:active {
-        background-color: rgb(56, 56, 56);
+        background-color: rgb(155, 155, 155);
         color: white;
         border: none;
         opacity: 1;
         
+    }
+
+    .shopAll-custom-btn:focus {
+        outline: none;
     }
 }
 
@@ -433,10 +449,14 @@
     }
 
     .shopAll-custom-btn:active {
-        background-color: rgb(56, 56, 56);
+        background-color: rgb(155, 155, 155);
         color: white;
         border: none;
         opacity: 1;
         
+    }
+
+    .shopAll-custom-btn:focus {
+        outline: none;
     }
 }

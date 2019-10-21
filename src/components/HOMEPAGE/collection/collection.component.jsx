@@ -16,14 +16,17 @@ class Collection extends Component {
    }
 
    nextProperty = () => {
-       const newIndex = this.state.property.index+1;
+       const currentIndex = this.state.property.index;
+       const newIndex = currentIndex + 1;
+ 
        this.setState({
         property: data.properties[newIndex]
        });
    }
 
    prevProperty = () => {
-       const newIndex = this.state.property.index-1;
+       const currentIndex = this.state.property.index;
+       const newIndex = currentIndex - 1;
        this.setState({
         property: data.properties[newIndex]
        });
@@ -39,21 +42,28 @@ class Collection extends Component {
                     <div className="content">
                         <SlideShow property={property}/>
                     </div>
+                    <div className='pageNumber-btn'>
+                        <div className='page-number'>
+                            <p>{property.index + 1} / 8</p>
+                        </div>
 
-                    <div className="btn-container">
-                        <button
-                            className="arrow-left"
-                            onClick={() => this.prevProperty()}
-                            disabled={property.index===0}>      
-                        &#8592;
-                        </button>
+                        <div className="btn-container">
+                            <button
+                                className="arrow-left"
+                                onClick={() => this.prevProperty()}
+                                disabled={property.index===0}>      
+                                <div className='nav-arrow-left'>&#10229;</div>
+                            </button>
 
-                        <button
-                            className="arrow-right"
-                            onClick={() => this.nextProperty()}
-                            disabled={property.index===data.properties.length-1}>
-                        &#8594;
-                        </button>
+                            <button
+                                className="arrow-right"
+                                onClick={() => this.nextProperty()}
+                                
+                                disabled={property.index===data.properties.length-1}>
+                                <div className='nav-arrow-right'>&#10230;</div>
+                            </button>
+                        </div>
+                    
                     </div>
                     
                    

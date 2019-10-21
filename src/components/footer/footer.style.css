@@ -459,6 +459,10 @@
         cursor: pointer;
     }
 
+    .to-top-icon:hover {
+        transform: scale();
+    }
+
     .to-top-title {
         font-size: .7em;
         padding: 5px 0;
