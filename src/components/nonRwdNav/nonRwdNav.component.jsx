@@ -1,10 +1,10 @@
 import React from 'react';
 
-import SKINCARE from './assets/directory-preview-06.jpg'
-import CLEANSING from './assets/directory-preview-07.jpg'
-import BODYCARE from './assets/directory-preview-08.jpg'
-import HAIR from './assets/directory-preview-09.jpg'
-
+import SKINCARE from './assets/directory-preview-06.jpg';
+import CLEANSING from './assets/directory-preview-07.jpg';
+import BODYCARE from './assets/directory-preview-08.jpg';
+import HAIR from './assets/directory-preview-09.jpg';
+import MODEL from './assets/menu-dropdown-model.jpg';
 import {Link} from 'react-router-dom';
 
 import {ReactComponent as Logo} from '../nonRwdNav/dmLogo.svg';
@@ -61,6 +61,9 @@ const Toolbar = ({currentUser, hidden}) => (
                                                         <Link className='dropdown-series' to='/shopall/shampoo'>Shampoo</Link>
                                                         <Link className='dropdown-series' to='/shopall/conditioner'>Conditioner</Link>
                                                     </div>
+                                            </div>
+                                            <div className='shopall-dropdown-col3'>
+                                                <img src={MODEL} className='shopall-dropdown-model-img'/>
                                             </div>
                                         </div>
                                     </div>
@@ -156,6 +159,9 @@ const Toolbar = ({currentUser, hidden}) => (
                                                 <Link className='dropdown-series' to='/shopall/shampoo'>Shampoo</Link>
                                                 <Link className='dropdown-series' to='/shopall/conditioner'>Conditioner</Link>
                                             </div>
+                                    </div>
+                                    <div className='shopall-dropdown-col3'>
+                                        <img src={MODEL} className='shopall-dropdown-model-img'/>
                                     </div>
                                 </div>
                             </div>

@@ -99,7 +99,17 @@
 
     .to-top-icon {
         width: 40px;
+        animation: tremble 1.2s infinite alternate;
         cursor: pointer;
+    }
+
+    @keyframes tremble {
+        from {
+          transform:rotateY(0deg);
+        }
+        to {
+          transform:rotateY(180deg);
+        }
     }
 
     .to-top-title {
@@ -218,7 +228,17 @@
 
     .to-top-icon {
         width: 42px;
+        animation: tremble 1.2s infinite alternate;
         cursor: pointer;
+    }
+
+    @keyframes tremble {
+        from {
+          transform:rotateY(0deg);
+        }
+        to {
+          transform:rotateY(180deg);
+        }
     }
 
     .to-top-title {
@@ -337,7 +357,17 @@
 
     .to-top-icon {
         width: 45px;
+        animation: tremble 1.2s infinite alternate;
         cursor: pointer;
+    }
+
+    @keyframes tremble {
+        from {
+          transform:rotateY(0deg);
+        }
+        to {
+          transform:rotateY(180deg);
+        }
     }
 
     .to-top-title {
@@ -449,24 +479,30 @@
     .back-to-top-content {
         width: 90px;
         height: 80px;
-        padding-top: 7px;
+        padding-top: 8px;
         margin-left: auto;
         
     }
 
     .to-top-icon {
         width: 45px;
+        animation: tremble 1.2s infinite alternate;
         cursor: pointer;
     }
 
-    .to-top-icon:hover {
-        transform: scale();
-    }
+    @keyframes tremble {
+        from {
+          transform:rotateY(0deg);
+        }
+        to {
+          transform:rotateY(180deg);
+        }
+      }
 
     .to-top-title {
         font-size: .7em;
         padding: 5px 0;
-        margin-top: -4px;
+        margin-top: -6px;
         margin-bottom: 0px;
     }
 
@@ -577,8 +613,18 @@
 
     .to-top-icon {
         width: 45px;
+        animation: tremble 1.2s infinite alternate;
         cursor: pointer;
     }
+
+    @keyframes tremble {
+        from {
+          transform:rotateY(0deg);
+        }
+        to {
+          transform:rotateY(180deg);
+        }
+      }
 
     .to-top-title {
         font-size: .7em;
