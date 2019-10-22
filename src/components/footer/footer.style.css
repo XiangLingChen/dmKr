@@ -80,6 +80,8 @@
        
     }
 
+    /* Styling of Back to Top Container */
+
     .back-to-top {
         text-align: center;
         height: 90px;
@@ -97,27 +99,6 @@
         
     }
 
-    .to-top-icon {
-        width: 40px;
-        animation: tremble 1.2s infinite alternate;
-        cursor: pointer;
-    }
-
-    @keyframes tremble {
-        from {
-          transform:rotateY(0deg);
-        }
-        to {
-          transform:rotateY(180deg);
-        }
-    }
-
-    .to-top-title {
-        font-size: .55em;
-        padding: 5px 0;
-        margin-top: -4px;
-       
-    }
 
     .copyright {
         padding-top: 6px;
@@ -210,6 +191,8 @@
         text-align: center;
     }
 
+    /* Styling of Back to Top Container */
+
     .back-to-top {
         text-align: center;
         height: 80px;
@@ -226,27 +209,6 @@
         
     }
 
-    .to-top-icon {
-        width: 42px;
-        animation: tremble 1.2s infinite alternate;
-        cursor: pointer;
-    }
-
-    @keyframes tremble {
-        from {
-          transform:rotateY(0deg);
-        }
-        to {
-          transform:rotateY(180deg);
-        }
-    }
-
-    .to-top-title {
-        font-size: .55em;
-        padding: 5px 0;
-        margin-top: -4px;
-       
-    }
 
     .copyright {
         padding-top: 6px;
@@ -254,10 +216,6 @@
         font-size: .65em;
         
     }
-
-
-
-
 
 
 }
@@ -339,6 +297,8 @@
         cursor: pointer;
     }
 
+    /* Styling of Back to Top Container */
+
     .back-to-top {
         text-align: center;
         width: 30%;
@@ -355,38 +315,12 @@
         
     }
 
-    .to-top-icon {
-        width: 45px;
-        animation: tremble 1.2s infinite alternate;
-        cursor: pointer;
-    }
-
-    @keyframes tremble {
-        from {
-          transform:rotateY(0deg);
-        }
-        to {
-          transform:rotateY(180deg);
-        }
-    }
-
-    .to-top-title {
-        font-size: .65em;
-        padding: 5px 0;
-        margin-top: -4px;
-        margin-bottom: 0px;
-    }
-
     .copyright {
         padding-top: 8px;
         text-align: center;
         font-size: .75em;
         
     }
-
-
-
-
 
 }
 
@@ -468,6 +402,8 @@
         cursor: pointer;
     }
 
+    /* Styling of Back to Top Container */
+
     .back-to-top {
         text-align: center;
         width: 30%;
@@ -484,37 +420,12 @@
         
     }
 
-    .to-top-icon {
-        width: 45px;
-        animation: tremble 1.2s infinite alternate;
-        cursor: pointer;
-    }
-
-    @keyframes tremble {
-        from {
-          transform:rotateY(0deg);
-        }
-        to {
-          transform:rotateY(180deg);
-        }
-      }
-
-    .to-top-title {
-        font-size: .7em;
-        padding: 5px 0;
-        margin-top: -6px;
-        margin-bottom: 0px;
-    }
-
     .copyright {
         padding-top: 12px;
         text-align: center;
         font-size: .75em;
         
     }
-
-
-
 
 }
 
@@ -595,6 +506,8 @@
         cursor: pointer;
     }
 
+    /* Styling of Back to Top Container */
+
     .back-to-top {
         text-align: center;
         width: 32%;
@@ -611,37 +524,11 @@
         
     }
 
-    .to-top-icon {
-        width: 45px;
-        animation: tremble 1.2s infinite alternate;
-        cursor: pointer;
-    }
-
-    @keyframes tremble {
-        from {
-          transform:rotateY(0deg);
-        }
-        to {
-          transform:rotateY(180deg);
-        }
-      }
-
-    .to-top-title {
-        font-size: .7em;
-        padding: 5px 0;
-        margin-top: -4px;
-        margin-bottom: 0px;
-    }
-
     .copyright {
         padding-top: 12px;
         text-align: center;
         font-size: .75em;
         
     }
-
-
-
-    
 
 }

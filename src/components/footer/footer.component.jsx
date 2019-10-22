@@ -2,8 +2,9 @@ import React from 'react';
 import FACEBOOK from './assets/facebook.svg';
 import INSTAGRAM from './assets/instagram.svg';
 import YOUTUBE from './assets/youtube.svg';
-import ROCKET from './assets/rocket.svg';
 
+
+import GoTop from '../go-top/go-top.component';
 
 import {Link} from 'react-router-dom';
 import {withRouter, Redirect} from 'react-router-dom';
@@ -30,8 +31,7 @@ const Footer = ({match, history}) => (
                     </div>
                     <div className='back-to-top'>
                         <div className='back-to-top-content'>
-                            <img className='to-top-icon' src={ROCKET} alt=''/>
-                            <p className='to-top-title'>BACK TO TOP</p>
+                            <GoTop scrollStepInPx="150" delayInMs="40"/>
                         </div>
                     </div>      
                 </div>
