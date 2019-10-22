@@ -52,8 +52,8 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
     .CollectionsBanner_container {
-        margin-top: -20px;
-        margin-bottom: 90px;
+        margin-top: -10px;
+        margin-bottom: 80px;
         width: 100%;
         height: 250px;
         overflow: hidden;
@@ -77,8 +77,6 @@
 
 @media only screen and (min-width:1200px) {
     .CollectionsBanner_container {
-        margin-top: 70px;
-        margin-bottom: 75px;
         width: 100%;
         height: 250px;
         overflow: hidden;

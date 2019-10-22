@@ -69,7 +69,9 @@
     
     .page-container {
         width: 90%;
-        margin: 60px auto;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 40px;
    }
 
     .homepage-hero {
@@ -215,14 +217,14 @@
  
      .hero-items {
          
-         width: 37vw;
+         width: 33vw;
          max-width: 608px;
          
          
      }
      
      .banner-container{
-         width: 37vw;
+         width: 35vw;
          max-width: 608px;
          height: auto;
          max-height: 62.9vh;
@@ -231,7 +233,7 @@
      }
     
      .HeroBanner {
-         width: 37vw;
+         width: 32vw;
          max-width: 608px;
      }
  
