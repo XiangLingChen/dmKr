@@ -191,6 +191,10 @@
         max-width: 42vw;
     }
 
+    .bestSellers-dropdown-img:hover {
+        opacity: 0.88;
+    }
+
     .bestSellers-dropdown-title {
         margin-top: 10px;
         font-size: .7em;
@@ -403,6 +407,10 @@
 
     .bestSellers-dropdown-img {
         max-width: 35vw;
+    }
+
+    .bestSellers-dropdown-img:hover {
+        opacity: 0.88;
     }
 
     .bestSellers-dropdown-title {
@@ -619,7 +627,10 @@
 
     .bestSellers-dropdown-img {
         max-width: 20vw;
-        
+    }
+
+    .bestSellers-dropdown-img:hover {
+        opacity: 0.88;
     }
 
     .bestSellers-dropdown-title {
@@ -833,6 +844,10 @@
 
     .bestSellers-dropdown-img {
         max-width: 16vw;
+    }
+
+    .bestSellers-dropdown-img:hover {
+        opacity: 0.88;
     }
 
     .bestSellers-dropdown-title {

@@ -1,7 +1,7 @@
 import React from 'react';
 import FACEBOOK from './assets/facebook.svg';
 import INSTAGRAM from './assets/instagram.svg';
-import YOUTUBE from './assets/youtube.svg';
+import LOCATION from './assets/placeholder.svg';
 
 
 import GoTop from '../go-top/go-top.component';
@@ -18,9 +18,15 @@ const Footer = ({match, history}) => (
                 <div className='social-nav-and-top'>
                     <div className='social-and-nav'>
                         <div className='social-icon'>
-                            <img className='facebook-icon' src={FACEBOOK} alt=''/>
-                            <img className='instagram-icon' src={INSTAGRAM} alt=''/>
-                            <img className='youtube-icon' src={YOUTUBE} alt=''/>
+                            <a href='https://www.facebook.com/dm.Deutschland/'>
+                                <img className='facebook-icon' src={FACEBOOK} alt=''/>
+                            </a>
+                            <a href='https://www.instagram.com/dm_deutschland/'>
+                                <img className='instagram-icon' src={INSTAGRAM} alt=''/>
+                            </a>
+                            <Link to=''>
+                                <img className='map-icon' src={LOCATION} alt=''/>
+                            </Link>
                         </div>
                         <div className='footer-nav'>
                             <Link className='footer-nav-shopall' to='/shopall'>SHOP ALL</Link>

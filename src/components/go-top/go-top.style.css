@@ -1,6 +1,13 @@
 /* Mobile - 1 */
 @media only screen and (max-width: 510px) {
    
+    .go-top {
+      transition: 0.2s ease-in-out;
+    }
+
+    .go-top:hover {
+      transform: translateY(-2px);
+    } 
 
     .to-top-icon {
         width: 40px;
@@ -30,6 +37,13 @@
 /* Mobile - 2 */
 @media only screen and (min-width: 510px) and (max-width: 849px) {
 
+    .go-top {
+      transition: 0.2s ease-in-out;
+    }
+
+    .go-top:hover {
+      transform: translateY(-2px);
+    } 
 
     .to-top-icon {
         width: 42px;
@@ -59,6 +73,13 @@
 /* Pad */
 @media only screen and (min-width: 850px) and (max-width: 1199px) {
 
+    .go-top {
+      transition: 0.2s ease-in-out;
+    }
+
+    .go-top:hover {
+      transform: translateY(-2px);
+    }
 
     .to-top-icon {
         width: 45px;
@@ -89,6 +110,13 @@
 /* Desktop */
 @media only screen and (min-width: 1200px) and (max-width: 1500px){
 
+    .go-top {
+      transition: 0.2s ease-in-out;
+    }
+
+    .go-top:hover {
+      transform: translateY(-2px);
+    }
 
     .to-top-icon {
         width: 45px;
@@ -117,6 +145,14 @@
 
 /* Max-Desktop */
 @media only screen and (min-width: 1501px) {
+
+    .go-top {
+      transition: 0.2s ease-in-out;
+    }
+
+    .go-top:hover {
+      transform: translateY(-2px);
+    }
 
     .to-top-icon {
         width: 45px;
