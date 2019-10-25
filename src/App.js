@@ -7,6 +7,7 @@ import SignUpPageOnly from './pages/sign-up-only/sign-up-only.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import ShopAllPage from './pages/shop-all/shopAll-collection.component';
 import DirectoryPage from './pages/directoryPage/directoryPage.component';
+import AboutPage from './pages/about/about.component';
 import Footer from './components/footer/footer.component';
 
 import {auth, createUserProfileDocument} from './components/firebase/firebase.utils';
@@ -61,7 +62,7 @@ class App extends React.Component {
           <Route exact path="/checkout" component={CheckoutPage} />
           <Route path="/shopall" component={ShopAllPage} />
           <Route path="/bestSellers" component={DirectoryPage} />
-          
+          <Route path="/about" component={AboutPage} />
           
         </Switch>
         <Footer />
