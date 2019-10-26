@@ -36,7 +36,7 @@
     }
 
     .waterDrop {
-        width: 90px;
+        width: 95px;
         position: absolute;
         top: 280px;
         right: 0px;
@@ -49,7 +49,7 @@
         margin-top: 50px;
         position: relative;
         width: 100%;
-        height: 320px;
+        height: 295px;
         overflow: hidden;
         background: url(./desktop.jpg) no-repeat center;
         background-size: cover;
@@ -80,17 +80,12 @@
         color: #50B5D8;
     }
 
-    .waterDrop {
-        width: 100px;
-        position: absolute;
-        top: 290px;
-        right: 15px;
-    }
+ 
 
     .waterDrop {
         width: 110px;
         position: absolute;
-        top: 300px;
+        top: 295px;
         right: 10px;
     }
 }
@@ -135,7 +130,7 @@
     .waterDrop {
         width: 130px;
         position: absolute;
-        top: 380px;
+        top: 400px;
         right: 20px;
     }
 }
