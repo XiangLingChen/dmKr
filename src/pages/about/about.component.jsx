@@ -8,10 +8,13 @@ import './about.style.css';
 const AboutPage = () => (
     <div className='about-page-container'>
         <AboutHeader />
-        <div>3 icons</div>
-        <SecOne />
-        <div>treatment</div>
-        <SecThree />
+        
+        <div  className='secOne'>
+            <SecOne />
+        </div>
+        <div className='secThree'>
+            <SecThree />
+        </div>
     </div>
 );
 

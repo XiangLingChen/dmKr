@@ -2,3 +2,8 @@
     width: 100%;
     
 }
+
+.secOne,
+.secThree {
+    margin-top: 60px;
+}

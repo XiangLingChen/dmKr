@@ -8,7 +8,7 @@
         overflow: hidden;
         background: url(./desktop.jpg) no-repeat center;
         background-size: cover;
-       
+        background-attachment: fixed;
     }
     
 
@@ -34,6 +34,13 @@
         margin-top: 5px;
         color: #50B5D8;
     }
+
+    .waterDrop {
+        width: 90px;
+        position: absolute;
+        top: 280px;
+        right: 0px;
+    }
 }
 
 /* Mobile -- 2 */
@@ -46,7 +53,7 @@
         overflow: hidden;
         background: url(./desktop.jpg) no-repeat center;
         background-size: cover;
-     
+        background-attachment: fixed;
     }
     
 
@@ -72,6 +79,20 @@
         margin-top: 12px;
         color: #50B5D8;
     }
+
+    .waterDrop {
+        width: 100px;
+        position: absolute;
+        top: 290px;
+        right: 15px;
+    }
+
+    .waterDrop {
+        width: 110px;
+        position: absolute;
+        top: 300px;
+        right: 10px;
+    }
 }
 
 /* Pad */
@@ -84,7 +105,7 @@
         overflow: hidden;
         background: url(./desktop.jpg) no-repeat center;
         background-size: cover;
-       
+        background-attachment: fixed;
     }
     
 
@@ -110,6 +131,13 @@
         margin-top: 20px;
         color: #50B5D8;
     }
+
+    .waterDrop {
+        width: 130px;
+        position: absolute;
+        top: 380px;
+        right: 20px;
+    }
 }
 
 /* Desktop */
@@ -123,9 +151,8 @@
         overflow: hidden;
         background: url(./desktop.jpg) no-repeat center;
         background-size: cover;
-       
+        background-attachment: fixed;
     }
-    
 
     .about-header-content {
         position: absolute;
@@ -148,6 +175,13 @@
         font-weight: 900;
         margin-top: 20px;
         color: #50B5D8;
+    }
+
+    .waterDrop {
+        width: 150px;
+        position: absolute;
+        top: 430px;
+        right: 80px;
     }
 
     
