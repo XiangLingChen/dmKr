@@ -13,13 +13,13 @@
     }
 
     .secThree-title {
-        font-size: 1.6em;
+        font-size: 1.45em;
     }
 
     .secThree-content {
         font-size: .85em;
-        line-height: 1.5em;
-        margin-top: -10px;
+        line-height: 1.8em;
+        margin-top: -5px;
     }
 
     .Three-pic {
@@ -48,7 +48,7 @@
     .secThree-text {
         text-align: center;
         margin: 0 auto;
-
+        margin-bottom: 20px;
     }
 
     .secThree-title {
@@ -57,7 +57,7 @@
 
     .secThree-content {
         font-size: .85em;
-        line-height: 1.5em;
+        line-height: 1.9em;
         margin-top: -10px;
     }
 
@@ -87,7 +87,7 @@
     .secThree-text {
         text-align: center;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 26px;
     }
 
     .secThree-title {
@@ -96,7 +96,7 @@
 
     .secThree-content {
         font-size: .85em;
-        line-height: 1.5em;
+        line-height: 1.8em;
         margin-top: -10px;
     }
 
@@ -135,7 +135,7 @@
 
     .secThree-content {
         font-size: .85em;
-        line-height: 1.5em;
+        line-height: 1.8em;
     }
 
     .Three-pic {
@@ -168,14 +168,14 @@
     }
 
     .secThree-title {
-        font-size: 2em;
+        font-size: 1.8em;
 
     }
 
     .secThree-content {
         font-size: .9em;
         line-height: 1.5em;
-        margin-top: -20px;
+        
     }
 
     .Three-pic {

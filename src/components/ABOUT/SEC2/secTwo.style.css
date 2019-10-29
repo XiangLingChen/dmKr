@@ -33,20 +33,21 @@
     
     .secTwo-text1-title,
     .secTwo-title {
-        font-size: 1.5em;
+        font-size: 1.4em;
         line-height: 1.4em;
     }
     
     .secTwo-text1-content1,
     .secTwo-text2-content {
         font-size: .85em;
-        line-height: 1.5em;
-        
+        line-height: 1.7em;
+        margin-top: -8px;
     }
     
     .secTwo-text1-content2 {
         font-size: .85em;
-        line-height: 1.5em;
+        line-height: 1.9em;
+        margin-top: -12px;
     }
     
     .secTwo-col2 {
@@ -109,7 +110,7 @@
         width: 100%;
         line-height: 2em;
         order: -1;
-        
+        margin-bottom: 5px;
     }
     
     .secTwo-text1-title,
@@ -121,13 +122,14 @@
     .secTwo-text1-content1,
     .secTwo-text2-content {
         font-size: .85em;
-        line-height: 1.5em;
+        line-height: 1.8em;
         margin-top: -8px;
     }
     
     .secTwo-text1-content2 {
         font-size: .85em;
-        line-height: 1.5em;
+        line-height: 1.7em;
+        margin-top: -12px;
     }
     
     .secTwo-col2 {
@@ -151,6 +153,7 @@
     .secTwo-text2 {
         margin: 0 auto;
         text-align: center;
+        margin-bottom: 5px;
     }
 
     .secTwo-text2-content {
@@ -190,7 +193,7 @@
         width: 100%;
         line-height: 2em;
         order: -1;
-        margin-bottom: 10px;
+        margin-bottom: 24px;
     }
     
     .secTwo-text1-title,
@@ -232,11 +235,14 @@
     .secTwo-text2 {
         margin: 0 auto;
         text-align: center;
+        margin-bottom: 14px;
     }
 
     .secTwo-text2-content {
         line-height: 1.8em;
         margin-top: -10px;
+        
+        
     }
 }
 
@@ -283,13 +289,13 @@
     .secTwo-text1-content1,
     .secTwo-text2-content {
         font-size: .85em;
-        line-height: 1.5em;
+        line-height: 1.7em;
     }
     
     .secTwo-text1-content2 {
         float: right;
         font-size: .85em;
-        line-height: 1.5em;
+        line-height: 1.7em;
         width: 200px;
         margin-top: -6px;
     }
@@ -305,7 +311,7 @@
     .secTwo-pic5 {
         position: absolute;
         width: 24%;
-        margin-top: 151px;
+        margin-top: 156px;
         
     }
     
@@ -404,6 +410,10 @@
         margin-right: 15px;
         margin-top: 20px;
         max-width: 480px;
+        
+    }
+
+    .secTwo-text2-content {
         line-height: 1.8em;
     }
 }
@@ -427,6 +437,7 @@
     .secTwo-pic3 {
         width: 50%;
         margin-right: 20px;
+        
     }
     
     .secTwo-pic4 {
@@ -475,7 +486,7 @@
     .secTwo-pic5 {
         position: absolute;
         width: 22%;
-        margin-top: 150px;
+        margin-top: 155px;
         left: 220px;
     }
     

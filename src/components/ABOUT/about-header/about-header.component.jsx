@@ -6,8 +6,8 @@ const AboutHeader = () => (
 <div>
     <div className='about-header'>
         <div className='about-header-content'>
-            <div className='header-title1'>WE CARE ABOUT</div>
-            <div className='header-title2'>YOUR CONCERNS</div>
+            <div className='header-title1'>Be bold. Be daring.</div>
+            <div className='header-title2'>Be simply beautiful</div>
         </div>
     </div>
     <div className='waterDrop-container'>

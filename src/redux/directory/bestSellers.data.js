@@ -6,7 +6,7 @@ const BEST_PRODUCT_DATA = [
     },
     {
       id: 2,
-      title: 'SKINCARE',
+      title: 'SKIN CARE',
       imageUrl: 'https://imgur.com/1rULjon.jpg',
       hoverImage: 'https://imgur.com/Us13vpo.jpg',
       routeName: 'skincare',

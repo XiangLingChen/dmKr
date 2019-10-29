@@ -1,9 +1,65 @@
-.about-page-container {
-    width: 100%;
+/* Mobile */
+
+@media only screen and (max-width: 699px) {
+    .about-page-container {
+        width: 100%;
+        
+    }
     
+    .secOne {
+        margin-top: 50px;
+    }
+    
+    .secTwo {
+        margin-top: -30px;
+    }
+    
+    .secThree {
+        margin-top: -16px;
+        margin-bottom: 80px;
+    }
 }
 
-.secOne,
-.secThree {
-    margin-top: 60px;
+
+/* Pad */
+
+@media only screen and (min-width: 700px) and (max-width: 1199px) {
+    .about-page-container {
+        width: 100%;
+        
+    }
+    
+    .secOne {
+        margin-top: 60px;
+    }
+    
+    .secTwo {
+        margin-top: -5px;
+    }
+    
+    .secThree {
+        margin-top: 18px;
+    }
 }
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .about-page-container {
+        width: 100%;
+        
+    }
+    
+    .secOne {
+        margin-top: 60px;
+    }
+    
+    .secTwo {
+        margin-top: -10px;
+    }
+    
+    .secThree {
+        margin-top: 60px;
+    }
+}
+
