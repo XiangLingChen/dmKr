@@ -109,7 +109,7 @@
         width: 100%;
         line-height: 2em;
         order: -1;
-        margin-bottom: 10px;
+        
     }
     
     .secTwo-text1-title,
@@ -122,7 +122,7 @@
     .secTwo-text2-content {
         font-size: .85em;
         line-height: 1.5em;
-        
+        margin-top: -8px;
     }
     
     .secTwo-text1-content2 {
@@ -362,7 +362,7 @@
     
     .secTwo-text1-title,
     .secTwo-title {
-        font-size: 1.8em;
+        font-size: 1.7em;
         line-height: 1.3em;
     }
     
