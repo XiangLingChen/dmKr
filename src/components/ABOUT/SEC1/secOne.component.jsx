@@ -8,9 +8,7 @@ const SecOne = () => (
         <div className='pic-container'>
             <img src={PIC1} alt='' className='pic1'/>
             <img src={PIC2} alt='' className='pic2'/>
-        </div>
-        <div className='pic-container2'>
-            
+            <div className='pic2-container'></div>
         </div>
     </div>
 );
