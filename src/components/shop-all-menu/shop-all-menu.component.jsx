@@ -14,7 +14,10 @@ const ShopAllMenu = ({toggleMenuHidden, menuHidden}) => (
             </div>
             <div className='menu-title'>
                 <div className='shop-by-collections'>COLLECTIONS</div>
-                <div className='dropdown-toggle-btn' onClick={toggleMenuHidden}>&#xFF0B;</div>
+                {   menuHidden?
+                    <div className='dropdown-toggle-btn' onClick={toggleMenuHidden}>&#xFF0B;</div>
+                    : <div className='dropdown-toggle-btn-minus' onClick={toggleMenuHidden}>&#x2212;</div>
+                }
             </div>
             <div>
                 {

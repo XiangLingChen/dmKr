@@ -19,9 +19,18 @@
     }
 
     .dropdown-toggle-btn {
-        font-size: 900;
+        font-weight: 600;
         cursor: pointer;
     }
+
+    .dropdown-toggle-btn-minus {
+        margin-right: 4.5px;
+        margin-top: -1px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    
 
    
 
@@ -52,7 +61,14 @@
      }
 
      .dropdown-toggle-btn {
-        font-size: 900;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .dropdown-toggle-btn-minus {
+        margin-right: 4.5px;
+        margin-top: -1px;
+        font-weight: 600;
         cursor: pointer;
     }
  
@@ -88,7 +104,14 @@
     }
 
     .dropdown-toggle-btn {
-        font-size: 900;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .dropdown-toggle-btn-minus {
+        margin-right: 4.5px;
+        margin-top: -1px;
+        font-weight: 600;
         cursor: pointer;
     }
 
@@ -121,7 +144,14 @@
     }
 
     .dropdown-toggle-btn {
-        font-size: 900;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .dropdown-toggle-btn-minus {
+        margin-right: 4.5px;
+        margin-top: -1px;
+        font-weight: 600;
         cursor: pointer;
     }
 
