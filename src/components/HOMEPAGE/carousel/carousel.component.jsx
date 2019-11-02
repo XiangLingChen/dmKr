@@ -28,6 +28,14 @@ class HeaderCarousel extends Component {
                         <h3 className="CTA">Shop Now</h3>
                     </div>
                 </div>
+                <div className='img-wrapper3'>
+                    <div className='header-content3'>
+                        <div className='ContentTextContainer3'>
+                            <p className='content3'>THE TREATMENT YOUR HAIR IS CRAVING</p>
+                        </div>
+                        <h3 className="CTA3">Shop Now</h3>
+                    </div>
+                </div>
            
                 
             </Carousel>
