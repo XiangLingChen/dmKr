@@ -104,6 +104,52 @@
     
 }
 
+/* Tablet */
+
+@media only screen and (min-width: 639px) and (max-width: 768px) {
+    .header-container {
+        position: relative;
+        width: 100%;
+        height: 530px;
+        overflow: hidden;
+        background: url(./header1.jpg) no-repeat center;
+        background-size: cover;
+        margin-top: 60px;
+        cursor: pointer;
+    }
+
+    
+    .header-content {
+        position: absolute;
+        top: 10%;
+        left: 52%;
+        overflow: hidden;
+        text-align: right;
+        line-height: 1.5em;
+        width: 44vw;
+    }
+    
+    .header-title {
+        font-size: 2em;
+        line-height: 1.5em;
+        
+    }
+    
+    .ContentTextContainer {
+        margin-top: -1vh;
+        font-size: 1em;
+    }
+
+    
+    h3.CTA {
+        font-size: 1em;
+        margin-top: 4vh;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+}
+
 
 
 
@@ -151,51 +197,7 @@
 }
 
 
-/* Tablet */
 
-@media only screen and (min-width: 639px) and (max-width: 768px) {
-    .header-container {
-        position: relative;
-        width: 100%;
-        height: 530px;
-        overflow: hidden;
-        background: url(./header1.jpg) no-repeat center;
-        background-size: cover;
-        margin-top: 60px;
-        cursor: pointer;
-    }
-
-    
-    .header-content {
-        position: absolute;
-        top: 10%;
-        left: 52%;
-        overflow: hidden;
-        text-align: right;
-        line-height: 1.5em;
-        width: 44vw;
-    }
-    
-    .header-title {
-        font-size: 2em;
-        line-height: 1.5em;
-        
-    }
-    
-    .ContentTextContainer {
-        margin-top: -1vh;
-        font-size: 1em;
-    }
-
-    
-    h3.CTA {
-        font-size: 1em;
-        margin-top: 4vh;
-        cursor: pointer;
-        text-decoration: underline;
-    }
-    
-}
 
 
 

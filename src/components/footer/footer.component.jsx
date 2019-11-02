@@ -18,10 +18,10 @@ const Footer = ({match, history}) => (
                 <div className='social-nav-and-top'>
                     <div className='social-and-nav'>
                         <div className='social-icon'>
-                            <a href='https://www.facebook.com/dm.Deutschland/'>
+                            <a href='https://www.facebook.com/dm.Deutschland/' target='_blank'>
                                 <img className='facebook-icon' src={FACEBOOK} alt=''/>
                             </a>
-                            <a href='https://www.instagram.com/dm_deutschland/'>
+                            <a href='https://www.instagram.com/dm_deutschland/' target='_blank'>
                                 <img className='instagram-icon' src={INSTAGRAM} alt=''/>
                             </a>
                             <Link to=''>

@@ -3,7 +3,7 @@ import {withRouter} from 'react-router-dom';
 import './res-header.style.css';
 
 const ResHeader = ({history}) => (
-    <div className='header-container' onClick={ ()=> history.push('./shopall/q10')}>
+    <div className='header-container' onClick={ ()=> history.push('/shopall/q10')}>
         <div className='header-content'>
             <h2 className='header-title'>Q10 COLLECTION</h2>
             <div className='ContentTextContainer'>

@@ -1,0 +1,16 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    font-family: Helvetica;
+    width: 100%;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
